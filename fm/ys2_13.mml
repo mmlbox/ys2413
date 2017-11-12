@@ -1,0 +1,118 @@
+;[gain=1.5;name=ys2_13]
+#opll_mode 1
+#tempo 96
+#title { "ICE RIDGE OF NOLTIA"}
+
+@v15 = { ; YS Main
+;       TL FB
+        32, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 4, 1, 3, 0, 1, 0, 0, 1, 0, 0,
+  14,15, 0, 6, 0, 2, 0, 0, 1, 0, 0 }
+  
+@v16 = { ; Bell
+;       TL FB
+        19, 6,
+; AR DR SL RR KL MT AM VB EG KR DT
+  14, 2, 7, 3, 0, 7, 0, 0, 1, 0, 1,
+  15, 4, 6, 3, 0, 2, 0, 0, 0, 0, 0 }
+
+@v17 = { ; Hard Brass
+;       TL FB
+        23, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+   7, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0,
+  13, 5, 1, 1, 0, 1, 0, 1, 0, 0, 0 }
+
+A l8 [ 
+A @9 v14 o5 
+A c6 
+A c24d+24g24a+24>d2g6f6c6d2d+24
+A d24d+24f24d12<g24>dg24f24g3d3c3d+fg12fd+
+A <a+12>c3g24f24g2&g12<g+24a+24>c24d24d+24d24c24<a+24>c3
+A <g+24a+24>c24d24d+6c24d24d+24f24g3&g12f24d+24fg24&g3<fg%128r24 
+A @2 v13
+A >c4<a+24>c24<g3>c4c24d24d+dc12
+A d4c24d24<a+4b4>c12d6f12d+12d12c4<a+24>c24<g3>c4c24
+A d24d+fg12f3a+3>c%128 
+A @17 v15 o6
+A c2c24d24d+24f24d2g24
+A f24d+24d24d+2<g24f24d+24d24d+%128<g+2g+24g+24a+24>c24d3d+6
+A f6fd+24&d+3&d+12d24d+24f24 [d24d+24f24((]4 v+8
+A g24g+24a+24>c2c24d24d+24f24d2g24f24d+24d24d+2
+A <g24f24d+24d24d+%128<g+2g+24g+24a+24>c24d3d+6f6d+24d24
+A c4&c3<gab12b>cd12
+A ]0
+
+B l8 [
+B @17 v14 o4 
+B g2>c24d+24g4>d6c6<f6g2g+24g24g+24a+24
+B g12d24g&g6>d24c24d6<g3g3>cdd+12dc<f12
+B g2>d+24d24d+3&d+12<f24g24g+24a+24>c24<a+24g+24g24g+3f24
+B g24g+24a+24>c6<g+24a+24>c24d24d+3&d+12d24c24cd24&
+B d3<cd%128r24 
+B @9 <g4f24g24c3g3>c6g6f4d+24f24
+B d4d4d+12f6g+12g12f12<g4f24g24c3g3>cdd+12d3f3g%128 
+B @17 v12 o6 r6
+B c2c24d24d+24f24d2g24f24d+24d24
+B d+2<g24f24d+24d24d+%128<g+2g+24g+24a+24>c24d3d+6f6f
+B d+24&d+3&d+12d24d+24f24 [d24d+24f24((]4 v+8 
+B g24g+24a+24>c2c24d24d+24f24d2g24f24d+24d24d+2<g24f24d+24
+B d24d+%128<g+2g+24g+24a+24>c24d3d+6f6d+24d24c12&c3 
+B <b>cd12dd+f12
+B ]0
+
+C l8 [ @14 v13 q7 o3
+C [c24r24c24c24]4 < [a+24r24a+24a+24]4 [g+24r24g+24g+24]4 
+C [g24r24g24g24]3 g+24g+24a+24a+24 > [c24r24c24c24]8 
+C < [g+24r24g+24g+24]7 g+24>g+24<g24>g24 
+C [f24r24f24f24]8 [g24r24g24g24]4 
+C < [g24r24g24g24]4 > [c24r24c24c24]4 
+C < [g+24r24g+24g+24]4 [a+24r24a+24a+24]4 
+C [g24r24g24g24]3 g24g24a24b24 
+C > [c24r24c24c24]4 < [g+24r24g+24g+24]4 
+C [a+24r24a+24a+24]4 > [c24r24c24c24]3 
+C >c24<c24c24c24 
+C < [g+6>c24d+24g+12&g+4<g+24g+24a+6>d24f24a+12&a+4<a+24a+24>c6c24>c24<c3<g24g24>c6c24>c24<c12f24d+24d24d+24c24<a+24g12]3 
+C g+6>c24d+24g+12&g+4<g+24g+24a+6>d24f24a+12&a+4<a+24a+24>cc24d+24d24c12
+C c24d+24d24d+24f24d+24d24d+24<gab12b>cd12
+C ]0
+
+D l8 [ @0 v13 o5 
+D c4d+24g24>c3<a+3f6a+6g%128<g2g+12a+12>d+3f3g3
+D >c3d+2c24<a+24>c3&c12<c6d6d+%128f3g3ab24&b3
+D <ab%128r24 
+D @0 v13 o6 
+D c%128c%128d2&d12d12&d3d12d12d+12f12c%128c%128d%128d+%128 
+D @0 v13 o5 
+D [g+12d+24g+24>c6d+12c24d+24g+6<a+12f24a+24
+D >d6f12d24f24a+6c12d+24g24>c3<d+24d24c24<a+24g%128]3 
+D g+12d+24g+24>c6d+12c24d+24g+6<a+12f24a+24>d6f12d24f24a+6c%128
+D <ggg12gab12
+D ]0
+
+E l8 [ @4 v10 o5 
+E c4d+24g24>c3<a+3f6a+6g%128<g2g+12a+12>d+3f3
+E g3>c3d+2c24<a+24>c3&c12<c6d6d+%128f3g3ab24&
+E b3<ab%128r24 
+E @0 v13 o6 
+E d+%128d+%128<a+2&a+12b12&b3b12b12>c12d12d+%128d+%128<a+%128>c%128 
+E @4 v10 o5
+E [g+12d+24g+24>c6d+12c24d+24g+6<a+12f24
+E a+24>d6f12d24f24a+6c12d+24g24>c3<d+24d24c24<a+24g%128]3 
+E g+12d+24g+24>c6d+12c24d+24g+6<a+12f24a+24>d6f12d24f24a+6c%128
+E <ggg12gab12
+E ]0
+
+F l8 v14 [
+F [bh24r24h24h24 s24r24 h24bh24 | bh24r24h24h24 s24r24 h24h24]8 
+F bh24r24h24h24 s24s24s24s24
+F [bh24r24h24h24s24r24h24bh24 | bh24r24h24h24s24r24h24h24]4 
+F s24 h24h24 s24s24s24s24s24 
+F [bh24r24h24h24 s24r24h24bh24 bh24r24h24h24 s24r24 h24h24]7 
+F [s24r24h24h24]3 s24r24s24s24 
+F [ bc6h24h24 s6 h24h24bh24h24 s24s24 [bh6h24h24 s6 h24h24h24h24 s24s24]2 
+F h24h24h24h24 s6 h24h24bh24h24 s24 h24h24h24]3 
+F bc6h24h24 s6 h24h24bh24h24 s24s24 [bh6h24h24 s6 h24h24h24h24 s24s24]2 
+F bc8c8bc12 s8s8s24s24
+F ]0

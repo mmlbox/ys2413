@@ -1,0 +1,123 @@
+;[gain=1.5;name=ys2_18]
+#opll_mode 1
+#tempo 96; 95.7
+#title { "SUBTERRANEAN CANAL"}
+
+@v15 = { ; Hard Brass
+;       TL FB
+        24, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+   7, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0,
+  11, 5, 1, 1, 0, 1, 0, 0, 0, 0, 0 }
+
+*0={@9o5v13}
+*1={@15o4v13}
+*2={@6o5v12}
+
+A l8 [
+A [
+A   [*0 r12d12e12f12a12>c12e6d3|<b6g6a2&a12& l96b&>c&d&e&f&g&a&al8 a%128]2 
+A   f6g6e%128| d%128 
+A ]2 d3<b6g12& l48 g&f+&f&e l8 
+
+A *1 [a12b12>c12e6e12d12c12d4& l48d&c+&c&<b l8| b3]3 b>dg12
+A e3c12r32e12r32g48&g12a3&a12g12f12
+A e12f3<g12b12>d12f12e3&e12f12e12d12 
+A [c3<a12b12>c12e12]2 
+A c6&c24r24<a6r12>c12& l48c&<b&a+&al8 b6
+A r12>c6r12d12& l48d&c&<b&a+l8>
+A [e3&e12e12d12c12]2 e%128&e4r12 
+A *2 (( eee6&e24a3&
+A a12b12>c12<a12b3g6e6a12e6<a6b12>c12d12efg12
+A efg12a3&a12b12>c12<a12b3g+6e6a3&a12c12
+A e12a12b3&b12d12g12b12>c+2&c+12c12&c2&c24
+A ]0
+
+B l8 [ r12
+B [ 
+B   [*0 (( r12d12e12f12a12>c12e6d3|<b6g6a2&a12& l96b&>c&d&e&f&g&a&al8 a%128]2 
+B   f6g6e%128| d%128 
+B ]2 d3<b6g12
+
+B *2 <d12e12f12a6a12g12f12g4& l48f&e&d&cl8 d4 l48d+&e&f&f+l8 f12g12a12>c6
+B c12<b12a12b3g4& l48g+&a&a+&bl8 >d12e12f12a6a12
+B g12f12g3dgb12g3e12r32g12r32b48&b12>c3&
+B c12<b12a12g12a3<b12>d12g12b12g3&g12a12g12f12 [
+B e3c12d12e12a12]2 
+B e6&e24r24c6r12e12& l48e&d+&d+&cl8 d6r12e6r12g12& l48f+&f&e&d+l8
+B [a3&a12g12f12e12]2 a%128&a4r12 
+B *2 ) 
+B ab>c12<a3&a12b12>c12<a12b3g6e6a12e6<a6b12>c12d12e
+B fg12efg12a3&a12b12>c12<a12b3g+6e6a3&
+B a12c12e12a12b3&b12d12g12b12>c+2&c+12c12&c%128
+B ]0
+
+C l8 [ @14v13q7o3 
+C [[[d24r24d24d24]4 < [g24r24g24g24]4 > | 
+C   [d24|r24d24d24]4 d24>d24<d24 [d24r24d24d24]4
+C  ]2 
+C  [d24|r24d24d24]4 d24>d24<d24 < [g24r24g24g24]4 > 
+C ]2
+C o3
+C [ [d24r24d24d24]4 < [g24r24g24g24]4 > ]3 
+C [c24r24|c24c24]4 d24e24 [f24r24f24|f24]4 e24 
+C [d24r24d24d24]2 <b24r24b24b24g24r24g24g24 > 
+C [c24r24|c24c24]4 <b24b24 [a24r24a24|a24]4 g24 
+C [f24|r24f24f24]4 f24>f24e24 [d24r24d24d24]4 
+C [e24r24e24e24]4 [f24r24f24f24]4 
+C [g24r24g24g24]4 a24r24<a24a24 [a24r24a24a24]3 a24 
+C [a24>a24<a24]2 a24 [>a24<a24a24]2 >a24<a24 
+C [f24r24f24f24]4 [g24r24g24g24]2 
+C [e24r24e24e24]2 [a24r24a24a24]7 a24b24>c24e24 
+C [f24r24f24f24]4 [g24r24g24g24]2 [e24r24e24e24]2 [f24r24f24f24]4 
+C [g24r24g24g24]4 a24r24<a24a24 [a24r24a24a24]2 
+C a24b24>c+24e24a24r24<a24a24a24a24>a24<a24a24a24>a24<a24a24>a24e24c24
+C ]0
+
+*8={@4q8v11}
+*9={@4q8v11}
+*11={@4q6v11}
+
+DE l8 [ *8
+E r ((
+DE o5 [[r12f12a12>d12f12a12>c6<b3|g6d6f%128>f%128<<]2 g6>d6c3<a3|b3g3<]2 
+D b3g6d6 
+E b3g6d24 ))
+DE *9
+D < [a%128b3>c<bg12]3 
+E < [f%128d3g3]3
+DE *11
+E r48 ((
+DE [e24g24>c24e24g24e24c24<g24]2 [f24a24>c24e24f24e24c24<a24]2 
+DE d24f24a24>d24f24d24<a24f24 d24f24b24>d24g24d24<b24g24 
+DE [e24g24>c24e24g24e24|c24<g24]2 <b24g24 
+DE [a24>c24e24a24>c24<a24e24|<a24]2 <b24 
+DE [a24>c24f24a24>c24<a24f24c24<]2 [d24f24a24>c24d24<a24f24d24]2 
+DE [e24g+24b24>e24g+24e24<b24g+24]2 [f24a24>c24e24f24e24c24<a24]2 
+DE [g24b24>d24g24b24g24d24<b24]2 [a24>c+24e24a24>c+24<a24e24c+24]2 
+DE e24c24e24a24>c24<a24>c24e24a24>c24e24a24e24c24<a24
+D e24
+E e16 r12
+DE q8 
+DE *9 
+E ((
+DE < [c12<a6>c6e12a12e12g12d<b|gb>d12ec<a6e12a12b12>cde12cde12]2 
+DE g+b>d12c12<a12>c12e12a12e12c12<a12>d12<g12b12>d12g12d12<b12
+DE g12>a12c+12e12a12>c+12e12
+D a12  >c+12<   a24e24c24e24c24<a24>c24<a24e24a24e24c24e24c24<a24e24
+E a24e24c24a24c24<a24e24a24e24c24e24c24<a24>c24<a24e24c24
+DE ]0
+
+F l8 [ v13vb11 
+F [ [bh24r24h24h24s24r24h24bh24 bh24r24h24h24s24|r24h24h24]8 h24s24s24]2 
+F [bh24r24h24h24s24r24h24bh24|bh24r24h24h24s24r24h24h24]6 
+F [cs24h24h24]2 cs24 h24 
+F cbh24r24h24h24s24r24h24bh24 bh24r24h24h24s24r24h24h24
+F [bh24r24h24h24s24r24h24bh24 bh24r24h24h24s24r24h24h24]10
+; F [h24h24s24]4 r24h24s24s24 
+F bh24bh24s24 bh24h24cs24 h24ch24s24 ch24h24cs24 b24bh24s24s24 
+F [bh24r24h24h24s24r24h24bh24 bh24r24h24h24s24r24h24h24]6 
+F [bh24r24h24h24s24r24h24bh24 bh24r24h24h24s24r24h24h24]3 
+F bcs24h24h24h24 [bcs24h24h24h24]2 bs24s24)s24s24(
+F ]0
+

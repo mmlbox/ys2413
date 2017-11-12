@@ -1,0 +1,68 @@
+;[gain=1.5;name=ys2_22]
+
+#opll_mode 1
+#tempo 86 ; 85.6
+#title {"DON'T GO SO SMOOTHLY!"}
+
+; LEN   2  4  8 16 32 64   3  6 12 24 48 96  
+; CLK  96 48 24 12  6  3  64 32 16  8  4  2   
+
+@v15 = { ; Hard Brass
+;       TL FB
+        16, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+   9, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1,
+  15, 6, 1, 1, 0, 1, 0, 1, 0, 0, 0 }
+  
+@v18 = { ; NOISE (w31)
+;       TL FB
+         0, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+  15, 5, 6, 4, 0, 0, 0, 0, 0, 0, 0 }
+
+@v19 = { ; NOISE (w21)
+;       TL FB
+         4, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+  15, 5, 6, 4, 0, 0, 0, 0, 0, 0, 0 }
+
+B l8 v13 q5 o2 r12r12r12r12
+B [ [d12c24d12c24d24c24]7 
+B d24>d24<e24>e24<f24>f24<d24>d24< 
+B [ [c24r24c24c12>c24<c24c24]3 | c24>c24<a+24a24a+24a24a+24>c24<]2 
+B c24r24c24c12>c24<c24>c24<
+B ]0
+
+C l8 v14 r6 o5 @9
+C a12&l96a&g&f&e&d&c&<b&al8> 
+C [
+C [f24a24>d8e24f24<a24b12g24>d12c+24<a12]4 
+C [g2&g12&l96g&a&b&>c&d&e&f&gl8 g3&g48r48g24f24e24f24e24f24g24<]2
+C ]0
+
+D l8 v7 r6 o5 @5
+D a12&l96a&g&f&e&d&c&<b&al8> 
+D [
+D [f24a24>d8e24f24<a24b12g24>d12c+24<a12]4 
+D [g2&g12&l96g&a&b&>c&d&e&f&gl8 g3&g48r48g24f24e24f24e24f24g24<]2
+D ]0
+
+9 l8 v12 @4 r3 [ o5 f3&e3&d3&e3&f3&e3&
+9 d3&c1&<a+1&>c1 ]0
+
+A l8 v12 @4 r3 [ o5 d3&c3&<a3&>c3&d3&c3&
+A <a3&g1&f1&g1 ]0
+
+E l8 v12 [@18 o8 c12 @19 o4 c12]2 
+E @4 v13 o5
+E [ a3&g3&f3&g3&a3&g3&f3&e3&f3&e3&d3&c3&d3&e3&f3&e3 ]0
+
+F l8 v14vc14 
+F cb24r24cs24s24cmb24mb24)cms24ms24( 
+F [
+F [b24r24s24r24b24r24s24b24r24b24s24r24b24r24s24r24]4 
+F [b24r24s24r24b24r24s24b24|r24b24s24r24b24r24s24r24]4
+F s24s24s24s24)s24s24s24s24(
+F ]0

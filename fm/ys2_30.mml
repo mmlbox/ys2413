@@ -1,0 +1,15 @@
+;[gain=1.5;name=ys2_30]
+
+#opll_mode 0
+#tempo 104; 103.8
+#title {"PAUSE"}
+
+;DEF !
+
+A l8 v11 @2 o6q6 a32f+32g32a32b32
+B l8 v14 @11 o6 b16r16g32
+C l8 v12 @11 r64o6 b16r16g64
+
+D l8 @2 v11 o7 f+32d32e32f+32g32
+E l8 @2 v9 r64o7 f+32d32e32f+32g64
+F l8 @2 v10 r64o6 a32f+32g32a32b64

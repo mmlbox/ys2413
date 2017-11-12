@@ -1,0 +1,94 @@
+;[gain=1.5;name=ys2_10]
+#opll_mode 1
+#tempo 57
+#title {"CAVERN OF RASTEENIEE"}
+
+; LEN   2  4  8 16 32 64   3  6 12 24 48 96  
+; CLK  96 48 24 12  6  3  64 32 16  8  4  2   
+
+@v15 = { ; Bass
+;       TL FB
+        23, 5,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0,
+  11, 1, 1, 1, 1, 2, 1, 1, 0, 0, 0 }
+
+@v16 = { ; Bell
+;       TL FB
+        22, 6,
+; AR DR SL RR KL MT AM VB EG KR DT
+  14, 2, 7, 3, 0, 7, 0, 0, 1, 0, 1,
+  15, 4, 3, 2, 0, 1, 0, 0, 0, 0, 0 }
+
+@v17 = { ; Bell
+;       TL FB
+        22, 5,
+; AR DR SL RR KL MT AM VB EG KR DT
+  14, 0, 0, 0, 0, 4, 0, 0, 1, 0, 0,
+   6, 4, 3, 2, 0, 4, 0, 0, 0, 0, 0 }
+  
+A l8 [ @15 
+A v14 o2 g+2g+2a2a2a+2a2g+2g+4&g+16 
+A v13 @16 o4 g+16a+16>c+16 
+A [d+4.&d+8.g+16a+16>c+16<b4.&b8.|a+16b16>c+16
+A d+&d+2&d+2&d+4r<]2 >c+16<a+16f+16g+&g+2&
+A g+2&g+4r [eg+16b2&b4a+16b16>c+16d+&d+2&d+2<]2 
+A ]0
+
+B l8 [ @13 v13 
+B o2 g+2&g+2a2&a2a+2a2g+2&g+2 
+B v14 @4
+B o3 [v14[g+8&(]6]8
+B @6 q8 v15
+B o2 [e4.&e8.e4.&e8. g+4.&g+8.g+4.&g+8.]2 
+B ]0
+
+9 l8 [ @6 v13 
+9 o2 g+2&g+2a2&a2a+2a2g+2&g+2 
+9 v14 @4
+9 o3 [v14[d+8&(]6]8
+9 @13 q8v15 
+9 o2 [e4.&e8.e4.&e8. g+4.&g+8.g+4.&g+8.]2 
+9 ]0
+
+DE l8 
+E r32
+DE [ @4q8 v12 
+E ((
+DE o6 d+32<g+32>c+32<g+32b32g+32>c+32<g+32>d+32<g+32>d+32f+32f32c+32
+DE d+32<g+32>d+32<g+32>g+32a+32>c+32<f+32g+32d+32d+32<g+32>c+32<g+32>d+32<g+32
+DE >c+32d+32e32<a32>d32<a32>c32<a32>d32<a32>e32<a32>e32g32f+32d32
+DE e32<a32>e32<a32>a32b32>d32<g32a32e32e32<a32>d32<a32>e32<a32
+DE >d32e32f32c+32d+32c32c+32<a+32>c32<g+32a+32>c32d+32f32a+32d+32
+DE f32c+32e32c32d32<b32>c32<a32b32g32a32b32>d32e32a32d32
+DE e32c32 
+DE @4q6 v13 
+E ((
+DE [d+32d+32(]6 v8 
+E ((
+DE d+32)g+32)a+32) >c+32 v11 
+E ((
+DE [d+32d+32(]8 
+DE v10
+E ((
+DE @4q8 
+DE [o8 d+32<b32g+32>c+32<a+32f+32b32g+32d+32a+32f+32c+32)d+32<b32g+32>c+32<a+32f+32b32g+32d+32a+32f+32c+32(]8 
+DE [
+DE   [o8 e32c+32<b32>c+32<a+32b32g+32c+32d+32)e32c+32<b32>c+32<a+32b32g+32c+32d+32(]2 
+DE   [o8 d+32<b32g+32>c+32<a+32f+32b32g+32d+32)a+32f+32c+32d+32<b32g+32>c+32<a+32f+32(]2
+DE ]2 
+DE ]0
+
+F l8 [ v13 
+F [cs16cs32cs16(((cs32)cs32)cs32)cs32((cs16))cs32((cs16))cs32((cs32(cs32)cs32)cs32)cs32((cs32cs16))cs32((cs32cs32))cs16((cs32))cs16((cs32))]3
+F [cs16cs32cs16(((cs32)cs32)cs32)cs32((cs16))cs32((cs16))cs32((cs32))]2
+F [
+F   [ 
+F     [cs16cs32cs16(((cs32)cs32)cs32)cs32((cs32cs32))cs32]3 cs32((cs16))cs16 | ((cs32)cs32)cs32((cs32cs16))cs32
+F   ]2 
+F |
+F ((cs32)cs32)cs32 )) s32s32m32b32 (( 
+F ]2 )) s32s32s32m32m32b32b32 ((
+F [cs16cs32cs16(((cs32)cs32)cs32)cs32((cs32cs32))cs32cs32((cs32cs16))cs16((cs32|cs16cs32)cs32)cs32]6 cs32))
+F )) s32s32m32mb32 ((
+F ]0

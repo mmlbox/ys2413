@@ -1,0 +1,125 @@
+;[gain=1.5;name=ys2_05]
+#opll_mode 0
+#tempo 75
+#title {"MAY I HELP YOU?"}
+
+; LEN   2  4  8 16 32 64   3  6 12 24 48 96  
+; CLK  96 48 24 12  6  3  64 32 16  8  4  2   
+
+@v15 = { ; Hard Brass 
+;       TL FB
+        21, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+   7, 7, 1, 1, 0, 1, 0, 0, 1, 0, 0,
+  11, 4, 0, 7, 0, 1, 0, 0, 1, 0, 0 }
+
+@v17 = { ; Bell
+;       TL FB
+        26, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  14, 6, 7, 6, 2, 5, 0, 0, 1, 0, 1,
+  14, 4, 6, 5, 0, 2, 0, 0, 1, 0, 0 }
+
+*0={@17v14o4}
+*1={@15v14o6}
+
+;*0={@12v13o4}
+;*1={@6v14o6}
+
+; 123BCDEFGH !
+
+A l8 [
+A [
+A *0
+A g+24r24b24r24e24r24>e24d24c+24r24<a24>c+24
+A <b24r24e24>e24c+24r24<a24>c+24<b24e24>e24d24c+24r24d24c+24
+A <b24e24|e24f+24]2 e12 
+A *1 
+A f+12d24f+24e48r48<b24a+24
+A b24f+12d24f+24e48r48<e24d+24e24>f+12d24f+24e24f+24g+24a24
+A b24>c+24d+24e24 
+A h1,4,0,1
+A f+6
+A hf
+A ]0
+
+C l8 [
+C v13 @14 q4
+C o3 [e12>e12<]16 d12r24d24r12e24r24d24r24f+24r24
+C e24>e24d+24e24<d12r24d24r12e12f+24r24f+24r24a24f+24d12
+C ]0
+
+@r10={ 1, 0, 255, 255,12,192,0,16 }
+@r11={ 2, 0, 255, 255,24,  0,0,16 }
+
+1 l8 [v10 @10 
+1 [
+1 o4 b24r24>e24r24<g+24r24>g+24f+24e24r24c+24e24d24
+1 r24<g+24>g+24e24r24c+24e24d24<g+24>g+24f+24e24r24f+24e24d24
+1 <g+24|g+24a24]2 g+12 
+1 @4 [b24r24>f+24r24<g+24g+24g24g+24]2 
+1 b24r24>f+24r24<g+24a24b24>c+24d+24e24f+24g+24 
+1 h1,1,0,1 
+1 a6 
+1 hf
+1 ]0
+
+2 l8 [v11 @10 
+2 o3 [g+12b12e12d12c+12a12c+12<b12>]4 [f+24r24d24r24b24b24a+24b24]2 
+2 >f+24r24d24r24e24f+24g+24a24f+24g+24 a24b24>c+24d+24e24f+24
+2 ]0
+
+3 l8 [v10 @\8 @10 
+3 [
+3 o4 e24r24g+24r24<b24r24>b24a24g+24r24e24g+24
+3 f+24r24<b24>b24g+24r24e24g+24f+24<b24>b24a24g+24r24a24g+24
+3 f+24<b24|b24>c+24]2 b12 > 
+3 @10 [d24r24a24r24e24e24d+24e24]2 
+3 >d24r24a24r24<b24>c+24d+24e24f+24g+24a24b24>c+ 
+3 @11 ))) c24 ((( @10 
+3 ]0
+
+@e0={0,0,ffff0=32}
+*10={o3 (c_<c24>)} ;BD
+*11={o4 g_<g24>} ;SD
+*12={o4 e_<e24>} ;TOM H 
+*13={o3 b_<b24>} ;TOM L
+
+#macro_offset {b=10,s=11,m=12,n=13}
+
+F y14,32@e0
+F l24v13q1so
+F [
+F [*b rrr *s rrr *b rrr *s r *m r]4 
+F [*b rr*b rr *sr*br|rr*srrr]2
+F *s*s*mr*nr
+F ]0
+
+*19={o4 @0v0c24@14v10} ; HH
+*20={o2 v12c24} ;BD
+*21={o3 v12g24} ;SD
+*22={o3 v12e24} ;TOM H 
+*23={o2 v12b24} ;TOM L
+
+#macro_offset {h=19,b=20,s=21,m=22,n=23}
+
+G [ @14v13l24soq2 
+G [*b*h*h*h*s*h*m*h]8
+G [*b*h*h*b*h*h*s*h*b*h|*h*h*s*h*h*h]2
+G *s*s*mr*nr
+G ]0
+
+*30={o2 c_<c24>} ;BD
+*31={o3 g_<g24>} ;SD
+*32={o3 e_<e24>} ;TOM H 
+*33={o2 b_<b24>} ;TOM L
+
+#macro_offset {b=30,s=31,m=32,n=33}
+
+H v0@2
+H l24q4so
+H [
+H [*b rrr *s rrr *b rrr *s r *m r]4 
+H [*b rr*b rr *sr*br|rr*srrr]2
+H *s*s*mr*nr
+H ]0
