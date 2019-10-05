@@ -1,4 +1,5 @@
 ;[gain=1.5 name=ys2ex_01 fade=0s duration=108]
+; To Make The End Of Battle / MUSIC from YSII / Copyright © Nihon Falcom Corporation
 #opll_mode 0
 #tempo 77 ;77.5
 #title { "TO MAKE THE END OF BATTLE"}
@@ -33,7 +34,7 @@
 
 
 @e1={0,0,@16.f} ; Dist.G
-@e2={0,0,@0d}   ; Dist.G Overlay
+@e2={0,0,@0dc}  ; Dist.G Overlay
 @e3={0,0,@7.ffe0=64}
 @e4={0,0,@17.f}
 @e5={0,0,@18.f}
@@ -114,21 +115,21 @@ A ]2
 A @3@e2 v15 h20,2,1,2 o5 d24r12d24r12d24d d_<d12
 A r6
 
-@e10={0,0,@13fe}
-@e11={0,0,@14.d9630}
+@e10={0,0,@13f}
+@e11={0,0,@14f80}
 @e12={0,0,@13e}
 @e13={0,0,@13d}
 
 BC l8 r6
 BC [
-B @12@e10 v12 o2 q6
-C @13@e11 v12 o3 q7
+B @11@e10 v12 o2 q6
+C @12@e11 v12 o3 q6
 BC [a24]4 >c+24<a24>d24<a24>e24<a24>f24<a24>g24
 BC <a24>f24<a24>e24<a24>f24<a24>e24<a24>d24<a24>c+24<a24a+24g24a24
 BC a+24>c+24<a+24 
 BC [a24a24a24 
 B q7 @e12 >>a< @e10 q6 
-C q7 @e13 >>e< @e11 q7
+C q7 @e13 >>e< @e11 q6
 BC a12|a24<a24a24r24 a24a24>c+24d24<]4 
 BC <a24a24>a24<a24b24b24>c+24c+24 
 BC [
@@ -140,8 +141,7 @@ BC d+24d+24a+24d+24g24d+24a24d+24a+24d+24>d+24<d+24>g24<d+24>a+24<d+24
 BC |
 BC [d24d24>d24<d24g24a24>c24d24 < 
 BC [f24f24>f24<f24]2 [a+24a+24>a+24<a+24]2 a24a24>a24<a24|>g24<a24>a24<a24]2 >a24e24c+24<a24 
-B q6
-C q7
+BC q6
 BC [[d24r24r24d24r24r24>c24d24r24<d24f24d24|d+24d+24g24a+24]2 c24 c24e24c24]2 
 BC ]2 
 BC d24d24>d24<d24g24a24>c24d d48&c48&<b48&a48
@@ -164,7 +164,7 @@ BC r6
 1 d<a>d12ece12fd<a12>c+eg12
 1 <f3a6>d6e3c3 f3e3|d3d12c+12<b12>c+12
 1 ]2 
-1 v-3 [a+24&)]6 [a+24&(]8 r12 |
+1 v-4 [a+24&)]6 [a+24&(]8 r12 |
 1 *0 
 1 o4 [f24f24f24f24r24f24f12]2 a+24a+24a+24a+24r24a+24a+12a24a24a24a24r24a24a12 
 1 > [f24f24f24f24r24f24f12]2 a+24a+24a+24a+24r24a+24a+12a24a24a24a24r24a24 
@@ -186,7 +186,7 @@ BC r6
 2 <afa12>c<g>c12d<af12g>c+e12 
 2 <d3f6a6>c3<g3> d3c3|<a3a12a12r12a12>
 2 ]2 
-2 v-3 > [g24&)]6 [g24&(]8 < r12|
+2 v-4 > [g24&)]6 [g24&(]8 < r12|
 2 *0  
 2 o4 d24d24d24d24r24d24d12c24c24c24c24r24
 2 c24c12f24f24f24f24r24f24f12e24e24e24e24r24e24e12
@@ -219,8 +219,8 @@ BC r6
 3 ]2 
 3 *0 <d24r12d24r12d24dr4
 
-@e30={0,0,@2.9@4.4} ;BD
-@e31={0,0,@10.e@14.c520} ;SD
+@e30={0,0,@2.840} ;BD
+@e31={0,0,@10e@14a531} ;SD
 
 *30={o4@e30c_<c>} ;BD
 *31={o4@e31c_<c>} ;SD
@@ -229,8 +229,6 @@ BC r6
 *34={r} ; HH
 
 #macro_offset {b=30,s=31,q=32,g=33,h=34}
-
-F y14,32
 
 D l24 v15 r*b*sr
 D [
@@ -253,9 +251,10 @@ D *s*b*b*s*b*b*s*s*b r24r4
 *14={o2 r} ; HH
 
 #macro_offset {b=10,s=11,q=12,g=13,h=14}
-
-F v12 so
-F l24 r*b*sr v11
+@e28={0,0,dddeeef}
+F y14,32
+F l24 v15 @10@e28 r*b*sr 
+F v13
 F [
 F  [*b*b*sr]8 
 F  [*b*h*h*s*b|*s*b*b]4 *s*s*s
@@ -278,8 +277,8 @@ F *s*b*b*s*b*b*s*s*b r24r4
 *84={o1 sfc} ;HH
 #macro_offset {b=80,s=81,q=82,g=83,h=84}
 
-G v12@14@e29
-G l24 r*b*sr v10
+G @14@e29
+G l24 v10 r*b*sr
 G [
 G  [*b*b*sr]8 
 G  [*b*h*h*s*b|*s*b*b]4 *s*s*s
