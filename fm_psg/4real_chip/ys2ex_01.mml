@@ -116,7 +116,7 @@ A @3@e2 v15 h20,2,1,2 o5 d24r12d24r12d24d d_<d12
 A r6
 
 @e10={0,0,@13f}
-@e11={0,0,@14f80}
+@e11={0,0,@14f84}
 @e12={0,0,@13e}
 @e13={0,0,@13d}
 
@@ -220,7 +220,7 @@ BC r6
 3 *0 <d24r12d24r12d24dr4
 
 @e30={0,0,@2.840} ;BD
-@e31={0,0,@10e@14a531} ;SD
+@e31={0,0,@10e@14b852} ;SD
 
 *30={o4@e30c_<c>} ;BD
 *31={o4@e31c_<c>} ;SD
@@ -246,15 +246,14 @@ D *s*b*b*s*b*b*s*s*b r24r4
 
 *10={o4 q2c_<c>} ;BD
 *11={o2 r} ;SD
-*12={o5 q1c_<c>} ;TOM H 
-*13={o4 q1g_<g>} ;TOM L
+*12={o5 q2c_<c>} ;TOM H 
+*13={o4 q2g_<g>} ;TOM L
 *14={o2 r} ; HH
 
 #macro_offset {b=10,s=11,q=12,g=13,h=14}
-@e28={0,0,dddeeef}
+
 F y14,32
-F l24 v15 @10@e28 r*b*sr 
-F v13
+F l24 v13 @10 r*b*sr 
 F [
 F  [*b*b*sr]8 
 F  [*b*h*h*s*b|*s*b*b]4 *s*s*s
@@ -269,7 +268,7 @@ F   [*b|*b*s]2 *b*s*s*s
 F ]2
 F *s*b*b*s*b*b*s*s*b r24r4
 
-@e29={0,0,fffe}
+@e29={0,0,ffe}
 *80={o3 r} ;BD
 *81={o1 soc%2r%6};SD
 *82={o4 r} ;TOM H
@@ -278,7 +277,7 @@ F *s*b*b*s*b*b*s*s*b r24r4
 #macro_offset {b=80,s=81,q=82,g=83,h=84}
 
 G @14@e29
-G l24 v10 r*b*sr
+G l24 v11 r*b*sr
 G [
 G  [*b*b*sr]8 
 G  [*b*h*h*s*b|*s*b*b]4 *s*s*s
