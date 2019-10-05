@@ -244,10 +244,10 @@ D   [*b|*b*s]2 *b*s*s*s
 D ]2
 D *s*b*b*s*b*b*s*s*b r24r4
 
-*10={o4 q2c_<c>} ;BD
+*10={o4 q1c_<c>} ;BD
 *11={o2 r} ;SD
-*12={o5 q2c_<c>} ;TOM H 
-*13={o4 q2g_<g>} ;TOM L
+*12={o5 q1c_<c>} ;TOM H 
+*13={o4 q1g_<g>} ;TOM L
 *14={o2 r} ; HH
 
 #macro_offset {b=10,s=11,q=12,g=13,h=14}
