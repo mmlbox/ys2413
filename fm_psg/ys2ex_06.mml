@@ -15,10 +15,10 @@
 
 @v16 = { ; Synthetic Oboe
 ;       TL FB
-        27, 7,
+        12, 3,
 ; AR DR SL RR KL MT AM VB EG KR DT
   11, 2, 3, 0, 0, 9, 0, 0, 1, 0, 1,
-  12, 3, 0,11, 0, 4, 0, 0, 1, 0, 0 }  
+  12, 3, 1,11, 0, 4, 0, 0, 1, 0, 1 }  
 
 AB l8 
 AB [
@@ -27,8 +27,8 @@ B @2  v11o5
 AB h20,2,1,2
 AB [d12e12a6e12d12eg24f12|e4]2 
 AB d4d12e12f12d4c12d12e12c4<b12>c12d12e12f12g12 a12b24r32>d96c12<b4 
-A @16 v12
-B @5 v11    
+A @16 v12 
+B @5 v11 
 AB h15,1,1,1
 AB g6b24>c24c12<g12>c12d4<b6g12d12g12a+6g12d12g4e12g12b12a12e12a12e6a12
 AB a12>c6<a6>c12 
