@@ -165,7 +165,7 @@ C [[r32r32r16]2 @22v15o4 l64c&<g>c&<g> >e&<a>|c&<a&g+&f> <g&e&d+&c e&c+l8]8 l8 r
 C @0 o5 v11 g2&g2r8
 C ]0
 
-F l8 vb14vs14vh13vm13
+F l8 vb14vs14vh11vm13
 F b32 [s32]7 [
 F [[[b32h32h32h32s16|b32h32]8 s32s32]2 | 
 F [b32h32h32h32s16.b32 [b32h32]2 s16h32h32]3 
