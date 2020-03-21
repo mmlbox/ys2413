@@ -1,0 +1,21 @@
+{
+  "name": "ys2413",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmlbox/ys2413.git"
+  },
+  "author": "AYB2413",
+  "bugs": {
+    "url": "https://github.com/mmlbox/ys2413/issues"
+  },
+  "homepage": "https://github.com/mmlbox/ys2413#readme",
+  "devDependencies": {
+    "mgsc-js": "^1.0.4"
+  }
+}
