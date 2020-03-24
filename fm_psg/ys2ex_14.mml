@@ -1,0 +1,43 @@
+;[gain=1.5;name=ys2ex_14]
+#opll_mode 0
+#tempo 90
+#title { "INSIDE OF THE ICE WALL"}
+
+@v15 = { ; Bell
+;       TL FB
+        41, 6,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 4,14, 4, 0,14, 0, 0, 1, 0, 0,
+  15, 4,15, 7, 0, 4, 0, 0, 0, 0, 0 }
+
+9A l8 
+9 @15 v11 o6 \1
+A @2 v11 o6 
+9A [r3 g3f3d3e2d12e12f3g6f6e3g3f3d3e2d12e12f6a6g6f6]0
+
+BC l8
+B @15 v9 o6 \-1 
+C @2 v9 o6 \-1
+BC [r3r12 g3f3d3e2d12e12f3g6f6e3g3f3d3e2d12e12f6a6g6f12]0
+
+D l8 [
+D v10 @9
+D o3 [e12r12e12e12]2 [d12r12d12d12]2 [e12
+D r12e12e12]2 [d12r12d12d12]2 [e12r12e12e12]2 
+D [d12r12d12d12]2 [e12r12e12e12]2 [d12r12d12d12]2
+D ]0
+
+@e0={0,0,fec.8=144}
+@e1={0,0,fec.0=144}
+@e2={0,0,fd0=56}
+
+1 l8 @0 v13 h24,3,1,2
+1 [o4 e6a6>e6<a6g6a+6>d3<e6a6>e6<a6>d6<a+6g3e6a6>e6<a6g6a+6>d6f6e6d6<a6>c6d3<b3]0
+
+2 l8 @1 v10 h24,3,1,2 \1
+2 [o4 r12 e6a6>e6<a6g6a+6>d3<e6a6>e6<a6>d6<a+6g3e6a6>e6<a6g6a+6>d6f6e6d6<a6>c12<g3g3]0
+
+3 l8 @2 v13 [ o3 
+3 [e12r12e12e12]2 [d12r12d12d12]2 [e12r12e12e12]2 [d12r12d12d12]2 
+3 [e12r12e12e12]2 [d12r12d12d12]2 [e12r12e12e12]2 [d12r12d12d12]2
+3 ]0

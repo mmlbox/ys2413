@@ -1,0 +1,44 @@
+;[gain=1.5;name=ys1ex_21]
+#opll_mode 0
+#tempo 76 ; 77.5
+#title {"YS - Church"}
+; Church / Music from YS / Copyright © Nihon Falcom Corporation
+
+@v15 = { ; Bass (higher harmonics)
+;       TL FB
+         0, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15,13, 6, 2, 0,15, 0, 0, 0, 0, 1,
+  15, 6, 1, 1, 0, 3, 0, 0, 0, 1, 1 }
+
+9AF l8  [ @15 v12 o4 )))
+A > (
+F < ((( \1
+9AF e24r24b24a24g24a24g24e24f+24r24d+24e24f+24
+9AF e24f+24<b24>e24r24g24r24f+24r24a24r24g24r24b24r24a24
+9AF r24>c24r24<b24r24>e24r24d+48e48d+48e48c+24d+24e24<b24>c24
+9AF <a24b24g24a24f+24e6r12<b12>e12d+24e24f+12d12g6r12d12
+9AF g12f+24g24a12d12b6r12g12>c24e24d24e24c24e24d24e24
+9AF f+24a24g24a24f+24a24g24a24<b24g24f+24g24>c24<g24f+24g24
+9AF >d24<g24f+24g24>e24f+24g12<g6b48a48b48a48g24a24g6&
+9AF g48r12<b16. ]0
+
+BCG l8 [ @15 v7 o4 )))
+C > (
+G < ((( \1
+BCG r24e24r24b24a24g24a24g24e24f+24r24d+24e24f+24
+BCG e24f+24<b24>e24r24g24r24f+24r24a24r24g24r24b24r24a24
+BCG r24>c24r24<b24r24>e24r24d+48e48d+48e48c+24d+24e24<b24>c24
+BCG <a24b24g24a24f+24e6r12<b12>e12d+24e24f+12d12g6r12d12
+BCG g12f+24g24a12d12b6r12g12>c24e24d24e24c24e24d24e24
+BCG f+24a24g24a24f+24a24g24a24<b24g24f+24g24>c24<g24f+24g24
+BCG >d24<g24f+24g24>e24f+24g12<g6b48a48b48a48g24a24g6&
+BCG g48r12<b%10 ]0
+
+DEH l8 [ @15 v12 o2 )))
+E > (
+H < ((( \1
+DEH e6>e6d+6f+6e6f+6g6a6b6<b6>e6r12<b12>e24
+DEH <b24g24b24e6g6b6g6>d6g6f+6f6>f6e24g24f24g24
+DEH e24g24f24g24a24>c24<b24>c24<a24>c24<b24>c24o3 g6a6b6>c6
+DEH d6<d6g4r%22 ]0

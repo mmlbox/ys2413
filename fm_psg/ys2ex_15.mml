@@ -20,9 +20,9 @@
 
 @v18 = { ; Dist.G
 ;       TL FB
-         2, 7,
+         6, 7,
 ; AR DR SL RR KL MT AM VB EG KR DT
-  11, 1, 1, 1, 0, 1, 0, 0, 0, 0, 1,
+  11, 3, 1, 0, 0, 1, 0, 0, 0, 0, 1,
   15, 7, 1, 7, 0, 1, 0, 0, 1, 0, 0 }
 
 @v19 = { ; Lead
@@ -74,10 +74,9 @@
   15,15,15, 5, 0, 0, 0, 0, 0, 1, 0,
   15, 6, 0, 6, 0, 0, 0, 0, 0, 1, 0 }
 
-
 @e19={0,0,[\-4f]}
 @e20={0,0,ffed}
-@e21={0,0,d940}
+@e21={0,0,@10f@14d8520} ; Bass Harmonics
 @e22={0,0,@1f@6f}
 
 9A l8 [o3
@@ -98,7 +97,7 @@ C @17 v11 h28,2,1,2 o4 \0
 B [ ho g2a64&a+8.&a+32.&a+4 hf  [c16.<a+16.g16>]3 < f16.g16.a+16 >]2 
 C [ ho d2e64&f8.& f32.& f4  hf <[g16. f16. d16 ]3   c16.d16.f16  >]2 
 
-BC @18 o4 h30,2,1,2 v13
+BC @18 o4 h30,2,1,2 v13 
 BC g2>d4.&d24d+24f24d+32d32
 BC d+8.&d+4g24f24d+24f24d+24d24d+24d24c24d24c24<a+24
 
@@ -162,7 +161,7 @@ BC ]0
 *0={r} ;
 *1={c_<c>} ;SD
 #macro_offset {b=0,s=1,m=0}
-D [v15 o4 l32 @4@e31
+D [v14 o4 l32 @4@e31
 D [[ [*b*s r]2 *s*s]3 [*b*s]4 [[*s*b*b]2 *s*s]4 ]2
 D [
 D   [[ [*b*s r]2 *s*s]3 [*b*s]4 ]2 
@@ -176,10 +175,10 @@ D   [*b r l64*sl32*sr64 l64*sl32*sr64*b*b]3 [l64*sl32*sr64l32]4
 D [*b rrr]6 v-2[*s*s)]4
 D ]0
 
-@e29={0,0,@10f@14c862}
+@e29={0,0,@10f@14d852}
 *2={@e29c_<c>} ;SD
 #macro_offset {b=0,s=2,h=0}
-E [v15 @5@e29 o4 l32 \-1
+E [v14 @5@e29 o4 l32 \-1
 E [[ [*b*s r]2 *s*s]3 [*b*s]4 [[*s*b*b]2 *s*s]4 ]2
 E [
 E   [[ [*b*s r]2 *s*s]3 [*b*s]4 ]2 
@@ -197,12 +196,12 @@ E ]0
 
 #macro_offset {b=3,s=0,h=0}
 F [ y14,32l32
-F v14 so o4 q2
+F v13 so o4 q2
 F [[ [*b*sr]2 *s*s]3 [*b*s]4 [[*s*b*b]2 *s*s]4 ]2
 F [
 F   [[ [*b*sr]2 *s*s]3 [*b*s]4 ]2 
 F   [ [*b*sr]4 *s*s r*s ]2
-F ]2 
+F ]2
 
 @e17={0,0,f}
 @e18={0,0,f[\-16f]}
@@ -211,10 +210,10 @@ F q2@6@e18
 F arrarrar 
 F aaaaeeee 
 F arrarrar
-F q5 l64 v15 
-F >c<ba+ag+gf+fffeed+d+dd
+F q5 l64 
+F ) >c<ba+ag+gf+fffeed+d+dd (
 
-F l32 q1 o4 @e17
+F l32 q2 o4 @e17 )
 F [*b*b*srr*b*sr]16
 F [ 
 F   [*b r *h*h l64*sl32*sr64 *h*h]3 >*b< r l64*sl32*sr64 l64*sl32*sr64l32*b*b]3 
@@ -225,7 +224,8 @@ F ]0
 *6={r} ;BD
 *7={v13@14soq4c} ;SD
 *8={v12@14sfq8c} ;HH
-#macro_offset {b=6,s=7,h=8}
+*9={v10@14soq6c} ;TOM
+#macro_offset {b=6,s=7,h=8,m=9}
 
 G [l32so o1 v14
 G [[ [*b*s r]2 *s*s]3 [*b*s]4 [[*s*b*b]2 *s*s]4 ]2
@@ -233,17 +233,23 @@ G [
 G   [[ [*b*s r]2 *s*s]3 [*b*s]4 ]2 
 G   [ [*b*s r]4 *s*s r*s ]2
 G ]2 
-G r1
-G l32 v14 q4 o1 @e17
+
+G *mrr*mrr*mr 
+G [*m]8
+G *mrr*mrr*mr
+G l64
+G [*m]16
+
+G l32
 G [*b*b*s rr*b*s r]16
-G [ 
-G   [*b r *h*h l64*sl32*sr64 *h*h]3 *b r l64*sl32*sr64 l64*sl32*sr64l32*b*b]3 
+G [
+G   [*b r *h*h l64*sl32*sr64 *h*h]3 *m r l64*sl32*sr64 l64*sl32*sr64l32*b*b]3 
 G   [*b r l64*sl32*sr64 l64*sl32*sr64*b*b]3 [l64*sl32*sr64l32]4 
 G [*b rrr]6 v7[*s)]8
 G ]0
 
 ;         AL, AR, DR, SL, SR, RR
-@r0={0,0,255,255,255,239,  0, 255}
+@r0={0,0,255,255,255,222,  0, 255}
 @r1={0,0,255,255, 16,200,  0, 8}
 @r2={0,0,255,255, 16,211,  1, 8}
 @r3={0,0,255,255, 16,191,  0, 8}

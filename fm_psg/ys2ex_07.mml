@@ -1,0 +1,134 @@
+;[gain=1.5;name=ys2ex_07]
+#opll_mode 0
+#tempo 77 ; 77.5
+#title {"RUINS OF MOONDORIA"}
+
+@v15 = { ; 71
+;       TL FB
+        13, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 1,15, 1, 0, 1, 0, 0, 0, 0, 0,
+  11, 1, 2, 6, 0, 2, 0, 0, 0, 1, 0 }
+
+@v16 = { ; BASS
+;       TL FB
+        20, 4,
+; AR DR SL RR KL MT AM VB EG KR DT
+  12, 7,11, 9, 0,14, 0, 0, 0, 1, 1,
+  14, 3,11, 4, 1, 0, 0, 0, 0, 0, 1 }
+  
+@v17 = { ; 24
+;       TL FB
+        20, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  13, 5, 5, 0, 0, 5, 0, 0, 0, 0, 1,
+   7, 2, 0, 6, 0, 1, 0, 0, 1, 0, 1 }  
+  
+@e20={0,0,@2f@7f}
+@e21={0,0,@0f@5e}
+@e22={0,0,@9e@6efd=8}
+
+9A l8 [ v11 q8
+9 @7@e20 o6 \0
+A @5@e21 o5 \0
+9A [g24f24d+24f24d+24d24d+24d24c24d24c24<a+24>c24d24d+24f24]4
+9A d+24f24d+24d24c24d24c24<a+24>c24<a+24
+9A >c24d24d+24f24g24d+24 [g24f24d+24f24d+24d24d+24d24c24
+9A d24c24<a+24>c24d24d+24f24]3 d+24f24d+24d24c24d24c24<a+24
+9A >c24<a+24>c24d24d+24f24g24d+24g24f24d+24f24d+24d24d+24d24
+9A c24d24c24<a+24>c24d24d+24f24r%176
+9  @6@e22 v12 > \0
+A  @6@e22 v11 > \1
+9A f24f24d+24d+24d24
+9A d24c24c24<a+24a+24>g+24g+24g24g24f24f24d+24d+24d24d24c24
+9A <a+24>c24d24d+24f24g24g24f24f24d+24d+24d24d24f24f24d+24
+9A d+24d24d24c24c24 
+9A o2q8 v0
+9A [r2r24a12f24]2 r%176
+9A a24a24g24g24e24e24<b24b24r12
+9A ]0
+
+@e23={0,0,ffe}
+BC l8 [
+B v14@13@e23o3 \1
+C v13@16o4
+BC [c24c24c24c24c24d+12c12c24c24c24c24<a+12>c24&]4 <[a+24]10 
+BC >c24c24d24d24d+24f24d+24c24c24c24c24
+BC d+12c12c24c24c24c24<a+12>c24& [c24c24c24c24c24d+12
+BC c12c24c24c24c24<a+12>c24&]2 <[a+24]10 >c24c24d24d24
+BC d+24f24d+24c24c24c24c24<a+12>c12c24c24c24c24<a+ 
+BC [a+24]16 [g+24]16 [g24]16 >c24c24c24c24c24d+12c12c24d+24
+BC c24<a+24>c24d24d+24 [f24]12 g24g+12c12 [c24]11 d+24g12
+BC f12 [f24]7 [d24]8 [g24]8 g24g+24g24f24d+24f24e24d24
+BC ]0
+
+@e0={1,0,ec=18.0=128}
+@e1={1,0,fd0=128}
+@e2={2,0,f8=100.0=100}
+@e8={1,0,fed.4=212}
+
+1 l8 [ 
+1 v1 r12)[r12)r12)]3 [r12)]2 [r12]5 
+1 o4 n30 r6
+1 v13 @8 o5 h20,2,1,1
+1 g3&g12 [f12d+24fga+g12&g3|f3&f12d+12d12<a+12>cdd+12dd+f24g24&g3&g12]2 f6d+6d6<a+6>c2g6 
+1 @0 
+1 fgg+12a+>cd12fd+24&d+3d12d+12f3g6f6d+%128
+1 fgg+12b12g+12g24fd+fg12cdd+12f3g6g+6a+6&a+bg+12g12d+12
+1 ]0
+
+2 l8 [ @\4
+2 v10 @1 o6
+2 [a+24g+24g24g+24g24f24g24f24d+24f24d+24d24d+24f24g24g+24]4 
+2 g24g+24g24f24d+24f24d+24d24d+24d24d+24
+2 f24g24g+24a+24g24
+2 [a+24g+24g24g+24g24f24g24f24d+24f24d+24d24d+24f24g24g+24]3 
+2 g24g+24g24f24d+24f24d+24d24d+24
+2 d24d+24f24g24g+24a+24g24a+24g+24g24g+24g24f24g24f24d+24
+2 f24d+24d24d+24f24g24g+24
+2 @0 v11 
+2   <dd+f12gg+a+12>d c24&c3<b12>c12d3d+6d6c%128
+2 ( <fgg+12b12g+12g24fd+fg12cdd+12f3g6g+6a+6&a+bg+12g12d+12
+2 ]0
+
+3 l8 [ 
+3 @2 o5 v3 \-1
+3 n0 c12 ) c12 ) c12 ) c12 ) c12 ) c12 ) c12 ) c12 ) c12 ) [c12]4 n22 c4
+3 @8 v11 r12
+3 o5 g3&g12 [f12d+24fga+g12&g3|f3&f12d+12
+3 d12<a+12>cdd+12dd+f24g24&g3&g12]2 f6d+6d6<a+6>c2g6
+3 @0
+3 fgg+12a+>cd12fd+24&d+3d12d+12f3g6f6d+%128
+3 fgg+12b12g+12g24fd+fg12cdd+12f3g6g+6a+6&a+bg+12g12
+3 ]0
+
+*20={r}
+*21={q2ho e hf}
+*22={q1ho>e<hf}
+#macro_offset {b=21,s=22,m=20,h=20}
+F y14,32 so o3 h1,24,0,-14
+F l24 [ v14
+F [*b*h*s*h*b*b*s*b*h*b*s*b*b*h*s*h]2 
+F [
+F [*b*h*s*h*b*b*s*b*h*b*s*b*b|*h*s*h]4 | *s*s*s]2 hoq1>ge<bhf
+F [*b*h*s*h*b*b*s|*h*b*b*s*b*b*h*s*h]4 *b*b*h*s*b*b*h*s*s 
+F [*b [*h *s*b*h*s|*b*b*b]2 *m*m]2 *b*h*s*h*b*b*s 
+F *h*b*h*s*b*b*h*s*s*b 
+F *h*s*h*b*h*b*b
+F hoq1>aaggee<bbhf
+F ]0
+
+*23={q1c}
+*24={q8(c48)r48}
+#macro_offset {b=20,s=23,m=23,h=24}
+G @14o1v12
+G l24 [
+G [*b*h*s*h*b*b*s*b*h*b*s*b*b*h*s*h]2
+G [
+G [*b*h*s*h*b*b*s*b*h*b*s*b*b|*h*s*h]4 | *s*s*s]2 *m*m*m
+G [*b*h*s*h*b*b*s|*h*b*b*s*b*b*h*s*h]4 *b*b*h*s*b*b*h*s*s 
+G [*b [*h*s*b*h*s|*b*b*b]2 *m*m]2 *b*h*s*h*b*b*s 
+G *h*b*h*s*b*b*h*s*s*b 
+G *h*s*h*b*h*b*b
+G [*m]8
+G ]0

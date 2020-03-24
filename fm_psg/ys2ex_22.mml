@@ -1,0 +1,102 @@
+;[gain=1.5;name=ys2ex_22]
+
+#opll_mode 0
+#tempo 86 ; 85.6
+#title {"DON'T GO SO SMOOTHLY!"}
+
+@v15 = { ; 124
+;       TL FB
+        10, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 3, 1, 0, 0, 4, 0, 0, 0, 0, 0,
+  15,10, 2, 9, 0, 0, 0, 0, 0, 0, 0 }
+
+@v16 = { ; Bass Harmonics
+;       TL FB
+        21, 6,
+; AR DR SL RR KL MT AM VB EG KR DT
+   9, 8, 4, 3, 0,12, 0, 0, 0, 1, 1,
+  15, 6, 5, 4, 0, 1, 0, 0, 0, 0, 1 }
+
+@v17 = { ; Hard Brass / Dist.G
+;       TL FB
+        12, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+   8, 4, 1, 0, 0, 1, 0, 0, 0, 0, 1,
+  15, 5, 1, 1, 0, 1, 0, 0, 0, 0, 0 }
+  
+@v17 = { ; Hard Brass / Dist.G
+;       TL FB
+        22, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0,
+  13, 7, 2, 0, 0, 1, 0, 0, 0, 0, 0 }
+
+@e22={0,0,@10f@14c8520} ; Bass Harmonics
+
+BC l8 
+B @15 o2v13
+B @15 o2v12 \1
+BC g12g12g12g12
+B v14 o3 @13q6
+C v14 o3 @16 ; @14@e22
+BC [ [d12c24d12c24d24c24]7 
+BC d24>d24<e24>e24<f24>f24<d24>d24< 
+BC [ [c24r24c24c12>c24<c24c24]3 | c24>c24<a+24a24a+24a24a+24>c24<]2 
+BC c24r24c24c12>c24<c24>c24<
+BC ]0
+
+; @e20={0,0,@17f}
+@e21={0,0,@13d@3eed}
+
+DE9 l8 
+D v14 o5 @0@e21
+E v10 o4 @5 \1
+9 v13 o4 @0@e21
+DE9 r6 a12&a_<a12>
+;DE9 @17 v13
+DE9 [ 
+DE9 [f24a24>d8e24f24<a24b12g24>d12c+24<a12]4 
+DE9 [g2&g12&g_>g12 g3&g48r48g24f24e24f24e24f24g24<]2
+DE9 ]0
+
+#macro_offset {b=21,s=20,m=20,h=20}
+F y14,32l32v13soq2o4 h0,16,0,-24 hf
+
+*20={q4c_<c>} ;b
+*21={q3g_<g>} ;s
+*22={q3b_<b>} ;m
+#macro_offset {b=20,s=21,m=22}
+
+F l24 v14 o4
+F *br*m*m*s*s)*s*s( 
+F [
+F [*br*sr*br*s*br*b*sr*br*sr]4 
+F [*br*sr*br*s*b|r*b*sr*br*sr]4
+F *s*s*s*s)*s*s*s*s(
+F ]0
+
+*23={g}
+*24={c}
+#macro_offset {b=23,s=24,m=24}
+G l24 v11@7 o1
+G *br*m*m*s*s)*s*s( 
+G [
+G [*br*sr*br*s*br*b*sr*br*sr]4 
+G [*br*sr*br*s*b|r*b*sr*br*sr]4
+G *s*s*s*s)*s*s*s*s(
+G ]0
+
+@e1={1,0,fc}
+@e2={2,0,feec}
+
+1 l8 \-2 v11 @1 
+1 r3 [ o4 f3&e3&d3&e3&f3&e3&d3&c1&<a+1&>c1 ]0
+
+2 l8 \-1 v11 @1 
+2 r3 [ o4 d3&c3&<a3&>c3&d3&c3&<a3&g1&f1&g1 ]0
+
+3 l8 v11 
+3 @2 [n0 c12 n10 c12]2 
+3 @1 v12 [o4 a3&g3&f3&g3&a3&g3&f3&e3&f3&e3&d3&c3&d3&e3&f3&e3 ]0
+

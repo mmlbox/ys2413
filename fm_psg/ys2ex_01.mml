@@ -4,6 +4,20 @@
 #tempo 77 ;77.5
 #title { "TO MAKE THE END OF BATTLE"}
 
+@v15 = { ; Chord 134 Hamonics
+;       TL FB
+        13, 5,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0,
+   9, 7, 3, 1, 0, 2, 0, 0, 0, 0, 0 }
+
+@v22 = { ; Chord 134 Root
+;       TL FB
+        23, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0,
+   9, 7, 3, 1, 0, 2, 0, 0, 0, 0, 0 }
+  
 @v16 = { ; Dist.G 
 ;       TL FB
          6, 7,
@@ -31,94 +45,85 @@
 ; AR DR SL RR KL MT AM VB EG KR DT
   12, 3, 7, 2, 1,14, 0, 0, 1, 0, 0,
   14, 5, 7, 3, 1, 4, 0, 0, 0, 0, 0 }
+  
+@v20 = { ; BASS hamonics
+;       TL FB
+        22, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  12, 7,11, 9, 0, 8, 0, 0, 0, 1, 1,
+  14, 3,11, 4, 1, 0, 0, 0, 0, 0, 1 }
 
+@v21 = { ; Dist.G 133
+;       TL FB
+         6, 6,
+; AR DR SL RR KL MT AM VB EG KR DT
+  11,12, 2, 0, 0, 3, 0, 0, 0, 0, 1,
+  14,15, 0, 8, 0, 1, 0, 0, 1, 0, 1 }
 
-@e1={0,0,@16.f} ; Dist.G
-@e2={0,0,@0fe}  ; Dist.G Overlay
-@e3={0,0,@7.ffe0=64}
+@e1={0,0,@13f@3f} ; Dist.G
+@e2={0,0,@5f}  ; Dist.G Overlay
+@e3={0,0,@22f}
 @e4={0,0,@17.f}
 @e5={0,0,@18.f}
 @e6={0,0,@2.f}
 @e7={0,0,@19.f}
+@e8={0,0,@21.f}
 
-9 l8 r6 [
-9 @16@e1 v13 o4
-9 d+24e24g24a12<a24a24a24>c+24<a24>d24<a24>e24<a24>d24<a24 
-9 @e3 o6 v14
-9 ([e48&f48]4 > [e48&f48]4 <e24f24g+24f24e24f24g+24a24)
+; 9ADE123FGH !
+
+9A l8 r6 [
+9 @3@e1 v13 o4
+A @0@e8 v11 o4 \1
+9A d+24e24g24a12<a24a24a24>c+24<a24>d24<a24>e24<a24>d24<a24 
+9 @e3 o5 v13
+A @e3 o4 v13
+9 [e48&f48]4 > [e48&f48]4 <e24f24g+24f24e24f24g+24a24
+A [a48&a+48]4 > [a48&a+48]4 <a24a+24>c+24<a+24a24a+24>c+24d24
 9 @e1 o5 v13
-9 c+24<a24a+24g24a24f24g24e24a+24g24a24f24g24e24f24d24c+24d24e24f24g24
-9 a24a+24>c+24e24c+24<a+24>f24c+24<a+24<e24f24 
-9 h10,2,1,2 
-9 g4a24a+24>c+4 
-9 hf 
-9 e24f24g24f24e24f24g24a24a+24>c+24e12e12f12g12 
-9 @e1 h20,2,1,2
-9 f24e24c24d24&d3<a24>c24d24c24f24e24c24d12&d4&d24 
-9 <a24g24f24e24fdf12geg12afd12ega+12a3>d24e24f24g24a24g24f24
-9 e24ge12&e48&d+%2&d%2c12<g>ce12f24d24<a24
-9 f24d24a24>d24f24e24c24<g24e24c24g24>c24e24<d24f24a24
-9 >c+24d24f24a24 >c+24 h10,2,1,2 d4&d_<d12
+A @e2 o5 v10
+9A c+24<a24a+24g24a24f24g24e24a+24g24a24f24g24e24f24d24c+24d24e24f24g24
+9A a24a+24>c+24e24c+24<a+24>f24c+24<a+24<e24f24
+9A h10,2,1,4
+9A g4a24a+24>c+4
+9A hf
+9A e24f24g24f24e24f24g24a24a+24>c+24e12e12f12g12
+9 @e1
+A @e8 v11 \1
+9A h20,2,1,2
+9A f24e24c24d24&d3<a24>c24d24c24f24e24c24d12&d4&d24 
+9A <a24g24f24e24fdf12geg12afd12ega+12a3>d24e24f24g24a24g24f24
+9A e24ge12&e48&d+%2&d%2c12<g>ce12f24d24<a24
+9A f24d24a24>d24f24e24c24<g24e24c24g24>c24e24<d24f24a24
+9A >c+24d24f24a24 >c+24 h10,2,1,2 d4&d_<d12
 
 9 @17@e4 o6 v14 h16,1,1,2
-9 f24e24c24d24&d3<a24>c24d24c24f24e24c24d24&d3<a24
-9 g24f24e24fdf12geg12afd12ega+12a3
-9 >d24e24f24g24a24g24f24e24gec12<g>ce12f24d24
-9 <a24f24d24a24>d24f24e24c24<g24e24c24g24>c24e24 
+A @17@e4 o5 v14 h16,1,1,2 \1
+9A f24e24c24d24&d3<a24>c24d24c24f24e24c24d24&d3<a24
+9A g24f24e24fdf12geg12afd12ega+12a3
+9A >d24e24f24g24a24g24f24e24gec12<g>ce12f24d24
+9A <a24f24d24a24>d24f24e24c24<g24e24c24g24>c24e24 
 
 9 @18@e5 o6 v13 hf
-9 d+&<a+48&>d+48g&d+48&g48a+&g48&a+48>d+6
-9 |
-9 a6d24f24g24ag12f24g12>d<a12g24f12efg
-9 @17@e4 v14 o6 ho
-9 a6d24f24g24ag12f24g12>dd12e12d12d6c+6 <
+A @18@e5 o5 v14 hf \1
+9A d+&<a+48&>d+48g&d+48&g48a+&g48&a+48>d+6
+9A |
+9A a6d24f24g24ag12f24g12>d<a12g24f12efg
+9 @17@e4 v14 o6 ho 
+A @17@e4 v14 o5 ho
+9A a6d24f24g24ag12f24g12>dd12e12d12d6c+6 <
 9 @19@e6 v13 o6 
-9 [[[d24f24a24]4 |d+24g24a+24g24]2 c24c24e24g24]2 
-9 ]2 
-9 @16@e1v13 h20,2,1,2 o5 d24r12d24r12d24d d_<d12
-9 r6
-
-A l8 r6 [
-A @3@e2 v15 o4 \0
-A d+24e24g24a12<a24a24a24>c+24<a24>d24<a24>e24<a24>d24<a24 
-A @e3 o5 v14
-A [a48&a+48]4 > [a48&a+48]4 <a24a+24>c+24<a+24a24a+24>c+24d24
-A @e2 o5 v15
-A c+24<a24a+24g24a24f24g24e24a+24g24a24f24g24e24f24d24c+24d24e24f24g24
-A a24a+24>c+24e24c+24<a+24>f24c+24<a+24<e24f24 
-A h10,2,1,2 
-A g4a24a+24>c+4 
-A hf 
-A e24f24g24f24e24f24g24a24a+24>c+24e12e12f12g12 
-A @e2 v15 h20,2,1,2 
-A f24e24c24d24&d3<a24>c24d24c24f24e24c24d12&d4&d24 
-A <a24g24f24e24fdf12geg12afd12ega+12a3>d24e24f24g24a24g24f24
-A e24ge12&e48&d+%2&d%2c12<g>ce12f24d24<a24
-A f24d24a24>d24f24e24c24<g24e24c24g24>c24e24<d24f24a24
-A >c+24d24f24a24 >c+24 h10,2,1,2 d4&d_<d12 
-
-A @17@e4 o5 v14 h16,1,1,2 \1
-A f24e24c24d24&d3<a24>c24d24c24f24e24c24d24&d3<a24
-A g24f24e24fdf12geg12afd12ega+12a3
-A >d24e24f24g24a24g24f24e24gec12<g>ce12f24d24
-A <a24f24d24a24>d24f24e24c24<g24e24c24g24>c24e24 
-
-A @18@e5 o5 v14 hf
-A d+&<a+48&>d+48g&d+48&g48a+&g48&a+48>d+6
-A |
-A a6d24f24g24ag12f24g12>d<a12g24f12efg
-A @17@e4 v14 o6 ho
-A <a6d24f24g24ag12f24g12>dd12e12d12d6c+6 
 A @19@e7 v13 o6 
-A [[[d24f24a24]4 |d+24g24a+24g24]2 c24c24e24g24]2 
-A ]2 
-A @3@e2 v13 h20,2,1,2 o5 d24r12d24r12d24d d_<d12
-A r6
+9A [[[d24f24a24]4 |d+24g24a+24g24]2 c24c24e24g24]2 
+9A ]2 
+9 @e1v13
+A @e2v10
+9A h20,2,1,2 o5 d24r12d24r12d24d d_<d12
+9A r6
 
 @e10={0,0,@13f}
-@e11={0,0,@14f84}
-@e12={0,0,@13e}
-@e13={0,0,@13e}
+@e11={0,0,@10d@14da8520}
+@e12={0,0,@15f}
+@e13={0,0,@15e}
 
 BC l8 r6
 BC [
@@ -127,11 +132,11 @@ C @12@e11 v14 o3 q6
 BC [a24]4 >c+24<a24>d24<a24>e24<a24>f24<a24>g24
 BC <a24>f24<a24>e24<a24>f24<a24>e24<a24>d24<a24>c+24<a24a+24g24a24
 BC a+24>c+24<a+24 
-BC [a24a24a24 
-B q7 @e12 >>a< @e10 q6 
-C q7 @e13 >>e< @e11 q6
+BC [a24a24a24
+B q8 @e12 >>e< @e10 q6 
+C q8 @e13 > a  @e11 q6
 BC a12|a24<a24a24r24 a24a24>c+24d24<]4 
-BC <a24a24>a24<a24b24b24>c+24c+24 
+BC <a24a24>a24<a24b24b24>c+24c+24
 BC [
 BC   [d24]16 [c24]16 <a+24a+24>f24a+24>d24<a+24f24a+24c24c24g24>c24e24c24<g24>c24
 BC   <|
@@ -219,42 +224,33 @@ BC r6
 3 ]2 
 3 *0 <d24r12d24r12d24dr4
 
-@e30={0,0,@2.840} ;BD
-@e31={0,0,@10f@14da52} ;SD
+@e31={0,0,@10f@12d862}
+@e30={0,0,@10f@14d862}
+*30={r}
+*31={c_<c>} ;SD
+#macro_offset {b=30,s=31,q=30,g=30,h=30}
+D l24 v14 @5@e31
+E l24 v14 @6@e30
+DE o4 r*b*sr
+DE [
+DE  [*b*b*sr]8 
+DE  [*b*h*h*s*b|*s*b*b]4 *s*s*s
+DE  [*b*h*h*s*b*s*b*b]3 *b*s*s*s [*s]4
+DE  [ [*b*h*s*h]15 *s*s*s*s [*b*h*s*h]14 | [*b*s*s]2 *b*s ]2
+DE  *b*q*s*q l48 [*g]4 [*b]4 l24
+DE |
+DE [*b*h*s*h]15 *b*b*b*b
+DE [[*b*h*h]2 l12*sl24 | [*b*b*s*b]2 ]4
+DE   [*b|*b*s]2 *b*s*s*s
+DE ]2
+DE *s*b*b*s*b*b*s*s*b r24r4
 
-*30={o4@e30c_<c>} ;BD
-*31={o4@e31c_<c>} ;SD
-*32={o5@e30(c_<c>)} ;TOM H
-*33={o4@e30(g_<g>)} ;TOM M 
-*34={r} ; HH
-
-#macro_offset {b=30,s=31,q=32,g=33,h=34}
-
-D l24 v15 r*b*sr
-D [
-D  [*b*b*sr]8 
-D  [*b*h*h*s*b|*s*b*b]4 *s*s*s
-D  [*b*h*h*s*b*s*b*b]3 *b*s*s*s [*s]4
-D  [ [*b*h*s*h]15 *s*s*s*s [*b*h*s*h]14 | [*b*s*s]2 *b*s ]2
-D  *b*q*s*q l48 [*g]4 [*b]4 l24
-D |
-D [*b*h*s*h]15 *b*b*b*b
-D [[*b*h*h]2 l12*sl24 | [*b*b*s*b]2 ]4
-D   [*b|*b*s]2 *b*s*s*s
-D ]2
-D *s*b*b*s*b*b*s*s*b r24r4
-
-@e28={0,0,fd}
-*10={o4 q2c_<c>} ;BD
-*11={o2 r} ;SD
-*12={o5 q1c_<c>} ;TOM H 
-*13={o4 q1g_<g>} ;TOM L
-*14={o2 r} ; HH
-
-#macro_offset {b=10,s=11,q=12,g=13,h=14}
-
+*10={o4 q3c_<c>} ;BD
+*12={o5 q2)c_<c>(} ;TOM H 
+*13={o4 q2)g_<g>(} ;TOM L
+#macro_offset {b=10,s=30,q=12,g=13,h=30}
 F y14,32
-F l24 v15so @10@e28 r*b*sr 
+F l24 v14so r*b*sr 
 F [
 F  [*b*b*sr]8 
 F  [*b*h*h*s*b|*s*b*b]4 *s*s*s
@@ -269,22 +265,18 @@ F   [*b|*b*s]2 *b*s*s*s
 F ]2
 F *s*b*b*s*b*b*s*s*b r24r4
 
-@e29={0,0,ffe}
-*80={o3 r} ;BD
-*81={o1 soc%2r%6};SD
-*82={o4 r} ;TOM H
-*83={o3 r} ;TOM L
-*84={o1 sfc} ;HH
-#macro_offset {b=80,s=81,q=82,g=83,h=84}
-
-G @14@e29
+*21={v12soc%2r%6} ;SD
+*22={v12sfc} ;HH
+*23={v10sfc} ;TOM
+#macro_offset {b=30,s=21,q=23,g=23,h=22}
+G @14o1
 G l24 v12 r*b*sr
 G [
 G  [*b*b*sr]8 
 G  [*b*h*h*s*b|*s*b*b]4 *s*s*s
 G  [*b*h*h*s*b*s*b*b]3 *b*s*s*s [*s]4
-G  [ [*b*h*s*h]15 *s*s*s*s [*b*h*s*h]14 | [*b*s*s]2 *b*s ]2
-G  *b*q*s*q l48 [*g]4 [*b]4 l24
+G  [ [*b*h*s*h]15 *s*s*s*s [*b*h*s*h]14 | [*b*s*s]2 *b*s ]2 
+G  *b*q*s*q l48 [*g]4 [*g]4 l24
 G |
 G [*b*h*s*h]15 *b*b*b*b
 G [ [*b*h*h]2 *s r | [*b*b*s*b]2 ]4

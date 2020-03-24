@@ -1,0 +1,189 @@
+;[gain=1.5;name=ys2ex_27]
+
+#opll_mode 0
+#tempo 75; 75.12
+#title {"STAY WITH ME FOREVER"}
+
+@v15 = { ; Bell 79
+;       TL FB
+        40, 2,
+; AR DR SL RR KL MT AM VB EG KR DT
+  14, 2, 7, 3, 0, 5, 0, 0, 0, 0, 0,
+  15, 3, 7, 3, 0, 3, 0, 0, 0, 0, 0 }
+
+@v16 = { ; Bass
+;       TL FB
+        24, 6,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 1, 2, 2, 1, 1, 0, 0, 0, 0, 0,
+  13, 1, 1, 2, 0, 4, 0, 0, 0, 0, 0 }
+  
+@v17 = { ; LEAD 37
+;       TL FB
+        51, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  10, 6, 2, 0, 0, 4, 0, 0, 0, 0, 0,
+   8, 4, 0, 4, 0, 2, 0, 0, 1, 0, 0 }  
+   
+@v18 = { ; YSII MAIN 90 Harmonics
+;       TL FB
+        23, 5,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0,
+   8, 1, 1, 7, 0, 8, 0, 0, 1, 0, 0 }
+
+@v19 = { ; YSII MAIN 90
+;       TL FB
+        23, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0,
+   9, 4, 1, 6, 0, 4, 0, 0, 1, 0, 0 }
+
+; 9ABCDEFG12 !
+; @e20={0,0,@0c@4f}
+
+9ABC l8 @17 o6
+9 v14
+B v11 \1
+9B h30,3,0,2
+9 b4.(g+b4a12b12a12g+4e4gf+gabg+beg+f+ef+
+B b4.&e16.(g+b4a12b12a12g+4e4gf+gabg+beg+f+ef+32
+;9  e4.     c+e4d12e12d12c+4<a4>c<b>cdec+e<a>c+<bab
+;B  e4.&e16.c+e4d12e12d12c+4<a4>c<b>cdec+e<a>c+<bab32
+AC  r4.(r r4r12r12r12r4 <r4>r<r>rrrr r<r>r <rrr
+9ABC [ ; L
+9B @18 v12 o5
+AC @6 v12 o7
+9 \0
+A \1
+B \1
+C \2
+BC v-3 r16.
+9ABC h8,2,1,2
+9ABC [e16<g+16a16b16>d+16e16g+16b16a32r32c+e16&e4a32r32c+ef+16e16f+16|g+f+ag+]2 e2 
+9ABC [f+16e32r32d+32r32e16&e4.c+ef+|a16g+32r32f+32r32g+16&g+4.<g+16a16b16>c+16d+16e16]2 
+9ABC g+4f+4a4d+4 
+9ABC e4&e16f+16e16f+16g8a8g8a8 [b8c+16d16&d4]2 e4&e16f+16
+9ABC e16f+16gab>c<b4f+12a12g12e4&e16<g+16a16b16>c+4degf+4d<b>e4<b>d4d4e4f+gag
+9ABC f+ab4g+12a12b12e2e4f+ga4gf+e4.&e_>e8&h40,2,1,1
+9A e4.e16.&e32
+BC e4.e32&e32. 
+9B @15 v12 o6
+AC @11 v13 o5 \1
+BC v-2
+9ABC [[<g+16a16>e16]2 <g+32a32>e16]5 [<g+16a16>d+16]2 <g+32a32>
+9A d+16
+BC d+64
+9ABC ]0
+
+@e30={0,0,@10c@14d8520}
+@e31={0,0,@13f@6}
+D l8 v14 o2 @6@e31 
+E l8 v14 o2 @5 \1
+;DE @16
+DE e2d2c+2c2<b16
+E (
+DE (>b16&b16&(b8)b16&b&)b&)b4. 
+DE [ 
+D @13v13o3q7
+E @14@e30v13o4
+DE [e16e16r16e16]2 < [a16a16r16a16]2 >
+DE [d16d16r16d16]2 e16e16r16e16
+DE <b16b16r16b16> 
+DE [e16e16r16e16]2 < [a16a16r16a16]2 
+DE [b16b16r16b16]2 > [e16e16r16e16]2 <
+DE [a16a16r16a16>a16<a16r16a16]2 >
+DE [e16e16r16e16>e16<e16r16e16]2 <
+DE a16a16r16a16>a16<a16r16a16 >
+DE f+16f+16r16f+16>f+16<f+16r16f+16 <
+
+DE [b16b16r16b16>b16<b16r16b16]2 >
+DE [c16>c16r16c16<]4 < [g16>g16r16g16<]4 >
+DE [c16>c16r16c16<]2 < [a16>a16r16a16<]2 
+DE >d16>d16r16d16< d+16>d+16r16d+16< [e16>e16r16e16<]2 <
+DE a16a16r16a16a16r16a16a16>
+DE d16d16r16d16d16r16d16d16
+DE g16g16r16g16g16r16g16g16
+DE g16g16r16g16g+16g+16r16g+16
+DE a16a16r16a16a16r16a16a16
+DE d16d16r16d16d16r16d16d16
+DE e16e16r16e16e16r16e16e16
+DE e16e16r16e16>e16r16<e16e16
+DE c16c16r16c16c16c16r16c16
+DE d16d16r16d16d16d16r16d16
+DE e16e16r16e16e16e16r16e16
+DE e16e16r16e16f+16g+16r16b16
+DE [e16e16r16e16]2 [d16d16r16d16]2 
+DE [c+16c+16r16c+16]2 [c16c16r16c16]2 <
+DE [b16b16r16b16]3 b16>b16r16g+16
+DE ]0
+
+@e0={0,0,f}
+@e2={2,0,c8=24}
+@e6={2,0,edcaaa0=12}
+@e9={0,0,cdefa=144}
+@e10={0,0,e8=96}
+@e11={0,0,f9=32}
+
+1 l8 v11 @10
+1 o5 [[e16f+16g+16]2 e32f+32g+16]5 [e16f+16b16]2 e32f+32b16 
+1 [ ; L
+1 [e4r2a32r32c+e4g+a16g+16a16|ed+f+d+]2 g+4&g+16g+16a16b16 
+1 [b16a16g+16a16&a4.aab|f+16e16d+16e16&e4.e16f+16g+16a16b16>c+16<]2 
+1 g+4f+4a4d+4
+1 @9 <g2e2d4.>d<b2g2e2f+4a4g+2 
+1 @11 v11
+1 ae16ae16f+16g16ba16bd16f+16a16
+1 gf+16gd16g16b16>d16<b16g16b16g+16d16<b16>d16ec+16
+1 ec+16e16g16f+d16f+d16f+16a16g+e16g+e16g+16e16
+1 g+16b16>e16<b16>e16g+16b16>e16
+1 @0 <g4cef+4dag+2>h20,1,1,1g+2hf< 
+1 @10 [[e16f+16g+16]2 e32f+32g+16]5 [e16f+16b16]2 e32f+32b16
+1 ]0
+
+2 l8 v11 @10 \1 
+2 o6 [[<g+16a16>e16]2 <g+32a32>e16]5 [<g+16a16>d+16]2 <g+32a32>d+16< 
+2 [ v9 r16. [e4r2a32r32c+e4g+a16g+16a16|ed+f+d+]2 g+4&g+16g+16a16b16 
+2 [b16a16g+16a16&a4.aa|bf+16e16d+16e16&e4.e16f+16g+16a16b16>c+16<]2
+2 b32b4a4>c+4<b4 
+2 @9 r16.<g2e2d4.>d<b2g2e2f+4a4g+4.&g+32 
+2 @11 ec+16ec+16d+16e16gf+16g<a16>d16f+16d<b16>d<b16>d16g16b16g16d16g16
+2 d16<b16g+16b16>c+<a16>c+<a16>c+16e16d<a16>d<a16>d16f+16
+2 e<b16>e<b16>e16<b16>e16g+16b16g+16b16>e16g+16b16
+2 e4<g>cd4<a>f+e2 b2 
+2 @10 r32. [[e16f+16g+16]2 e32f+32g+16]5 [e16f+16b16]2 e32f+32b64
+2 ]0
+
+3 l8 v9 @10 r16. o6[[<g+16a16>e16]2 <g+32a32>e16]4 [<g+16a16>e16]2<g+32
+3 @6 n0 v8 c32 c32 ) c32 c32 ) c32 c32 ) c32 c32 ) c32 c32 ) c32c32c32c32c32c32 
+3 [ ; L 
+3 @6 v13 [n0 c32c32c32c32 n10 c32 n0 c32|c32c32]8 n10 c32c32 
+3 [n0 c32c32c32c32 n10 c32 n0 c32c32 c32]7 c32c32 
+3 [n10 c32 n0 c32]3 [n0 c32c32c32c32 n10 c32 n0 c32|c32c32]8 n10 c32 n0 c32 
+3 [n0 c32c32c32c32 n10 c32 n0 c32c32c32]7 
+3 [@6 n10 c32r32 @2 ) n0 c16 ( ]2 
+3 @6 [n0 c32c32c32c32 n10 c32 n0 c32c32 c32]16 
+3 [n0 c32c32c32c32 n10 c32 n0 c32c32c32c32c32 n10 c32 n0 c32 [n5 ) c32 ( n0 c32]2 ]8 
+3 [n0 c32c32c32c32 n10 c32 n0 c32c32c32]6 
+3 [n0 c32c32 n10 c32 n20 c32]4 
+3 [n0 c32c32c32c32 n10 c32 n0 c32c32c32c32 c32c32c32 n20 ) c32 ( n0 c32 n20 ) c32c32 ( ]6 
+3 ]0
+
+*0={r}
+*1={r}
+*2={g_<g>}
+*3={g_<g>}
+#macro_offset {b=1,s=2,m=3,h=0}
+F y14,32l32v13soq1o4h0,24,0,-16hf
+F r1r1r2 
+F v8 *h*h)*h*h)*h*h)*h*h)*h*h)*h*h)*h*h*h*h
+F [ v14
+F [*h*h*h*h*s*h|*h*h]8 *s*s 
+F [*h*h*h*h*s*h*h*h]7 ho rrbrgrer hf
+F [*h*h*h*h*s*h|*h*h]8 *s*h 
+F [*h*h*h*h*s*h*h*h]7 ho bbggeecc hf
+F [*h*h*h*h*s*h*h*h]16
+F [*h*h*h*h*s*h*h*h*h*h*s*h [*h*h]2]8 
+F [*h*h*h*h*s*h*h*h]6 ho bbbrgggreeercccc hf
+F [*h*h*h*h*s*h*h*h *h*h*h*h |*s*h*s*s]6 [*s]4
+F ]0

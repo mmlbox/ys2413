@@ -1,0 +1,229 @@
+;[gain=1.5;name=ys2ex_11]
+#opll_mode 0
+#tempo 84
+#title { "PROTECTERS"}
+
+@v15 = { ; Dist.G
+;       TL FB
+         4, 6,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 4, 2, 0, 0, 7, 0, 0, 0, 0, 1,
+  15, 7, 1, 0, 0, 1, 0, 0, 1, 0, 1 }
+
+@v16 = { ; Chord
+;       TL FB
+        12, 5,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0,
+   9, 7, 3, 1, 0, 4, 0, 0, 0, 0, 0 }  
+
+@v17 = { ; Chord 134
+;       TL FB
+        23, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0,
+  15, 7, 3, 1, 0, 2, 0, 0, 0, 0, 0 } 
+
+@v18 = { ; Nylon Guitar 48
+;       TL FB
+        22, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 6, 1, 2, 1, 2, 0, 0, 0, 0, 1,
+  15, 6, 1, 2, 2, 1, 0, 0, 0, 1, 0 } 
+
+@v19 = { ; BD 72
+;       TL FB
+         0, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15,15,15, 6, 0, 0, 0, 0, 0, 1, 0,
+  15, 8, 0,12, 0, 0, 0, 0, 1, 1, 0 } 
+
+@v20 = { ; BASS hamonics
+;       TL FB
+        20, 4,
+; AR DR SL RR KL MT AM VB EG KR DT
+  12, 7,11, 9, 0,14, 0, 0, 0, 1, 1,
+  14, 3,11, 4, 1, 1, 0, 0, 0, 0, 1 }
+
+; c->g d->a e->b f->c g->d a->e b->f+
+
+; BCDEFGH123 !
+
+9A l8 
+9 @15 o4v8
+A @5  o5v3 \1 
+9A [[a32&|d32&]4 d32)[a+32&d32&]4 )[>c32&<|d32&]4 d32[g32&d32&]4 )]2 
+9A [ 
+9 @15 o4v14
+A @5 o5v9 \1
+9A [ 
+9A [ a32d32a32>d32&a32d32&<a32&d32a32d32&a32>d32&a+32&d32&<a32&d32a32d32&a32&>d32&>c32<d32<a32&d32
+9A |>a+32g32e32 c+32<a+32g32e32c+32 ]2 
+9A   e32g32a+32>c+32e32g32a+32>c+32<<
+9A ]2
+
+9A h10,3,0,5
+9 @16 v13 o3\1 
+A @16 v13 o3 
+9  [d8.  f32 e32 f8. e32 f32 e8.d+32 f32| d+8.d32c+32 ]2  d+4
+A  [<a8.>c32<b32>c8.<b32>c32<b8.a+32>c32|<a+8.a32g+32>]2 <a+4 
+ 
+9 @17v14o4
+A @6v11o5 \1
+9 [d8.  f32 e32 f8. e32 f32 | e8.d+32 f32 d+8.d32c+32]2 g8.f32g32a4
+A [a8. >c32<b32>c8.<b32>c32 |<b8.a+32>c32<a+8.a32g+32]2 d8.c32d32e4
+9 <  [ d8. f32g32a8. d16 ra+4.]2
+A << [ a8.>c32d32e8.<a16>rf4.<]2
+
+9A @18 v14 o4
+9A a32>a+32a32g32f32 e32 d32c+32r4 e32 >g32f32 e32 d32c+32<a+32a32g32f32 e32d32c+32<a+32a32g32 
+9A [a32a+32a32g+32(]6
+9A v13 @19 h0,16,0,-32
+9A o5 [c32c32c32r32]2 hf
+9A ]0
+
+@e20={0,0,@5.8f=14.d=212}
+@e21={0,0,@6.8f=14.d=212}
+@e22={0,0,@10f@14d8520} ; Bass Harmonics
+
+BC l8 v13\1 
+B o2@7@e20 \2
+C o3@8@e21 \1
+BC d+2&d+2&d+2&d+4 
+B @13q7 v5 o3 \1
+C @e22  v5 o4 \1
+BC  [d32)]8 
+BC [ 
+B o3
+C o4
+BC [[d16d32d32a16d32d32d16d32d32a+16d32d32d16d32d32>c16<d32d32|d16d32d32a+32g32e32c+32]2 <a16a32a32>e32f32g32a32]2 
+BC [
+B o3
+C o4
+BC [d32d32>d32<d32>d32<d32d32d32f32f32>f32<f32>f32<f32f32f32|e32e32>e32<e32>e32<e32e32e32d+32d+32>d+32<d+32>d+32<d+32>d+32<d+32]2
+BC |e32e32>e32<e32>e32<e32e32e32<a+32a+32>a+32<a+32>c32c32>c32<c32
+BC ]2 
+BC g32g32>g32<g32>g32<g32g32g32a32a32>a32<a32>a32<a32>a32<a32 
+BC [ [d32>d32<d32d32>d32<d32>d32<d32]2 [d+32>d+32<d+32d+32>d+32<d+32>d+32<d+32]2 ]2 
+BC < [a32a32>a32<a32]8 [a32a32>a32<a32>g32f32e32d32<a32a32>a32<a32|>a+32<a32>c32d32<]2 a32a32>a32<a32
+BC ]0
+
+@e0={0,0,f}
+@e3={0,0,fc=3}
+
+1 l8 @3 v0 r32 o3 
+1 [[a32d32]4 )[a+32d32]4 )[>c32<d32]4 )|[g32d32]4 )]2 g32d32g32d32g32d32g32 
+1 [ @0 v7 
+1 [
+1 o3 [>d32<a32>d32a32>d32<a32d32<a32>d32<a32>d32a32>e32<a32d32<a32>d32<a32>d32a32>g32<a32d32<a32|
+1 >g32e32c+32<a+32g32e32c+32<a+32>]2 
+1 >c+32e32g32a+32>c+32e32g32a+32
+1 ]2 
+1 v10 @3 o4 
+1 [f8.a32g+32a8.g+32a32g+8.g32a32|g8.f32e32]2 g4 
+1 [f8.a32g+32a8.g+32a32|g+8.g32a32g8.f32e32]2 b8.a32b32>c+4 
+1 [<dfa>d<d+ga+>d+]2 r8 
+1 v11 o3 a32>a+32a32g32f32e32d32c+32r4e32>g32f32e32d32c+32<a+32a32g32f32e32d32c+32<a+32a32g32
+1 r2r8<a32>c+32e32a32>c+32e32a32>c+32
+1 ]0
+
+2 l8 @0\1 v0 o4 
+2 h0,4,0,12 [[c32]8)]7 c32c32c32c32)c32c32)c32c32 hf
+2 [ @0 v7
+2 [
+2 o3 [>d32<a32>d32a32>d32<a32d32<a32 >d32<a32>d32a32>e32<a32d32<a32>d32<a32>d32a32>g32<a32d32<a32|
+2 >g32e32c+32<a+32g32e32c+32<a+32>]2 
+2 >c+32e32g32a+32>c+32e32g32a+32
+2 ]2 
+2 v9 @3 o4
+2 [f8.a32g+32a8.g+32a32g+8.g32a32|g8.f32e32]2 g4 
+2 [f8.a32g+32a8.g+32a32|g+8.g32a32g8.f32e32]2 b8.a32b32>c+4 
+2 [<dfa>d<d+ga+>d+]2 r4 
+2 v11 o3 a32>a+32a32g32f32e32d32c+32r4e32>g32f32e32d32c+32<a+32a32g32f32e32d32c+32<a+32a32g32r2
+2 v9 r32<a32>c+32e32a32>c+32e32a32
+2 ]0
+
+3 l8 @0 v0 
+3 o7 h0,4,0,4 [f+2&)]4 hf
+3 [ r32 @3 v9
+3 [[o4 a32d32a32>d32a32d32<a32d32a32d32a32>d32a+32d32<a32d32a32d32a32>d32>c32<d32<a32d32|
+3  >a+32g32e32c+32<a+32g32e32c+32]2 
+3  e32g32a+32>c+32e32g32a+32|>c+32<<]2 
+3 v10 \1 o4
+3 [d8.f32e32f8.e32f32e8.d+32f32|d+8.d32c+32]2 d+4 
+3 [d8.f32e32f8.e32f32|e8.d+32f32d+8.d32c+32]2 e8.f32g32a4 
+3 [d8.f32g32a8.d16ra+4.]2 r4. 
+3 v10 <a32>a+32a32g32f32e32d32c+32r4e32>g32f32e32d32c+32<a+32a32g32f32e32d32c+32<a+32a32g32r2r
+3 ]0
+
+@e31={0,0,@10f@14d862}
+*20={r}
+*21={c_<c>}
+#macro_offset {b=20,s=21,m=20,h=20}
+D l32v14
+D @9@e31
+D [r2]3 r4.r *b *sr
+D [
+D [[*br*h*h*sr*h*h]7 |*br *h*h*sr*s*s]2
+D *m*m*m*m*m*m*b*b 
+D [[*b*b*h*h*sr*h*h]7
+D |*s*s*sr*s*s*sr
+D ]2 
+D *s*s*s*s*sr*s*s
+D [*b*h*h*h|*s*h*h*h]7
+D [*b*b*sr]2 *s*s*s*s
+D [*br*h*h*sr*h*h]7 [*s*s*sr]2
+D ]0
+
+*18={@e29c}
+*19={@e30c}
+@e29={0,0,@1f0}
+@e30={0,0,@10f@12d862}
+#macro_offset {b=18,s=19,m=20,h=20}
+E l32v14
+E @3@e30\1
+E [r2]3 r4.r *b *sr
+E [
+E [[*br*h*h*sr*h*h]7 |*br *h*h*sr*s*s]2
+E *m*m*m*m*m*m*b*b 
+E [[*b*b*h*h*sr*h*h]7
+E |*s*s*sr*s*s*sr
+E ]2 
+E *s*s*s*s*sr*s*s
+E [*b*h*h*h|*s*h*h*h]7
+E [*b*b*sr]2 *s*s*s*s
+E [*br*h*h*sr*h*h]7 [*s*s*sr]2
+E ]0
+
+#macro_offset {b=21,s=20,m=20,h=20}
+F y14,32l32v14soq2o4 h0,16,0,-24 hf
+F [r2]3 r4.r *b *sr
+F [
+F [[*br*h*h*sr*h*h]7 |*br *h*h*sr*s*s]2
+F ho >cc<ggeecc hf
+F [[*b*b*h*h*sr*h*h]7
+F |*s*s*sr*s*s*sr
+F ]2 
+F *s*s*s*s*sr*s*s
+F [*b*h*h*h|*s*h*h*h]7
+F [*b*b*sr]2 *s*s*s*s
+F [*br*h*h*sr*h*h]7 [*s*s*sr]2
+F ]0
+
+*22={v13@14soq5c} ;SD
+*23={v10@14sfq8c} ;HH
+*24={v12@14sfq8c} ;TOM
+#macro_offset {b=20,s=22,m=24,h=23}
+G l32v14o1
+G [r2]3 r4.r *b *sr
+G [
+G [[*br*h*h*sr*h*h]7 |*br *h*h*sr*s*s]2
+G *m*m*m*m*m*m*b*b 
+G [[*b*b*h*h*sr*h*h]7
+G |*s*s*sr*s*s*sr
+G ]2 
+G *s*s*s*s*sr*s*s
+G [*b*h*h*h|*s*h*h*h]7
+G [*b*b*sr]2 *s*s*s*s
+G [*br*h*h*sr*h*h]7 [*s*s*sr]2
+G ]0

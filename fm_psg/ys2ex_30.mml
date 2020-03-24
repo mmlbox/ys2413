@@ -1,0 +1,32 @@
+;[gain=1.5;name=ys2ex_30]
+
+#opll_mode 0
+#tempo 104
+#title {"SE"}
+
+@v15 = { ; Bell Harmonics
+;       TL FB
+        41, 6,
+; AR DR SL RR KL MT AM VB EG KR DT
+  14, 3,14, 4, 0,14, 0, 0, 1, 0, 0,
+  15, 3, 3, 2, 0, 4, 0, 0, 0, 0, 0 }
+
+*0={@15o3v13h14,3,0,2}
+
+9 l8 v8 @2 )))
+A l8 v8 @2 )))
+9A o6 a32f+32g32a32b32
+
+B l8 v11 @15 ))
+C l8 v11 @2 ))
+BC o6 b16r16g32
+
+D l8 \-1 v9 @15 ))
+E l8 \-1 v9 @2 ))
+DE r64o6 b16r16g64
+
+@r0={1,0,255,255,22,192,0,15}
+
+1 l8 @0 v12 o6 f+32d32e32f+32g32r
+2 l8 @0 \1 v10 r64o6 f+32d32e32f+32g64r
+3 l8 @0 \-1 v11 r64o5 a32f+32g32a32b64r

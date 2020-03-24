@@ -1,0 +1,282 @@
+;[gain=1.5;name=ys2ex_20]
+#opll_mode 0
+#tempo 75
+#title { "COMPANILE OF LANE"}
+
+@v15 = { ; 134
+;       TL FB
+        13, 5,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0,
+   9, 7, 3, 6, 0, 2, 0, 0, 1, 0, 0 }
+
+@v16 = { ; Dist.G
+;       TL FB
+         3, 6,
+; AR DR SL RR KL MT AM VB EG KR DT
+  12, 4, 1, 0, 0, 7, 0, 0, 0, 0, 1,
+  13, 7, 1, 7, 0, 1, 0, 0, 1, 0, 1 }
+  
+@v17 = { ; 59 
+;       TL FB
+        24, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 9, 3, 6, 0, 7, 0, 0, 0, 0, 1,
+  15, 6, 2, 7, 0, 2, 0, 0, 0, 0, 0 }
+  
+@v18 = { ; 139
+;       TL FB
+        23, 4,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0,
+   6, 7, 3, 1, 0, 4, 0, 0, 1, 0, 0 }
+
+@v19 = { ; 112
+;       TL FB
+        36, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  10, 7, 1, 4, 0, 7, 0, 0, 0, 1, 0,
+  15, 3, 5, 3, 0, 1, 0, 0, 0, 0, 1 }
+  
+@v20 = { ; 117
+;       TL FB
+        32, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0,
+  10, 7, 3, 3, 0, 2, 0, 0, 0, 0, 0 }
+  
+@v21 = { ; 24
+;       TL FB
+        24, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 7, 2, 0, 0, 2, 0, 0, 0, 0, 1,
+   7, 2, 0, 6, 0, 2, 0, 0, 1, 0, 1 }
+   
+@v22 = { ; 126
+;       TL FB
+         0, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0,
+   9, 7, 3, 1, 0, 4, 0, 1, 0, 0, 0 }
+
+*10={@16v15o3q8}
+*11={@6v13o3q8}
+*12={@17v11o4q8}
+*13={@18v12o3q8}
+*14={@19v14o3q8}
+*15={@20v14o4}
+*16={@21v15o6}
+*17={@22v12o3q8}
+
+@e20={0,0,@2c@3e}
+
+9A l8 
+9 l8 r4 [
+9 \1
+9 [ h10,2,1,3 [@15v13o3 >d4&d16&>d8.<d+4&d+16&>d+8.<c4&c16&>c8.<f&a+&>f&a+<]2 
+9 | hf
+9   [*10 g16g16 *12 b16 *10 g32g32]3 > g32f32e32f32 e32c32d32<a+32
+9   [*10 g16g16 *12 b16 *10 g32g32]3 > g32f32e32f32 e32c32d32g32
+9 ]2 
+9 o4@15v9 fa+>fa+
+
+A l8 r4 [
+A [ h10,2,1,3 [@2@e20v13o4 g4&g16&>g8.<g+4&g+16&>g+8.<f4&f16&>f8.<a+&>d+&a+&>d+<<]2 
+A | hf
+A   [*11 g16g16 *12 b16 *11 g32g32]3 > g32f32e32f32 e32c32d32<a+32
+A   [*11 g16g16 *12 b16 *11 g32g32]3 > g32f32e32f32 e32c32d32g32
+A ]2
+A o4@15v9 a+>d+a+>d+
+
+9A h16,6,0,2 \0
+9 *13 d4&d64>d4&d64c+4&c+16&<a+32&>c+32&<a+32&>c+32&<a+2
+A *13 g4&g64>g4&g64f+4&f+16& d+32& f+32& d+32& f+32& d+2 
+9 *14 r32r32r32r8r32 r32r32r8l32rrrrl8r16.
+A *14 a32a+32>c32d8g32 a32a+32>d8&l32c+&c&<b&a+l8r16.
+
+9A *15 hf
+9 \1 >
+9A a4grf+4gra4g>c16.<a+16.a16a+16.>c16.<a16 
+
+9A *16 h20,3,1,2
+9 v0
+9A r q8d4q7d32<a+32a32g32q8d4q7<<g32a32a+32>c32d32d+32f32d+32d+64&f64&d+32
+9A q8d8.&d2q7r4r16d16a16a+a32a+32>c32<a+32a32g32<g32&>d32&a32&>a16. 
+9A g16&g48&f+96&f96&e96&d+96&
+9A q8d8.r16 << q7 a+32a32g32d16. 
+9A q6 [a+32a32g32d32]2 g32a32a+32>d32g32a32a+32>d32g32a32
+9A a+32>c32d32g32a32a+32
+
+9A *17 \0
+9 [[f ed+16.d16.&<d16>]2 |   [ag+g16. f16.&<a16>]2   ]2 
+A [[a+ag+16.g16.&<g16>]2 | > [dc+c16.<a+16.&d16>]2 < ]2 
+9   ag+g16. f 16.&<a16 >ag+g16. f32& f2& f2 r
+A > dc+c16.<a+16.& d16 >dc+c16.<a+32&a+2&a+2r
+
+9A ]0
+
+@e10={0,0,@10d@14d80}
+*0={@13v13o2q7}
+*1={@10@e10v14o3}
+BC l8 r4 [ 
+BC [ 
+B *0
+C *1
+BC [
+BC   [g16g16>g16<g32g32r32>d32<g16|g32>g32<g16]4 g32a+32>d+32a+32<]2 | 
+BC [ 
+BC   [
+B *0 
+C *1
+BC g16g16 
+BC *12 b16 
+B *0 
+C *1
+BC g32g32
+BC   ]2 
+BC g32>g32<g16 
+BC *12 b16 
+B *0 
+C *1
+BC g32g32>g32f32e32f32e32c32d32|<a+32]2 >g32
+BC ]2
+
+BC r16@15v8o4 
+B fa+>fa+16 
+C a+>d+a+>d+16
+
+B *0
+C *1
+BC [
+BC [g16g32g32>g16<g32g32r32a+32g16|>c+64&d32.<a64&a+32.]4 >d32c32<a+32a32]4 
+BC [[g16>g16<g32g32>f16<g32g32>d+32|<g16g32>d+32d32<]4 |f32d32c32<a+32a32]2
+B @5v15o2 g32&g&g2&g2
+C @2@e20v15o3 g32&g&g2&g2
+BC ]0
+
+@e0={1,0,0,f8=220}
+@r2={1,0,0,255,16,192,1,8}
+@r3={1,0,0,255,16,192,0,8}
+@r4={1,0,0,255,48,192,1,8}
+@r5={1,0,0,255,16,0,0,8}
+@r6={2,0,255,255,128,192,6,8}
+
+1 l8 r4 [ @3 v12 @\8 
+1 [[o4 d4.r16d16d+4.r16d+16c4.r16c16d+2]2 | [[<d16d16r16d32d32>]3 r4]2 ]2 
+1 @5 v10 o5 
+1 g32a+32>e32<g+32(>c32f32<a32>c+32(f+32<a+32>d32g32(<b32>d+32g+32b32
+1 @0 v10 o3 a+4&a+64>a+4&a+64a4&a16f+32&a32&f+32&a32&f+2 
+1 v8 o7 a+32a32g32d32(<a+32a32g32d32<a+32a32g32d32(<a+32a32g32d32 @4 <a+32 
+1 v11 [ro5 d4d]3 d16.d16.d16d16.d16.d16 
+1 @2 v11 r16 [a2|a+2]4 
+1 a+4.&a+16 @3 < [a+ag+16.g32&|g16<g16>]8
+1 g2&g2r
+1 ]0
+
+2 l8 r4 [ @3 v12 @\8
+2 [[o3 g4.r16g16g+4.r16g+16f4.r16f16g2]2 | @\0 [[d16d16r16d32d32]3 r4]2 @\8 ]2 
+2 @5 v9 o7 
+2 g32a+32>e32<g+32(>c32f32<a32>c+32(f+32<a+32>d32g32(<b32>d+32g+32b32 
+2 @0 v10 o2 a+4&a+64>a+4&a+64a4&a16f+32&a32&f+32&a32&f+2 
+2 v6 r32 o7 a+32a32g32d32(<a+32a32g32d32<a+32a32g32d32(<a+32a32g32 @4 d32 
+2 v11 [ro4 g4g]3 [a+16.a+16.a+16]2 
+2 @2 v11 r32 >[g2|g2]4 g4.&g12&g%2
+2 @3 <[fed+16.d32&|d16<d16>]8
+2 d2&d2r
+2 ]0
+
+3 l8 r4 [
+3 [
+3 @3 v12
+3 [o4 d4.r16d16d+4.r16d+16c4.r16c16d+2]2 | @4 < [g16g16r16g32g32]6 
+3 @6 v12
+3 n18 c32 n10 c32 n12 c32 n14 c32 n10 c64c64c32 n12 c32 n14 c32 n18 c32c32r32 c32 n16 c32 n18 c32r32r32
+3 ]2 
+3 @5 v9 
+3 r32o5 g32a+32>e32<g+32(>c32f32<a32>c+32(f+32<a+32>d32g32(<b32>d+32g+32 )))
+3 @0 v10 o3 a+4&a+64>a+4&a+64a4&a16f+32&a32&f+32&a32&f+2
+3 v7 o7 a+32a32g32d32(<a+32a32g32d32<a+32a32g32d32(<a+32a32g32d32)) @4 <a+32 
+3 v11 [ro5 d4d]3 d16.d16.d16 d16.d16.d16 
+3 @2 [d2|d2]4 d4 
+3 v12 n10 @6 c32c32c32c32 n14 c32c32c32c32
+3 v11 @3 < [a+ag+16.g32&|g16<g16>]8 g2&g2r
+3 ]0
+
+@e31={0,0,@10f@14d862}
+*20={r}
+*21={e_<e>}
+#macro_offset {b=20,s=21,m=20,h=20}
+D l32v14
+D @9@e31
+D *b [*s]7 [
+D [[[*b*h*h*h*sr|*b*h]8 *s*s]2 | 
+D [*b*h*h*h*srr*b [*b*h]2 *sr*h*h]3 
+D *b*m*m*m l64*m*ml32*m*m*m *b*b*h*b *m*b)*s*s(
+D ]2 
+D [*b*h*h*h]3 *s*s*s*s 
+D [[[*b*h]2 *sr*b*h]7 | [*b*h]2 *sr*s*s ]4 
+D *m*m*m*m*b*b*b*b
+D [[*b*h*sr]2 *b*b*m|*mr*mr*m]8 *sr16.r32
+D *br8r*br*br8r*s*s
+D [*br16.|r16*b*b]2 
+D r*s*s*s
+D ]0
+
+*18={@e29c}
+*19={@e30e_<e>}
+@e29={0,0,@1f0}
+@e30={0,0,@10f@12d862}
+#macro_offset {b=18,s=19,m=20,h=20}
+E l32v14
+E @3@e30\1
+E *b [*s]7 [
+E [[[*b*h*h*h*sr|*b*h]8 *s*s]2 | 
+E [*b*h*h*h*srr*b [*b*h]2 *sr*h*h]3
+E *b*m*m*m l64*m*ml32*m*m*m *b*b*h*b *m*b)*s*s(
+E ]2 
+E [*b*h*h*h]3 *s*s*s*s 
+E [[[*b*h]2 *sr*b*h]7 | [*b*h]2 *sr*s*s ]4 
+E *m*m*m*m*b*b*b*b
+E [[*b*h*sr]2 *b*b*m|*mr*mr*m]8 *sr16.r32
+E *br8r*br*br8r*s*s
+E [*br16.|r16*b*b]2 
+E r*s*s*s
+E ]0
+
+#macro_offset {b=21,s=20,m=20,h=20}
+F y14,32l32v13soq2o4 h0,16,0,-24 hf
+F )q1*b( [*s]7 [
+F [[[*b*h*h*h*sr|*b*h]8 *s*s]2 | 
+F [*b*h*h*h*srr*b [*b*h]2 *sr*h*h]3
+F ; *b*m*m*m l64*m*ml32*m*m*m *b*b*h*b *m*b)*s*s(
+F ho ) c>c<ge> c64c64c<ge ccrc ecrr ( hf
+F ]2 
+F [*b*h*h*h]3 *s*s*s*s 
+F [[[*b*h]2 *sr*b*h]7 | [*b*h]2 *sr*s*s ]4 
+F ; *m*m*m*m*b*b*b*b
+F ho ) >cccc<gggg (hf
+F [[*b*h*sr]2 )ho cc>e | cr<gre (hf]8 v0hf<c8v14r32
+F *br8r*br*br8r*s*s
+F [*br16.|r16*b*b]2
+F r*s*s*s
+F ]0
+
+*22={v13@14soq4c} ;SD
+*23={v11@14sfq8c} ;HH
+*24={v12@14soq6c} ;TOM
+*25={v13@14soq1c} ;CYM
+#macro_offset {b=20,s=22,m=24,h=23,c=25}
+G y14,32l32v14o1
+G *b [*s]7 [
+G [[[*b*h*h*h*sr|*b*h]8 *s*s]2 | 
+G [*b*h*h*h*srr*b [*b*h]2 *sr*h*h]3 
+G *b*m*m*m l64*m*ml32*m*m*m *b*b*h*b *m*b)*s*s(
+G ]2 
+G [*b*h*h*h]3 *s*s*s*s 
+G [[[*b*h]2 *sr*b*h]7 | [*b*h]2 *sr*s*s ]4 
+G *m*m*m*m*b*b*b*b
+G [[*b*h*sr]2 *b*b*m|*mr*mr*m]8 *cr16.r32
+G *br8r*br*br8r*s*s
+G [*br16.|r16*b*b]2
+G r*s*s*s
+G ]0

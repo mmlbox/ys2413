@@ -1,0 +1,160 @@
+;[gain=1.5;name=ys2_13]
+#opll_mode 1
+#tempo 96
+#title { "ICE RIDGE OF NOLTIA"}
+
+@v15 = { ; YSII MAIN 91 Harmonics
+;       TL FB
+        30, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 3, 1, 0, 0, 2, 0, 0, 0, 0, 0,
+  12,15, 0, 6, 0, 2, 0, 0, 1, 0, 0 }
+  
+@v15 = { ; YSII MAIN 91
+;       TL FB
+        12, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 3, 1, 0, 0, 1, 0, 0, 0, 0, 0,
+  11,15, 0, 6, 0, 2, 0, 0, 1, 0, 0 }
+  
+@v16 = { ; Bell Harmonics
+;       TL FB
+        41, 6,
+; AR DR SL RR KL MT AM VB EG KR DT
+  14, 3,14, 4, 0,14, 0, 0, 1, 0, 0,
+  15, 3, 3, 2, 0, 4, 0, 0, 0, 0, 0 }
+
+@v17 = { ; Hard Brass / Dist.G
+;       TL FB
+        24, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0,
+  13, 5, 1, 1, 0, 1, 0, 0, 0, 0, 0 }
+
+@v18 = { ; YSII MAIN 90 Harmonics
+;       TL FB
+        22, 5,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0,
+   9, 4, 1, 6, 0, 8, 0, 0, 1, 0, 0 }
+
+@v18 = { ; YSII MAIN 90
+;       TL FB
+        23, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0,
+   9, 5, 1, 6, 0, 4, 0, 0, 1, 0, 0 }
+
+@e20={0,0,@6f}
+@e21={0,0,ffeeccd}
+
+; 9ADE123 !
+
+9A l8 [ 
+9 @6@e20 v12 o6 
+A @15    v11 o5 \1
+9A hf c6 h30,3,0,3
+9A c24d+24g24a+24>d2g6f6c6d2d+24
+9A d24d+24f24d12<g24>dg24f24g3d3c3d+fg12fd+
+9A <a+12>c3g24f24g2&g12<g+24a+24>c24d24d+24d24c24<a+24>c3
+9A <g+24a+24>c24d24d+6c24d24d+24f24g3&g12f24d+24fg24&g3<fg%128r24 
+9 @2  o5
+A @16 o5 
+; A @11@e21
+9A >c4<a+24>c24<g3>c4c24d24d+dc12
+9A d4c24d24<a+4b4>c12d6f12d+12d12c4<a+24>c24<g3>c4c24
+9A d24d+fg12f3a+3>c%128 
+9A @17 v14 o6
+9A c2c24d24d+24f24d2g24
+9A f24d+24d24d+2<g24f24d+24d24d+%128<g+2g+24g+24a+24>c24d3d+6
+9A f6fd+24&d+3&d+12d24d+24f24 [d24d+24f24((]4 v+8
+9A g24g+24a+24>c2c24d24d+24f24d2g24f24d+24d24d+2
+9A <g24f24d+24d24d+%128<g+2g+24g+24a+24>c24d3d+6f6d+24d24
+9A c4&c3<gab12b>cd12
+9A ]0
+
+@e22={0,0,@13.9@3fe} ; Dist G
+@e23={0,0,@15f@5f}
+BC l8 [ h30,3,0,3
+B @3@e22 v13 o4 
+C @1@e23 v12 o4 \1
+BC g2>c24d+24g4>d6c6<f6g2g+24g24g+24a+24
+BC g12d24g&g6>d24c24d6<g3g3>cdd+12dc<f12
+BC g2>d+24d24d+3&d+12<f24g24g+24a+24>c24<a+24g+24g24g+3f24
+BC g24g+24a+24>c6<g+24a+24>c24d24d+3&d+12d24c24cd24&
+BC d3<cd%128r24 
+;B @18    o4v12
+;C @5     o5v11 \1
+B @6 o6v11
+C @5 o5v11 \1
+BC g4f24g24c3g3>c6g6f4d+24f24
+BC d4d4d+12f6g+12g12f12<g4f24g24c3g3>cdd+12d3f3g%128 
+BC @17 v12 o6 r6 
+BC c2c24d24d+24f24d2g24f24d+24d24
+BC d+2<g24f24d+24d24d+%128<g+2g+24g+24a+24>c24d3d+6f6f
+BC d+24&d+3&d+12d24d+24f24 [d24d+24f24((]4 v+8 
+BC g24g+24a+24>c2c24d24d+24f24d2g24f24d+24d24d+2<g24f24d+24
+BC d24d+%128<g+2g+24g+24a+24>c24d3d+6f6d+24d24c12&c3 
+BC <b>cd12dd+f12
+BC ]0
+
+@e30={0,0,@10f@14d8520} ; Bass Harmonics
+
+DE l8 [ 
+D @13     v13 o3
+E @14@e30 v13 o4
+DE [c24r24c24c24]4 < [a+24r24a+24a+24]4 [g+24r24g+24g+24]4 
+DE [g24r24g24g24]3 g+24g+24a+24a+24 > [c24r24c24c24]8 
+DE < [g+24r24g+24g+24]7 g+24>g+24<g24>g24 
+DE [f24r24f24f24]8 [g24r24g24g24]4 
+DE < [g24r24g24g24]4 > [c24r24c24c24]4 
+DE < [g+24r24g+24g+24]4 [a+24r24a+24a+24]4 
+DE [g24r24g24g24]3 g24g24a24b24 
+DE > [c24r24c24c24]4 < [g+24r24g+24g+24]4 
+DE [a+24r24a+24a+24]4 > [c24r24c24c24]3 
+DE >c24<c24c24c24 
+DE < [g+6>c24d+24g+12&g+4<g+24g+24a+6>d24f24a+12&a+4<a+24a+24>c6c24>c24<c3<g24g24>c6c24>c24<c12f24d+24d24d+24c24<a+24g12]3 
+DE g+6>c24d+24g+12&g+4<g+24g+24a+6>d24f24a+12&a+4<a+24a+24>cc24d+24d24c12
+DE c24d+24d24d+24f24d+24d24d+24<gab12b>cd12
+DE ]0
+
+@e0={0,0,fd=3}
+@e1={0,0,fd=3.8=200.0=200}
+
+1 l8 [ 
+1 @0 v11 o4 
+1 c4d+24g24>c3<a+3f6a+6g%128<g2g+12a+12>d+3f3g3
+1 >c3d+2c24<a+24>c3&c12<c6d6d+%128f3g3ab24&b3<ab%128r24 
+1 @1 o5
+1 c%128c%128d2&d12d12&d3d12d12d+12f12c%128c%128d%128d+%128 
+1 <[g+12d+24g+24>c6d+12c24d+24g+6<a+12f24a+24>d6f12d24f24a+6c12d+24g24>c3<d+24d24c24<a+24g%128]3 
+1 g+12d+24g+24>c6d+12c24d+24g+6<a+12f24a+24>d6f12d24f24a+6c%128
+1 <ggg12gab12
+1 ]0
+
+2 l8 [ \1 
+2 @0 v11 o4 
+2 c4d+24g24>c3<a+3f6a+6g%128<g2g+12a+12>d+3f3
+2 g3>c3d+2c24<a+24>c3&c12<c6d6d+%128f3g3ab24&
+2 b3<ab%128r24 
+2 @1 o5 
+2 d+%128d+%128<a+2&a+12b12&b3b12b12>c12d12d+%128d+%128<a+%128>c%128 
+2 <[g+12d+24g+24>c6d+12c24d+24g+6<a+12f24a+24>d6f12d24f24a+6c12d+24g24>c3<d+24d24c24<a+24g%128]3 
+2 g+12d+24g+24>c6d+12c24d+24g+6<a+12f24a+24>d6f12d24f24a+6c%128
+2 <ggg12gab12
+2 ]0
+
+@e2={2,0,fda0}
+
+3 l8 @2 v13 [
+3 [
+3 n0 o4 c24r24c24c24 n10 c24r24 n0 c24c24]15 c24
+3 r24c24c24 n10 c24c24c24c24 [n0 c24r24c24c24 n10 c24
+3 r24 n0 c24c24]7 n10 c24 n0 c24c24 n10 c24c24c24c24c24 
+3 [n0 c24r24c24c24 n10 c24r24 n0 c24c24]14 [n10 c24
+3 r24 n0 c24c24]3 n10 c24r24c24c24 [[n0 c6c24c24 
+3 n10 c6 n0 c24c24c24c24 n10 c24c24]3 n0 c24c24c24c24 
+3 n10 c6 n0 c24c24c24c24 n10 c24 n0 c24c24c24]3 [n0 
+3 c6c24c24 n10 c6 n0 c24c24c24c24 n10 c24c24]3 n01 c
+3 cc12 n10 ccc24c24
+3 ]0

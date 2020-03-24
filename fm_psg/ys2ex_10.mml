@@ -1,0 +1,122 @@
+;[gain=1.5;name=ys2ex_10]
+#opll_mode 0
+#tempo 57
+#title {"CAVERN OF RASTEENIEE"}
+
+@v15 = { ; Bass
+;       TL FB
+        33, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 1, 0, 1, 0, 2, 0, 0, 0, 1, 0,
+  11, 1, 2, 4, 0, 2, 0, 0, 0, 0, 0 }
+
+@v16 = { ; 79
+;       TL FB
+        28, 2,
+; AR DR SL RR KL MT AM VB EG KR DT
+  13, 6, 1, 2, 0, 5, 0, 0, 0, 0, 0,
+  13, 4, 1, 3, 0, 3, 0, 0, 0, 0, 0 }
+
+@e20={0,0,@13f@6f}
+@e21={0,0,@2f@6f}
+
+9A l8 [
+9 @5  v12 o2 
+A @15 v12 o2 \1
+9A g+2g+2a2a2a+2a2g+2g+4&g+16
+9 v11@16 o5
+A v12@1  o4
+9A g+16a+16>c+16
+9A [d+4.&d+8.g+16a+16>c+16<b4.&b8.|a+16b16>c+16
+9A d+&d+2&d+2&d+4r<]2 >c+16<a+16f+16g+&g+2&
+9A g+2&g+4r [eg+16b2&b4a+16b16>c+16d+&d+2&d+2<]2
+9A ]0
+
+BC l8 [
+B @5  v13o2 \3 
+C @15 v13o2 \4 
+BC g+2&g+2a2&a2a+2a2g+2&g+2
+C @9@e20
+B > [g+8&g+8&(g+8&g+8&(g+8&g+8))]8
+C > [d+8&d+8&(d+8&d+8&(d+8&d+8))]8
+B @5     v13o2 \2
+C @9@e21 v13o3 \3
+BC [e4.&e8.e4.&e8. g+4.&g+8.g+4.&g+8.]2
+BC ]0
+
+@e2={0,0,fd=3}
+@e5={0,0,efedc0=32}
+
+123 l32
+2 \1
+3 \-1 r
+123 [ @2 v11
+3 ((
+123 o5 d+<g+>c+<g+bg+>c+<g+>d+<g+>d+f+fc+
+123 d+<g+>d+<g+>g+a+>c+<f+g+d+d+<g+>c+<g+>d+<g+
+123 >c+d+e<a>d<a>c<a>d<a>e<a>egf+d
+123 e<a>e<a>ab>d<gaee<a>d<a>e<a
+123 >defc+d+cc+<a+>c<g+a+>cd+fa+d+
+123 fc+ecd<b>c<abgab>deade
+12 c
+123 @5 v12
+3 (
+1  [d+d+(]6 v7 d+)g+)a+)>c+ v10
+2  [c+c+(]6 v6 d+)g+)a+)>c+ v10
+3 <[g+g+(]6 g+ v6 >d+)g+)a+ v9
+1  [d+d+(]8 v9
+2  [c+c+(]8 v8
+3  [g+g+(]8 g+ v7
+123 @2
+123 [o7 d+<bg+>c+<a+f+bg+d+a+f+c+)d+<bg+>c+<a+f+bg+d+a+f+c+(]8
+123 [
+123   [o7 ec+<b>c+<a+bg+c+d+)ec+<b>c+<a+bg+c+d+(]2
+123   [o7 d+<bg+>c+<a+f+bg+d+)a+f+c+d+<bg+>c+<a+f+(]2
+123 ]2
+123 ]0
+
+@e30={0,0,@10f@12c850}
+@e31={0,0,@10f@14c8500}
+
+F y14,32q2sov15o3
+F l32 [ h1,16,0,-16 hf 
+F [r1]4 
+F [
+F [[r8r8r8]3 r8r|r8rrr]2 | rrr 
+F ho >f+f+d+<b hf
+F ]2 
+F ho >f+f+f+d+d+<bb hf
+F [r8r8r8r8rrr|r8r]6
+F r ho >f+f+d+<b hf
+F ]0
+
+@e10={0,0,fd=4}
+G l32 [ @14@e10q1soo1 
+D l32 [ @7@e30 h1,16,0,-32 o4
+E l32 [ @8@e31 h1,16,0,-32 o4
+GDE [ 
+G v11
+DE v13
+GDE d+rd+d+r(((d+)d+)
+GDE d+)d+((d+r))d+((d+r))d+(
+GDE (d+(d+)d+)d+)d+((d+d+r))
+GDE d+((d+d+))d+r((d+))d+r((
+GDE d+))]3 ([d+rd+d+r(((d+)d+)
+GDE d+)d+((d+r))d+((d+r))d+(
+GDE (d+)]2 
+
+GDE [[
+G v11
+DE v13
+GDE [d+rd+d+r(((d+)d+)d+)d+((d+d+))d+]3 d+((
+GDE d+r))d+r|((d+)d+)d+((d+d+r))d+]2 | ((d+)d+)d+
+G (( q8ccccq1 ))
+DE r8
+GDE ]2 
+G (( q8cccccccq1 ))
+DE r8rrr
+GDE [d+rd+d+r(((d+)d+)d+)d+((d+d+))d+d+((d+d+r))
+GDE d+r((d+|d+rd+)d+)d+]6 d+
+G (( q8ccccq1 )) 
+DE r8
+GDE ]0

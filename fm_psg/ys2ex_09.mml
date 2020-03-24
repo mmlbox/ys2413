@@ -1,0 +1,46 @@
+;[gain=1.5;name=ys2ex_09]
+#opll_mode 0
+#tempo 90
+#title {"REST IN PEACE"}
+
+@v15 = { ; Bell
+;       TL FB
+        63, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0,
+  15, 4, 2, 2, 0, 1, 0, 0, 0, 0, 0 }
+
+9A l8 [
+9 @2 v10 o7
+A @15 v12 o7 
+9A a6c6e3d3<a3>c%128<b3g3a%128&a%128&
+9A a%128&a%128
+9A ]0
+
+BC l8 [ \1
+B @2 v10 o7 
+C @15 v12 o7
+BC a6c6e3d3<a3>c%128<b3g3a%128&a%128&
+BC a%128&a%128
+BC ]0
+
+@e2={0,0,@14f@6f}
+DE l8 [
+D @6@e2 v13 o3 \1
+E @5 v14 o2
+DE a%128>d%128f%128g%128 [<a%128>d%128]2 
+DE ]0
+
+@r0={1,0,255,255,12,200,0,6}
+
+1 l8 @0 [ v12 r6o5 a6e6c6d6c6<a6b6>c6<a6f6a6>d6<b6
+1 g6b6r6>a6e6c6d6c6<a6b6r6>a6e6c6d6f+6
+1 a6>d6 ]0
+
+2 l8 @0 @\16 [ v12 r6o5 a6e6c6d6c6<a6b6>c6<a6f6a6>d6
+2 <b6g6b6r6>a6e6c6d6c6<a6b6r6>a6e6c6d6
+2 f+6a6>d6 ]0
+
+3 l8 @0 [ v11 r4o5 a6e6c6d6c6<a6b6>c6<a6f6a6>d6<b6
+3 g6b6r6>a6e6c6d6c6<a6b6r6>a6e6c6d6f+6
+3 a6>d12 ]0
