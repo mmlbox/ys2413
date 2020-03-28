@@ -5,6 +5,6 @@ The songs are copyrighted material of Nihon Falcom Corporation.
 
 # Copyright Notice
 The original songs are copyrighted material of Nihon Falcom Corporation.
-This repository is published under the Falcom's Free Music Use Declaration.
+This repository is published in accordance with the Falcom's Free Music Use Declaration.
 
-Music from YS2 / (c) Nihon Falcom Corporation.
+Music from YS2 / Copyright (C) Nihon Falcom Corporation.
