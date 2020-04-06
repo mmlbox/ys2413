@@ -1,0 +1,153 @@
+;[gain=1.5;name=ys3_31]
+#opll_mode 1
+#tempo 153 ;152.58
+#title { "Chop!"}
+
+@v15 = { ; 123 Guitar
+;       TL FB
+        10, 6,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 2, 1, 1, 0, 1, 0, 0, 0, 0, 1,
+  15, 6, 1, 1, 0, 1, 0, 0, 0, 0, 0 }
+  
+@v16 = { ; Hit
+;       TL FB
+        11, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+   5, 5, 2, 4, 0, 1, 1, 1, 0, 0, 0,
+   7, 7, 2, 6, 0, 4, 0, 1, 0, 0, 0 }
+
+9 l8 @14 v13
+A l8 @10 v11
+9 o4
+A o5
+9A e8&e_<e2&e_>e4. 
+9A [
+9 o2v12
+A o3v10
+9A [
+9A   [fgr16ff16ga+g16fg16]8 
+9A   cdr16cdd16cd16c8.der16dee16de16d8. 
+9A   [fgr16ff16ga+g16fg16]2 | [fgr16ff16ga+g16fg16]2
+9A ]2
+9A r4 
+9 @16v14 o4c8.
+A @16v14 o4d8.
+9 @14 o2v12
+A @10 o3v10
+9A [ [f16>ff16<e>e<d+>d+<d>d<]4 [a+16>a+a+16<a>a<g+>g+<g>g<]4 ]2 
+9A [
+9A   f16ff16r16f16>c16<f16>f16f16<f
+9A   gg+g+16g+g+16r16g+16>d+16<g+16>g+16g+16<g+g+
+9A   aa+16a+a+16r16a+16>f16<a+16>a+16a+16<a+>cd<
+9A   f16ff16r16f16>c16<f16f16f16|d+ff16f16
+9A ]2 >c4.
+9A ]0
+
+B l8 @10 v12
+B o5 f8&f_<f2&f_>f4. 
+B [ ; L
+B o5 @10 v11 
+B [  
+B [f16ga+a16f16g16f16f16g|f16gc16]8 
+B <f16g16>c16d16c4d16c16
+B d16e16f16e16c16a16&a4d4e16d16e16g16a16g16a16>dd16c16d16 
+B < [f16ga+a16f16g16f16f16gf16gc16]2 |
+B   [f16ga+a16f16g16f16f16gf16gc16]2 
+B ]2 r4
+B @16v14 o3g8. 
+B @10 o4 v11
+B [[f16g16g+16a+16>c16r16<]5 f16g16]8
+B @9)) o5
+B [[g4f16d+16r16f16r16d+16|f4c]4 f4.]2
+B ]0
+
+C l8 
+C r1 
+C [; L 
+C o5 v11 [
+C @4 >
+C ( [f16ga+a16f16g16f16 f16gf16gc16]4 ) <
+C @10
+C [c16dfd+16c16d16c16c16d|c16d<g16>]4 
+C c16d16g16a16g4a16g16a16b16>c16<b16g16>c16&c4<a4a16g16a16b16>d16c16d16aa16g16a16 <
+C @4 >
+C ([f16ga+a16f16g16f16f16gf16gc16]2) | 
+C ([f16ga+a16f16g16f16f16gf16gc16]2) < ]2 
+C r4
+C @16v13 o3d8.
+C @10 o4 v11
+C [[c16d16d+16f16g16r16]5 c16d16]8
+C @4) o5
+C [[d+4d16c16r16|d16r16c16d4r]4 c16r16c16|c4.]2 d4.
+C ]0
+
+DE l8 r1
+E r
+DE [ ; L 
+DE [
+D @11 v14
+E @11 v11
+DE [ o6
+DE [g+16g16fgf16gf16c16d+16d16|g+8.]2 
+DE a+g+16f16d+16c16f16d+16c16d+16f16d+8.
+DE d8.gg+>c16f16d+16d16c16d+16d16c16<g16fg16g+16f16
+DE ]2 
+DE e16f16e16c16&c2e16c16d16e16f+16g16f+16d16&d2 
+DE > [c32&|d32&]4 d32
+DE c<g+16f16a+16g16d+16g+d+16f4.&f_<f2>r2|r1r1]2 
+D r4
+E r8
+D @16v14 o5c8.
+E @16v14 o5g8.
+D @11v14 o6
+E @11v11 o6r8  
+DE fd+16fd+16d16c16<a+16>c16<a+16g+16a+16g+16f16
+DE g16g+16a+16b16>cf16c16<b16a+16g+16f16g16b16>c16f16g16
+DE g+4f16g16g+16f16g16f16c16a+16g+16g16f16c16d+16e16f16
+DE c16d+16d16c16<b16a+16g+16g16f16g+16g16f+16f+16f16g16>d16
+DE r16<f16g16>d16f16e16c16f16e16d+16d16c16<b16>d16c16<g+16
+DE f>c16d16f16 [g32f32]8 g+8.g8.fg8.f8.d+f8.d+8.
+DE cd+16e16f16c16d+16d16c16<a+16r16b16>c16f16d16d+16d16
+DE c16<a+16>c16<b16g+16>d16<f8.g8.f8.gg+16a+16b16>c16d16f16
+DE d16c16f16g16r16c16f16r16c16r16fd+16f16c16fc16
+DE a+g+16g16g+16g16c16d+16e16f16e16d+16d16c8.r16<g+16>c16
+DE f16g+16g16f16d+16d16d+16d16c16d16d+16e16g16f8.c16d+8.
+DE c16d8.<a+16>c8.d16<g+16a+16b16>c16d16f16d16c16f16d+16c16
+DE f16d+16d16c16d+16o3 f32g32g+32a+32b32>c32d32f32f32g32g+32
+DE a+32b32>c32d32f32f32g32g+32a+32b32>c32d32f32f32g32g+32
+DE a+32b32>c32d32f32)
+DE @4 o5 (
+DE [[c16d16d+16f16|g2.]3 g2d+4c16d16d+16f16g4|>d+16d16d+4.<]2 ra+4.
+DE ]0
+
+F l8 r2 v15vh12vc12 s32s32s32s32s16s16 m16 m16 b16 b16 
+F [ ;L 
+F [
+F [b16b16h16s16r16b16b16s16|h16b16b16c16s16b16h16s16]8 
+F b16s16b16r16s16s16c16s16 
+F [b16b16h16s16r16b16b16s16|h16b16b16r16s16b16h16s16]2 
+F s32s32s32s32b16b16c16r8.|
+F [b16b16h16s16r16b16b16s16|h16b16b16r16s16b16h16s16]4 
+F b16s16b16r16s32s32s32s32
+F vh+3h16h16vh-3]2
+F [b16b16h16s16r16b16b16s16|h16b16b16r16s16b16h16s16]2 
+F b16s16b16r16s32s32s32s32b16b16b32b32b32b32b16b16
+F vc+3c8.vc-3
+F [b16b16h16s16r16b16b16s16h16b16b16r16|s16b16h16s16]8 
+F m32m32 m32m32 b32b32 b16 
+F [b16b16h16s16r16b16b16s16h16b16b16r16s16b16h16s16]7 
+F [b16 [s32]6 ]2 
+F vc+3 c16r16c16c8. vc-3
+F b16b16
+F [b16b16h16s16r16b16b16s16|h16b16b16r16s16b16h16s16]4 
+F b16s16b16r16
+F vc+3c16r16vc-3
+F b16b16 
+F [b16b16h16s16r16b16b16s16|h16b16b16r16s16b16h16s16]4 
+F b16s16
+F vc+3c16r8.vc-3
+F b16b16
+F ]0
+
+
