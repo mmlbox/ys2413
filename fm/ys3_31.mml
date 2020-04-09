@@ -12,10 +12,10 @@
   
 @v16 = { ; Hit
 ;       TL FB
-        11, 7,
+        12, 7,
 ; AR DR SL RR KL MT AM VB EG KR DT
    5, 5, 2, 4, 0, 1, 1, 1, 0, 0, 0,
-   7, 6, 1, 6, 0, 4, 0, 1, 0, 0, 0 }
+   7, 5, 1, 6, 0, 4, 0, 1, 0, 0, 0 }
 
 9 l8 @14 v13
 A l8 @10 v11
@@ -29,7 +29,7 @@ A o3v10
 9A   [fgr16ff16ga+g16fg16]8 
 9A   cdr16cdd16cd16c8.der16dee16de16d8. 
 9A   [fgr16ff16ga+g16fg16]2 | [fgr16ff16ga+g16fg16]2
-9A ]2
+9A ]2 
 9A r4 
 9 @16v13 o4c8.
 A @16v13 o4d8.
@@ -100,8 +100,8 @@ D r4
 E r8
 D @16v13 o5c8.
 E @16v13 o5g8.
-D @11v14 o6
-E @11v11 o6r8  
+D @11v14 o7
+E @11v11 o7r8  
 DE fd+16fd+16d16c16<a+16>c16<a+16g+16a+16g+16f16
 DE g16g+16a+16b16>cf16c16<b16a+16g+16f16g16b16>c16f16g16
 DE g+4f16g16g+16f16g16f16c16a+16g+16g16f16c16d+16e16f16
@@ -116,8 +116,8 @@ DE f16g+16g16f16d+16d16d+16d16c16d16d+16e16g16f8.c16d+8.
 DE c16d8.<a+16>c8.d16<g+16a+16b16>c16d16f16d16c16f16d+16c16
 DE f16d+16d16c16d+16o3 f32g32g+32a+32b32>c32d32f32f32g32g+32
 DE a+32b32>c32d32f32f32g32g+32a+32b32>c32d32f32f32g32g+32
-DE a+32b32>c32d32f32)
-DE @4 o5 (
+DE a+32b32>c32d32f32
+DE @4 o5 
 DE [[c16d16d+16f16|g2.]3 g2d+4c16d16d+16f16g4|>d+16d16d+4.<]2 ra+4.
 DE ]0
 

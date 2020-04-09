@@ -6,7 +6,7 @@
 
 @v15 = { ; Bass (higher harmonics)
 ;       TL FB
-         0, 7,
+         2, 7,
 ; AR DR SL RR KL MT AM VB EG KR DT
   15,13, 6, 2, 0,15, 0, 0, 0, 0, 1,
   15, 6, 1, 1, 0, 3, 0, 0, 0, 1, 1 }
