@@ -1,0 +1,33 @@
+;[gain=1.5;name=ys1ex_16]
+#opll_mode 0
+#tempo 76
+#title {"Devil's Wind / Music from YS / Copyright © Nihon Falcom Corporation"}
+
+@v15 = {
+;       TL FB
+        25, 1,
+; AR DR SL RR KL MT AM VB EG KR DT
+   5, 2,15, 0, 0, 5, 0, 0, 1, 1, 0,
+  14, 2, 0, 1, 0, 3, 0, 0, 1, 0, 0 }
+
+9A l8 [  
+9 @2  o7 v9
+A @15 o7 v9
+9A [a+12g12a12g12]4
+9A ]0
+
+BC l8 [ 
+B @2  o7 v8
+C @15 o7 v8
+BC \1
+BC [r24a+12g12a12g24]4 
+BC ]0
+
+@e0={0,0,8f=5}
+
+DE l8 [ ; @26 
+D @6@e0 o4 v12
+E @5@e0 o3 v15\1
+DE h10,6,0,2;
+DE g3d3f3f+3
+DE ]0

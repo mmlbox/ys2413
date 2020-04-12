@@ -1,14 +1,14 @@
 ;[gain=1.5;name=ys1ex_07]
 #opll_mode 0
 #tempo 106
-#title { "07"}
+#title { "HOLDERS OF POWER / Music from YS / Copyright © Nihon Falcom Corporation"}
 
 @v15 = { ; 1
 ;       TL FB
-         0, 4,
+        13, 5,
 ; AR DR SL RR KL MT AM VB EG KR DT
   15, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1,
-  15, 0, 0, 6, 0, 8, 0, 0, 1, 0, 1 }
+  15, 0, 0, 6, 0, 2, 0, 0, 1, 0, 0 }
 
 @v16 = { ; Bass Harmonics
 ;       TL FB
@@ -44,7 +44,7 @@ BC < [c24g24c24c24g+24c24c24g24 c24c24f24c24d+24d24d+24f24
 BC    c24g24c24c24g+24c24c24a+24 c24c24>c24<c24a+24g+24g24f24]2 >
 BC ]0
 
-@e0={0,0,@10f@14d8520}
+@e0={0,0,@10f@14d520}
 
 D l8 @13    v6 o3
 E l8 @14@e0 v7 o4

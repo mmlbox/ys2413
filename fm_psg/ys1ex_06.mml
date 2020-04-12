@@ -1,14 +1,14 @@
 ;[gain=1.5;name=ys1ex_06]
 #opll_mode 0
 #tempo 100
-#title { "PALACE"}
+#title { "PALACE / Music from YS / Copyright © Nihon Falcom Corporation"}
 
 @v15 = { ; 30
 ;       TL FB
         32, 7,
 ; AR DR SL RR KL MT AM VB EG KR DT
   13, 4, 0, 3, 0, 1, 0, 0, 0, 1, 0,
-  12, 1,12, 0, 0, 1, 0, 0, 0, 1, 1 }
+  12, 2,12, 0, 0, 1, 0, 0, 0, 1, 1 }
 
 @v16 = { ; 26
 ;       TL FB

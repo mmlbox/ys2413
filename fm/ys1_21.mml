@@ -1,0 +1,92 @@
+;[gain=1.5;name=ys1_21]
+#opll_mode 0
+#tempo 76 ; 77.5
+#title {"YS - Church"}
+; Church / Music from YS / Copyright © Nihon Falcom Corporation
+
+@v15 = {
+;       TL FB
+        27, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 2,15, 0, 0, 1, 0, 0, 1, 0, 1,
+  15, 2, 2, 3, 0, 3, 0, 0, 0, 0, 1 }
+  
+@16={ ; Harpsicode
+;       TL FB
+        3, 1,
+; AR DR SL RR KL MT AM VB EG KR WF
+  14,10, 1, 0, 2, 3, 0, 0, 1, 1, 0,
+  14,15, 0, 3, 0, 1, 0, 0, 0, 0, 1 }
+
+9 l8 [ 
+
+9 @16 v13 o5
+
+;F b24r24>f+24e24d24e24d24<b24>c+24r24<a+24b24>c+24<
+9 e24r24b24a24g24a24g24e24f+24r24d+24e24f+24
+
+;F b24>c+24<f+24b24r24>d24r24c+24r24e24r24d24r24f+24r24e24
+9 e24f+24<b24>e24r24g24r24f+24r24a24r24g24r24b24r24a24
+
+;F r24g24r24f+24r24b24r24a+48b48a+48b48g+24a+24b24f+24g24 
+9 r24>c24r24<b24r24>e24r24d+48e48d+48e48c+24d+24e24<b24>c24
+
+;F  e24f+24d24e24c+24<b6r12f+12b12a+24b24>c+12<a12>d6<r12a12
+9 <a24b24g24a24f+24e6r12<b12>e12d+24e24f+12d12g6r12d12
+
+;F >d12c+24d24e12<a12>f+6r12d12g24b24a24b24g24b24a24b24
+9 g12f+24g24a12d12b6r12g12>c24e24d24e24c24e24d24e24
+
+;F >c+24e24d24e24c+24e24d24e24 <f+24d24c+24d24g24d24c+24d24
+9 f+24a24g24a24f+24a24g24a24<b24g24f+24g24>c24<g24f+24g24
+
+;F a24d24c+24d24b24>c+24d12<d6f+48e48f+48e48d24e24d6&d48r12<f+16.
+9 >d24<g24f+24g24>e24f+24g12<g6b48a48b48a48g24a24g6&g48r12<b16.
+
+9  ]0
+
+B l8 [
+
+B @16 v9 o5
+
+;G r24b24r24>f+24e24d24e24d24<b24>c+24r24<a+24b24>c+24<
+B r24e24r24b24a24g24a24g24e24f+24r24d+24e24f+24
+
+;G b24>c+24<f+24b24r24>d24r24c+24r24e24r24d24r24f+24r24e24
+B e24f+24<b24>e24r24g24r24f+24r24a24r24g24r24b24r24a24
+
+;G r24g24r24f+24r24b24r24a+48b48a+48b48g+24a+24b24f+24g24 
+B r24>c24r24<b24r24>e24r24d+48e48d+48e48c+24d+24e24<b24>c24
+
+;G  e24f+24d24e24c+24<b6r12f+12b12a+24b24>c+12<a12>d6<r12a12
+B <a24b24g24a24f+24e6r12<b12>e12d+24e24f+12d12g6r12d12
+
+;G >d12c+24d24e12<a12>f+6r12d12g24b24a24b24g24b24a24b24
+B g12f+24g24a12d12b6r12g12>c24e24d24e24c24e24d24e24
+
+;G >c+24e24d24e24c+24e24d24e24 <f+24d24c+24d24g24d24c+24d24
+B f+24a24g24a24f+24a24g24a24<b24g24f+24g24>c24<g24f+24g24
+
+;G a24d24c+24d24b24>c+24d12<d6f+48e48f+48e48d24e24d6&d48r12<f+%10
+B >d24<g24f+24g24>e24f+24g12<g6b48a48b48a48g24a24g6&g48r12<b%10
+
+B  ]0
+
+; c->g d->a e->b f->c g->d a->e b->f+ 
+
+D l8 [ 
+D @16 v13 o3
+
+;H b6>b6a+6>c+6<b6>c+6d6e6f+6<f+6 b6r12f+12 b24 f+24d24f+24 
+D  e6>e6d+6 f+6 e6 f+6g6a6b6 < b6>e6r12<b12>e24<b24 g24b24 
+
+;H b6>d6f+6d6 a6>d6c+6c6>c6 
+D  e6 g6b6 g6>d6 g6f+6f6>f6  
+
+;H [<b24>d24c24d24]2 [e24 g24 f+24g24]2 
+D  [ e24 g24f24g24]2 [a24>c24<b24>c24<]2 
+
+;H << d6e6f+6 g6a6<a6d4r%22
+D  < g6a6b6 >c6d6<d6g4r%22
+
+D ]0
