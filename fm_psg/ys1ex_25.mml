@@ -1,0 +1,109 @@
+;[gain=1.5;name=ys1ex_25]
+#opll_mode 0
+#tempo 96
+#title { "Battle Ground / Music from YS / Copyright © Nihon Falcom Corporation"}
+
+@v15 = { ; 1
+;       TL FB
+        12, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0, 8, 0, 0, 1, 0, 0,
+  15, 0, 0, 5, 0, 2, 0, 0, 1, 0, 1 }
+
+@e10={0,0,@15ffff[y2,12ffffy2,11fffy2,10ffffy2,11fff]}
+
+*0={@0v14o4}
+*1={@15@e10v13o3}
+
+9A l8 ;@t205 
+9 *0 \0
+A *1 \1
+9A g3>c3f3a+3<g6>c6f6a+6g6>c6f6a+6<
+9A [ 
+9 *0 >
+A *1 >
+9A c24d24d+24f24g24f24d+24d24c24d24d+24f24g24f24d+24d24
+9A c24d24d+24f24g24f24d+24d24c24d24d+24f24g24f24d+24d24
+9A <f24g24g+24a+24>c24d24d+24f24c24d24d+24f24g24g+24a+24>c24
+9A dfgd4r24cdd+12d12<a+12>c12c6c12d12d+12f12
+9A d+12d12c12dd+f3&f12dd+f6g4cdd+12d12
+9A <a+12>c12c6c12d12d+12f12d+12d12c12<a+>d<a+12g+>c<g+12
+9A a+>d<a+12g+>c<g+12a+>df12<g+>cd+12<a+>df12<g+
+9A >cd+12<a+%128b3g6&g24f+%2f%2e%2d+%2 ( d%2c+%2c%2 (
+9A <b%2a+%2 ( a%2g+%2 ( g%2 )4
+9A ]0
+
+BC l8 
+B *0 (
+C *1 ( \1
+BC d3g3>c3f3<d6g6>c6f6d6g6>c6f6<
+BC [
+B *0 \1 ( >
+C *1 \2 ( >
+BC c%128c%128c%128c3<b3>cdd+12d12<a+12>c12c6c12d12d+12f12
+BC d+12d12c12dd+f3&f12dd+f6g4cdd+12d12
+BC <a+12>c12c6c12d12d+12f12d+12d12c12<a+>d<a+12g+>c<g+12
+BC a+>d<a+12g+>c<g+12>a+>df12<g+>cd+12<a+>df12<g+
+BC >c<g+12f%128g3>d6&d24c+%2c%2<b%2a+%2 ( a%2g+%2g%2f+%2 
+BC ( f%2e%2 ( d+%2 ( d%2 )4
+BC ]0
+
+@e11={0,0,@10c@14d820}
+
+DE l8 
+D @10@e11 v13 o3 
+E @13 v13 o2 so
+DE g24r24g24r24g24>g24<g24g24g24r24g24r24g24g24
+DE >g24<g24g24r24g24r24g24>g24<g24g24g24r24g24r24g24>c24
+DE d24f24<g24r24g24r24g24>g24<g24g24g24r24g24r24g24g24
+DE >g24<g24g24r24g24r24g24>g24<g24g24g24r24g24r24g24>c24
+DE d24f24
+DE [
+DE c24r24c24r24>c24<c24r24c24r24c24r24<d+24f24g24
+DE g+24a+24g+24r24g+24r24>g+24<g+24r24g+24r24g+24>c24d+24g+24d+24
+DE c24d+24<f24r24f24r24>f24<f24r24f24r24c24f24g24g+24c24
+DE <g+24>c24a+24r24a+24r24>a+24<a+24r24a+24b24r24b24r24>b24<b24
+DE d24f24>c24r24c24r24>c24<c24r24c24r24c24r24<d+24f24g24
+DE g+24a+24g+24r24g+24r24>g+24<g+24r24g+24r24g+24>c24d+24g+24d+24
+DE c24d+24<a+24r24a+24r24>a+24<a+24r24a+24r24a+24r24>d24f24<a+24
+DE >d+24f24<b24r24b24r24>b24<b24r24b24r24b24r24>d24f24d24
+DE <b24>d24c24r24c24r24>c24<c24r24c24r24c24r24<d+24f24g24
+DE g+24a+24g+24r24g+24r24>g+24<g+24r24g+24r24g+24>c24d+24g+24d+24
+DE c24d+24<a+24r24a+24r24>a+24<a+24r24r24g+24r24g+24r24>g+24<g+24
+DE r24r24a+24r24a+24r24>a+24<a+24r24r24g+24r24g+24r24>g+24<g+24
+DE r24r24a+24r24a+24r24>a+24<a+24r24r24g+24r24g+24r24>g+24<g+24
+DE r24r24a+24r24a+24r24>a+24<a+24r24r24g+24r24g+24r24>g+24<g+24
+DE r24r24a+24r24a+24r24>a+24<a+24r24r24a+24r24a+24r24>a+24<a+24
+DE r24g+24g24r24g24r24>g24<g24r24r24g24r24g24r24>g24<g24a24b24>
+DE ]0
+
+@e0={1,0,fd=8.0=241}
+
+1 l8 v11 @0 \-1 o2 g3>c3f3a+3<g6>c6f6a+6g6>c6f6a+6 
+1 [ \0 
+1 <g%128g%128f%128g%128>g%128g%128f%128g%128g%128g%128fa+f12d+g+
+1 d+12fa+f12d+g+d+12fa+>d12<d+g+>c12<fa+>d12
+1 <d+g+>c12<f24a+24>d24<a+24f24a+24>d24<a+24f24a+24>d24<a+24f24
+1 a+24>d24<a+24g24b24>d24<b24g24b24>d24<b24g24b24>d24<b24g24
+1 b24>d24g24<
+1 ]0
+
+2 l8 s0m64 o3 [c12r12]8 [c24c24r12|c12r12c12]3 c24c24c24c24c24r24c24c24 
+2 [
+2 [c12r12]31 c24a24a24a24 
+2 [c12r12]8 [c12r12c24a48r48a48r48a48r48]8 [c12r12]7 a24a24a24a24
+2 ]0
+
+@e1={2,0,fc4=24}
+3 l8 v13 @1 [n0 c%8r24 c%8r24 n11 c%8r24 n0 c%8 n11 c%8]7 
+3 [c%8]4 
+3 c%16 c%8 c%8 
+3 [ 
+3 [n0 c%8r24 c%8r24 n11 c%8r24 
+3 n0 c%8 n11 c%8]15 n0 c%8r24 
+3 c%8r24 c%8 n11 [c%8]3 
+3 [n0 c%8r24 c%8r24 n11 c%8r24 n0 c%8 n11 c%8]4 
+3 [n0 c%8r24 c%8r24 c%8 n11 [c%8]3 ]8 
+3 n0 c%8 c%8 c%8 c%8 n11 c%8 
+3 [n0 [c%8]7 n11 c%8]3 [c%8]3 
+3 ]0

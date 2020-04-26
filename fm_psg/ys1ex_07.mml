@@ -1,53 +1,65 @@
 ;[gain=1.5;name=ys1ex_07]
 #opll_mode 0
 #tempo 106
-#title { "HOLDERS OF POWER / Music from YS / Copyright © Nihon Falcom Corporation"}
+#title { "Holders of Power / Music from YS / Copyright © Nihon Falcom Corporation"}
 
 @v15 = { ; 1
 ;       TL FB
-        13, 5,
+         1, 0,
 ; AR DR SL RR KL MT AM VB EG KR DT
-  15, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1,
-  15, 0, 0, 6, 0, 2, 0, 0, 1, 0, 0 }
+  15, 0, 0, 0, 0, 2, 0, 0, 1, 0, 0,
+  15, 0, 0, 5, 0, 8, 0, 0, 1, 0, 1 }
 
-@v16 = { ; Bass Harmonics
+@v16 = { ; 1
 ;       TL FB
-        21, 6,
+         1, 0,
 ; AR DR SL RR KL MT AM VB EG KR DT
-   9, 8, 4, 3, 0,10, 0, 0, 0, 1, 1,
-  15, 6, 5, 4, 0, 0, 0, 0, 0, 0, 1 }
+  15, 0, 0, 0, 0, 2, 0, 0, 1, 0, 0,
+  15, 0, 0, 5, 0, 2, 0, 0, 1, 0, 1 }
 
+@v17 = { ; 1
+;       TL FB
+         1, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0, 2, 0, 0, 1, 0, 0,
+  15, 0, 0, 5, 0, 2, 0, 0, 1, 0, 1 }
 
-; 9ABC123 !
+@e10={0,0,[@15fffff@16fffff@17fffff]}
 
-9 l8 @15 v6 o4
-A l8 @15 v6 o4 \1
-9A g6& ) g6& ) g6& ) g6 ) g+6& ) g+6 ) a+6& ) a+6 ) g%128g+3a+3 (
-9A [ ; L
-9A [g3a+3a3g+3]4 
-9A [c24g24c24c24g+24c24c24g24c24 c24f24c24d+24d24d+24f24c24 
-9A  g24c24c24g+24c24c24a+24c24c24>c24<c24a+24g+24g24f24]2 
-9A [g3a+3a3g+3]4 
-9A [c24g24c24c24g+24c24c24g24c24 c24f24c24d+24d24d+24f24c24
-9A  g24c24c24g+24c24c24a+24c24c24>c24<c24a+24g+24g24f24]2
-9A ]0
+; BCDEG123 !
 
-B l8 \1 @15 v6 o4 
-C l8 \2 @15 v6 o4
-BC c6& ) c6& ) c6& ) c6 ) c+6& ) c+6 ) d+6& ) d+6c%128c+3d+3
-BC [ ; L
-BC [c3d+3f3d+3]4
-BC < [c24g24c24c24g+24c24c24g24 c24c24f24c24d+24d24d+24f24
-BC    c24g24c24c24g+24c24c24a+24 c24c24>c24<c24a+24g+24g24f24]2 > 
-BC [c3d+3f3d+3]4 
-BC < [c24g24c24c24g+24c24c24g24 c24c24f24c24d+24d24d+24f24
-BC    c24g24c24c24g+24c24c24a+24 c24c24>c24<c24a+24g+24g24f24]2 >
-BC ]0
+9 l8 \0 @0      v6 o5
+A l8 \0 @15@e10 v4 o4
+F l8 \1 @15@e10 v2 o4
+9AF ;h0,1,1,1
+9AF g6& ) g6& ) g6& ) g6 ) g+6& ) g+6 ) a+6& ) a+6 ) g%128g+3a+3 (
+9AF [ ; L
+9AF [g3a+3a3g+3]4
+9AF [c24g24c24c24g+24c24c24g24c24 c24f24c24d+24d24d+24f24c24
+9AF  g24c24c24g+24c24c24a+24c24c24>c24<c24a+24g+24g24f24]2
+9AF [g3a+3a3g+3]4
+9AF [c24g24c24c24g+24c24c24g24c24 c24f24c24d+24d24d+24f24c24
+9AF  g24c24c24g+24c24c24a+24c24c24>c24<c24a+24g+24g24f24]2
+9AF ]0
 
-@e0={0,0,@10f@14d520}
+B l8 \0 @0      v6 o5 
+C l8 \0 @15@e10 v4 o4
+G l8 \1 @15@e10 v2 o4
+BCG ;h0,1,1,1
+BCG c6& ) c6& ) c6& ) c6 ) c+6& ) c+6 ) d+6& ) d+6 ) c%128c+3d+3 (
+BCG [ ; L
+BCG [c3d+3f3d+3]4
+BCG < [c24g24c24c24g+24c24c24g24 c24c24f24c24d+24d24d+24f24
+BCG    c24g24c24c24g+24c24c24a+24 c24c24>c24<c24a+24g+24g24f24]2 >
+BCG [c3d+3f3d+3]4
+BCG < [c24g24c24c24g+24c24c24g24 c24c24f24c24d+24d24d+24f24
+BCG    c24g24c24c24g+24c24c24a+24 c24c24>c24<c24a+24g+24g24f24]2 >
+BCG ]0
 
-D l8 @13    v6 o3
-E l8 @14@e0 v7 o4
+@e0={0,0,@10f@14d9520}
+
+D l8 @13    v2 o3
+E l8 @14@e0 v3 o4
 DE c24g24c24c24g+24c24c24g24 ) c24c24f24 ) c24
 DE d+24d24 ) d+24f24c24 ) g24c24c24 ) g+24c24c24 ) a+24
 DE c24c24 ) >c24<c24a+24 ) g+24g24f24 ) c24g24c24 ) c24
@@ -60,17 +72,16 @@ DE < [c24g24c24c24g+24c24c24g24c24c24f24c24d+24d24
 DE d+24f24c24g24c24c24g+24c24c24a+24c24c24>c24<c24a+24g+24g24f24]2 >
 DE [c24>c24<c24c24>c24<c24c24>c24<d+24>d+24<d+24
 DE d+24>d+24<d+24d+24>d+24<f24>f24<f24f24>f24<f24f24>f24<g+24>g+24<g+24
-DE g+24>g+24<g+24g+24>g+24<]4 
+DE g+24>g+24<g+24g+24>g+24<]4
 DE [c24g24c24c24g+24c24c24g24c24c24f24c24d+24d24d+24f24c24g24c24c24g+24c24c24a+24
 DE c24c24>c24<c24a+24g+24g24f24]2
 DE ]0
 
-@e1={0,0,fe0=14}
-@e2={1,0,f0}
+@e1={0,0,fe0=15}
+@e2={1,0,f0=9}
 @e3={1,0,f0=24}
 
-1 l8 @1 v6 o5 g24c24 ) c24g24 ) c24c24 ( g24c24 ) g24c24 
-1 ) c24g24 ) c24c24 ) g24c24 ) 
+1 l8 @1 v4 o5 g24c24 ) c24g24 ) c24c24 ( g24c24 ) g24c24 ) c24g24 ) c24c24 ) g24c24 ) 
 1 [g24c24c24g24c24c24g24c24g24c24c24g24c24c24g24c24]3 
 1 [
 1 [g24c24c24g24c24c24g24c24 a+24d+24d+24a+24d+24d+24a+24d+24
@@ -81,7 +92,7 @@ DE ]0
 1 [g24c24c24g24c24c24g24c24]8 
 1 ]0
 
-2 l8 @2 r%256r%128 v11 o3 [)c12r12]4 
+2 l8 @2 r%256r%128 v8 o3 [)c12r12]4 
 2 [ @2 ; L
 2 [[c12r12c12r24c24c24rc12r12]3 c12r12c12r24c24c24r|c12c24c24]2 c24c24c24c24 
 2 [c12r12]12 c12r12c12r12c24r12c24r12c24c24 [c12r12c12r24c24c24rc12r12]3 
@@ -91,19 +102,18 @@ DE ]0
 2 ]0
 
 @e13={2,0,f}
-@e14={2,0,ffc}
+@e14={2,0,fd}
 
 3 l8 r%256r%128 n0 @13 v8 o3 c12 ) c12 ) c12 ) c12 ) c12 ) c12 ) c12  c12 
-3 @14 [ v14 ; L
+3 @14 [ v12 ; L
 3 n0 [c24c24c24c24n10 c24n0 c24c24c24]7 c24
 3 c24c24c24n10 c24
 3 n0 
 3 c24n10 c24c24n0 [c24c24c24c24n10 c24n0 c24c24c24]7 
 3 c24c24c24c24 n10 c24c24c24c24 (( n6 [c24c24c24 c24c24c24c24 c24]7 ) n10 c24n0 c24 c24) 
-3 n10 c24n0 c24 c24n10 c24c24 ; @v127
+3 n10 c24n0 c24 c24n10 c24c24
 3 n0 
 3 [c24c24c24c24 n10 c24n0 c24c24c24]7 c24c24c24
 3 c24n10 c24n0 c24n10 c24 c24n0 [c24c24c24c24n10c24n0c24 c24c24]8 ( n6 [c24 c24c24c24c24 c24c24c24]6 
-3 ; @v110
 3 c24c24c24c24 c24c24c24c24 n10 c24c24c24c24 c24c24c24c24
 3 ]0

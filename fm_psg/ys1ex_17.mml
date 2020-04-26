@@ -1,0 +1,147 @@
+;[gain=1.5;name=ys1ex_17]
+#opll_mode 0
+#tempo 83
+#title { "Fair Wind / Music from YS / Copyright © Nihon Falcom Corporation" }
+
+@v15 = { ; 90
+;       TL FB
+        22, 5,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0,
+   8, 4, 1, 4, 0, 8, 0, 0, 1, 0, 0 }
+
+@v18 = { ; 90
+;       TL FB
+        23, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0,
+   8, 5, 1, 4, 0, 4, 0, 0, 1, 0, 0 }
+
+@v16 = {
+;       TL FB
+        41, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 2,14, 4, 0,14, 0, 0, 1, 0, 0,
+  15, 3,15, 7, 0, 4, 0, 0, 1, 0, 0 }
+
+@v17 = {
+;       TL FB
+        28, 4,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 5,15, 4, 0,15, 0, 0, 0, 1, 0,
+  15, 8,15, 5, 0, 0, 0, 0, 0, 1, 0 }
+
+;@e10={0,0,acdfe}
+
+; BCDEFGH123 !
+
+9A l8 ;@t197 L
+9A [
+9 v12 o5 @15\1
+A v12 o7 @6
+9A so
+9A dr16e16fr16e16f16g16r16f16e16r16d
+9A c4&c16r16<a16a16&a4.r>dr16e16fr16e16f16
+9A g16r16f16e16d16ca2&a4.rdr16e16fr16e16
+9A f16g16r16f16e16r16dc4&c16r16<a16a16&a4.r
+9A >dr16e16fr16e16f16g16r16f16e16d16c16r16d2&d4.
+9A sf
+9 @17o1   v15
+A @14o1q4 v14
+9A g32g32g32g32 q8
+
+9 @2  o5 v12
+A @16 o5 v12
+9A a4.g16f16g4a+>c<a4.g16f16g2
+9A a4.g16f16g4a+>c<a2&a2
+9A a16g16f16e2&e16g16f16ed4
+9A e4f4g4a16g16f16e2&e16g16f16e16c16d2&d4
+9 @17o1   v15
+A @14o1q4 v14
+9A [g32g32r16]2q8
+9A ]0
+
+@e11={0,0,@14fec0}
+BC l8 [ v12 ;
+B @11@e11v11o3
+C @13v13o3 
+BC [d16d16>d16<d16d16d16>d16<d16c16c16>c16<c16c16c16>c16<c16]3
+BC [f16f16>f16<f16]4
+BC [d16d16>d16<d16d16d16>d16<d16c16c16>c16<c16c16c16>c16<c16]3
+BC [d16d16>d16<d16]4 [f16f16>f16<f16]2 [c16c16>c16<c16]2
+BC [f16f16>f16<f16]2 [c16c16>c16<c16]2 [f16f16>f16<f16]2
+BC [c16c16>c16<c16]2 [f16f16>f16<f16]3 c16c16>c16<c16
+BC [d16d16>d16<d16]4 <g16g16>g16<g16a16a16>a16<a16a+16a+16
+BC >a+16<a+16>c16c16>c16<c16 [d16d16>d16<d16]2 c16r16c4.
+BC [d16d16d16d16]4
+BC ]0
+
+*0={r}
+*1={q3c}
+*2={q5>((c))<}
+*3={q1>>c<<}
+#macro_offset {s=2,m=3,b=1,g=0}
+
+; 74
+F y14,32 l16 [ 
+F h0,16,0,-16
+F v14 o3 q4 [*br*sr]15
+F *br >> soq1 [f+32]2 < [a+32]2 < sfq4
+F [*br*sr]14
+F ) l32 *s*s*s*s l16 ( o4q1 [a+32]4 [g32]4 q4l32 *g*g*g*g l16 
+F o3 [*br*sr]20 [*br*mr]4 
+F [*br*sr]2 *br*brr4 
+F [*m]12 [l32*g*gl16*m]2
+F ]0
+
+*4={c%3r%9} ; s16
+*36={c%3r%3} ; s32
+#macro_offset {s=4,b=0,g=0,m=4}
+G l16 [ @14
+G v12 sfq4o1 q8 [*br*sr]15
+G *br [*m32]2[*m32]2
+G [*br*sr]14
+G )2 *s32*s32*s32*s32 (2 [*m32]4 [*m32]4 l32 *g*g*g*g l16
+G [*br*sr]20 [*brcr]4 
+G [*br*sr]2 *br*brr4 
+G [*s]12 [*s32*s32c16]2 
+G ]0
+
+@e0={0,0,fedddc.4=200}
+@e1={0,0,fb=12}
+
+1 l8 [ 
+1 @0 v12 o4
+1 ar16>c16dr16c16d16ef16gfe4.c16
+1 c16&c4<a4ar16>c16dr16c16d16ef16g>c<a2&
+1 a2<ar16>c16dr16c16d16ef16gfe4.c16c16&
+1 c4<a4ar16>c16dr16c16d16ed16ced2<d32<a32
+1 f32a32>d32f32a32>c32d32<a32f32a32>d32f32a32>c32<
+1 [r16f32f32f32f16.f32r32f32r16f16.r16e32e32e32e16r32e32r32e32r16e16.]3 
+1 r16f32f32f32f16.f32r32f32r16f16.r16f32f32f32f16r32e32r32e32r16e16. 
+1 @1 f16e16d16c2&c16e16d16c<a+4>c4d4e4f16e16d16c16&c4c16r16ce16d16c16e16f+2f2
+1 ]0
+
+2 l8 [ 
+2 @0 v12 o4 \1
+2 ar16>c16dr16c16d16ef16gfe4.c16
+2 c16&c4<a4ar16>c16dr16c16d16ef16g>c
+2 <a2&a2<ar16>c16dr16c16d16ef16gfe4.c16
+2 c16&c4<a4ar16>c16dr16c16d16ed16ced2<d32
+2 <a32f32a32>d32f32a32>c32d32<a32f32a32>d32f32a32>c32< 
+2 [r16c32c32c32c16.c32r32c32r16c16.r16c32c32c32c16r32c32r32c32r16c16.]3 
+2 r16c32c32c32c16.c32r32c32r16c16.
+2 r16c32c32c32c16r32c32r32c32r16c16. 
+2 @1 f16e16d16c2&c16e16d16c<a+4>c4d4e4f16e16d16c16&c4<g16r16g>e16d16c16e16f+2f2
+2 ]0
+
+@e3={2,0,edc80}
+@e4={2,0,f0=128}
+@e5={2,10,d0=80}
+
+3 l8 [ 
+3 v11 @3[c32]240
+3 @0 v13 o5 r32<d32<a32f32a32>d32f32a32>c32d32<a32f32a32>d32f32a32 
+3 v11 @3 [c32]212 @4c4. @5[c16]12 r4
+3 ]0
+

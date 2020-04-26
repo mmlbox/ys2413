@@ -1,0 +1,65 @@
+;[gain=1.5;name=ys1ex_03]
+#opll_mode 0
+#tempo 84
+#title { "The Syonin / Music from YS / Copyright © Nihon Falcom Corporation"}
+
+@v15 = { ; 13
+;       TL FB
+        32, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 4, 3, 0, 1, 0, 0, 0, 0, 0,
+  12, 3,15, 6, 0, 1, 0, 0, 1, 0, 0 }
+
+@v16 = { ; 74
+;       TL FB
+        12, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 9, 2, 8, 0, 4, 0, 0, 0, 0, 0,
+  12, 2,15, 5, 0, 0, 0, 0, 1, 0, 1 }
+ 
+; 9ABC123 !  
+
+@e10={0,0,fe0=12}
+
+9A l8 
+9 @6@e10 v11 \1
+A @2 v11
+9A o5 [r12a24a24r12a24r24]4 
+9A [[r12a24a24r12a24r24]8 [r12a+24a+24r12a+24r24]4 [r12a24a24r12a24r24]4]0
+
+BC l8 
+B @6@e10 v11\1
+C @2 v11
+BC o5 [r12f24f24r12f24r24]4
+BC [[r12f24f24r12f24r24]16]0
+
+D l8 ;
+D @16v12 o4
+D [f24r24>f24r24<]8 
+D [[f24r24>f24r24<]8 [d+24r24>d+24r24<]8 < [a+24r24>a+24r24<]8 > [f24r24>f24r24<]8]0
+
+E l8 ;
+E @13v13 o3 \1
+E [f24r24>f24r24<]8 
+E [[f24r24>f24r24<]8 [d+24r24>(d+24)r24<]8 < [a+24r24>(a+24)r24<]8 > [f24r24>f24r24<]8]0
+
+@e0={1,0,fd=3.0=212}
+
+1 l8 
+1 @0 v9 o4 
+1 [r12c24c24r12c24r24]4 
+1 [[r12c24c24r12c24r24]8 [r12d24d24r12d24r24]2 [r12c+24c+24r12c+24r24]2 [r12c24c24r12c24r24]4]0
+
+2 l8 r%256 [
+2 @0 v12 o5 
+2 r24c24f24g24a6a+12a12g12f12ga%104r24c24
+2 f24g24a6a+12a12g12f12g6a6a+6>c6c<a+f4d12f12
+2 >c<a+f6c+12f12a+12a+a%136&a2
+2 ]0
+
+3 l8 r%256 [
+3 @0 v12 o5 \1
+3 r24c24f24g24a6a+12a12g12f12ga%104r24
+3 c24f24g24a6a+12a12g12f12g6a6a+6>c6c<a+f4d12
+3 f12>c<a+f6c+12f12a+12a+a%136&a2
+3 ]0

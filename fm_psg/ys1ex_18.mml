@@ -1,0 +1,57 @@
+;[gain=1.5;name=ys1ex_18]
+#opll_mode 0
+#tempo 83
+#title { "Shining Star / Music from YS / Copyright © Nihon Falcom Corporation" }
+
+@v15 = {
+;       TL FB
+        17, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+   9,14, 2, 1, 0, 1, 0, 0, 0, 0, 0,
+   8, 7, 2, 6, 0, 3, 0, 0, 1, 0, 1 }
+
+@e10={0,0,y2,17f:12[y2,16f:12 y2,14f:12 y2,12f:12 y2,10f:12 y2,12f:12 y2,14f:12]}
+
+9A l8
+9A [ 
+9 @15@e10 v14 o5
+A @15@e10 v8 o5\-1
+9A a3b6g6a12g12f+6d3a3b6g6a6>d12
+9A d12&d3<a3b6g6a12g12f+6d3c12d12g12d12&d6c12
+9A d12a+3a3
+9A ]0
+
+BC l8 
+BC [
+B @15@e10 v14 o5
+C @15@e10 v8 o5\-1
+BC f+3g6e6f+12e12d6<a3>f+3g6e6f+6a12a12&
+BC a3f+3g6e6f+12e12d6<a3g12g12>c12<g12&g6g12g12
+BC >d3c+3
+BC ]0
+
+@e11={0,0,f:4e:4.9=48}
+DE l8 
+DE [ 
+D @13@e11 v13 o3
+E @13@e11 v12 o3
+DE [[d12d6d12]3 d12d12c12c12]2 [d12d6d12]4 
+DE [c12c6c12]2 <a+12a+6a+12a12a6a12
+DE ]0
+
+@e0={0,0,fc=6.0=16}
+1 l8 [ @0 v12 o7 [r12d24c+24d24r24<a24r24f+24g24a24r24f+24
+1 r24d24r24>]6 [c24r24c24d24]4 [<a+24r24a+24>c24]2 
+1 <a24r24a24b24>c+24d24e24c+24
+1 ]0
+
+2 l8 [ @0 v10 r16 o7 [r12d24c+24d24r24<a24r24f+24g24a24r24f+24
+2 r24d24r24>]6 [c24r24c24d24]4 [<a+24r24a+24>c24]2 
+2 <a24r24a24b24>c+24d24e48
+2 ]0
+
+3 l8 [ @0 v11 o8 [r12d24c+24d24r24<a24r24f+24g24a24r24f+24
+3 r24d24r24>]6 [c24r24c24d24]4 [<a+24r24a+24>c24]2 
+3 <a24r24a24b24>c+24d24e24c+24
+3 ]0
+s

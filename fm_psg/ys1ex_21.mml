@@ -5,16 +5,16 @@
 
 @v15 = {
 ;       TL FB
-        26, 7,
+        22, 6,
 ; AR DR SL RR KL MT AM VB EG KR DT
   15, 2,15, 0, 0, 1, 0, 0, 1, 0, 1,
   15, 2, 2, 1, 0, 3, 0, 0, 0, 0, 1 }
 
 9AF l8 [ 
 
-9 @10 v14 o5
+9 @10 v14 o6
 A @15 v15 o5
-F @15 v11 o7
+F @15 v12 o7
 
 ;F b24r24>f+24e24d24e24d24<b24>c+24r24<a+24b24>c+24<
 9AF e24r24b24a24g24a24g24e24f+24r24d+24e24f+24
@@ -41,9 +41,9 @@ F @15 v11 o7
 
 BCG l8 [
 
-B @10 v10 o5
+B @10 v10 o6
 C @15 v11 o5
-G @15 v7 o7
+G @15 v8 o7
 
 ;G r24b24r24>f+24e24d24e24d24<b24>c+24r24<a+24b24>c+24<
 BCG r24e24r24b24a24g24a24g24e24f+24r24d+24e24f+24
@@ -69,9 +69,9 @@ BCG >d24<g24f+24g24>e24f+24g12<g6b48a48b48a48g24a24g6&g48r12<b%10
 BCG  ]0
 
 DEH l8 [ 
-D @10 v14 o3
+D @10 v14 o4
 E @15 v15 o3
-H @15 v11 o5
+H @15 v12 o5
 
 ;H b6>b6a+6>c+6<b6>c+6d6e6f+6<f+6 b6r12f+12 b24 f+24d24f+24 
 DEH  e6>e6d+6 f+6 e6 f+6g6a6b6 < b6>e6r12<b12>e24<b24 g24b24 

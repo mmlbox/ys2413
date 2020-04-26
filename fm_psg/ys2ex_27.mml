@@ -27,7 +27,7 @@
    
 @v18 = { ; YSII MAIN 90 Harmonics
 ;       TL FB
-        23, 5,
+        22, 5,
 ; AR DR SL RR KL MT AM VB EG KR DT
   15, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0,
    8, 1, 1, 7, 0, 8, 0, 0, 1, 0, 0 }
@@ -53,7 +53,7 @@ B b4.&e16.(g+b4a12b12a12g+4e4gf+gabg+beg+f+ef+32
 AC  r4.(r r4r12r12r12r4 <r4>r<r>rrrr r<r>r <rrr
 9ABC [ ; L
 9B @18 v12 o5
-AC @6 v12 o7
+AC @6 v11 o7
 9 \0
 A \1
 B \1

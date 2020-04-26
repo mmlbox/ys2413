@@ -1,0 +1,57 @@
+;[gain=1.5;name=ys1ex_04]
+#opll_mode 0
+#tempo 84
+#title { "Tears of Sylph / Music from YS / Copyright © Nihon Falcom Corporation"}
+
+@v15 = { ; 79
+;       TL FB
+        28, 2,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 4, 1, 2, 0, 5, 0, 0, 0, 0, 0,
+  15, 4, 5, 1, 0, 3, 0, 0, 1, 0, 0 }
+
+@e10={0,0,[y5,243fy5,244ff]} ; DR:4->3
+@e11={0,0,ffe0=128}
+
+9A l8 
+9A [
+9 @15@e10 v9  o6
+A @3@e11 v11 o5
+9A c6<g6>d6<g6>d+6<g6>c6<g6a+6f6>c6<f6>d6
+9A <f6a+6f6g+6d+6>c6<g+6a+6f6>d6<a+6 [>c6<g6>d6<g6
+9A >d+6<g6>d6<g6]2 
+9A ]0
+
+BC l8 [ 
+B @15@e10 v7 o6 
+C @3@e11 v9 o5
+BC \-1r48
+BC c6<g6>d6<g6>d+6<g6>c6<g6a+6f6>c6<f6
+BC >d6<f6a+6f6g+6d+6>c6<g+6a+6f6>d6<a+6>c6<g6>d6<g6
+BC >d+6<g6>d6<g6>c6<g6>d6<g6>d+6<g6>d6<g%28
+BC ]0;
+
+@e11={0,0,ffe}
+
+DE l8 [ 
+D @6@e11 v13 o3 \1
+E @5 v13 o3 \-1
+DE c%128&c%128<a+%128&a+%128g+%128a+%128>c%128&c%128c%128&c%128
+DE ]0
+
+@e0={1,0,e}
+
+1 l8 [ @0 v4 o5 
+1 [)d+12]7 (d+12f3(g3 v4 [)d12]7 (d12d+3f3 v4 [)c12]7 
+1 (c12d3<a+3>c%128&c%128r%256
+1 ]0
+
+2 l8 [ @0 \1 v4 o5 
+2 [)d+12]7 (d+12f3(g3 v4 [)d12]7 (d12d+3f3 v4 [)c12]7 
+2 (c12d3<a+3>c%128&c%128r%256
+2 ]0
+
+3 l8 [ @0 v4 o5 
+3 [)c12]7 (c12d3(d+3 v4 < [)a+12]7 (a+12>c3d3< v4 [)g+12]7 
+3 (g+12a+3f3 v9 g%128&g%128r%256
+3 ]0
