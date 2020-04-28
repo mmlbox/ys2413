@@ -1,7 +1,7 @@
 ;[gain=1.5;name=ys1ex_06]
 #opll_mode 0
 #tempo 100
-#title { "PALACE / Music from YS / Copyright © Nihon Falcom Corporation"}
+#title { "Palace / Music from YS / Copyright © Nihon Falcom Corporation"}
 
 @v15 = { ; 30
 ;       TL FB
@@ -53,16 +53,22 @@ BC [g12g12g12r12g12g12>c12<g12g12r12g12g12>d+12<g12g12r12g12g12>g12<g12g12r12g12
 BC \-1 d+2c6d6d+6f2d+6d6<a+6>c1 @17 r48d+24>c%128&c6r12r48
 BC ]0
 
-DE l8 @13 v14
-E \1 @14v-3
-DE o3 [c12c12r12c12c12c12]4 < [a+12a+12r12a+12a+12
-DE a+12]4 [g+12g+12r12g+12g+12g+12]4 [g12g12r12g12g12
-DE g12]4  [ [ o3 [c12c12r12c12c12c12]4 < [a+12a+12r12a+12
-DE a+12a+12]4 [g+12g+12r12g+12g+12g+12]4 [g12g12r12g12
-DE g12g12]4 ]2  [ o3 [c12c12r12c12c12c12]2 < [a+12a+12
-DE r12a+12a+12a+12]2 [g+12g+12r12g+12g+12g+12]2 [a+12a+12
-DE r12a+12a+12a+12]2 ]2 [g+12g+12r12g+12g+12g+12]2 [a+12
-DE a+12r12a+12a+12a+12]2 o3 [c12c12r12c12c12c12]4
+DE l8 
+D @13 v14 o3
+E @14 v11 o3 \1 
+DE [c12c12r12c12c12c12]4 < [a+12a+12r12a+12a+12a+12]4 
+DE [g+12g+12r12g+12g+12g+12]4 [g12g12r12g12g12g12]4  
+DE [ 
+DE [ o3 
+DE [c12c12r12c12c12c12]4 < [a+12a+12r12a+12a+12a+12]4 
+DE [g+12g+12r12g+12g+12g+12]4 [g12g12r12g12g12g12]4 
+DE ]2  
+DE [ o3
+DE [c12c12r12c12c12c12]2 < [a+12a+12r12a+12a+12a+12]2 
+DE [g+12g+12r12g+12g+12g+12]2 [a+12a+12r12a+12a+12a+12]2 
+DE ]2 
+DE [g+12g+12r12g+12g+12g+12]2 [a+12a+12r12a+12a+12a+12]2 
+DE o3 [c12c12r12c12c12c12]4
 DE ]0
 
 @r0={1,0,128,64,2,192,1,1}

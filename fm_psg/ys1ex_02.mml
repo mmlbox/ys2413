@@ -19,8 +19,8 @@ A \0
 B \0
 C \-1
 9ABC [
-9B @15@e10 v10 o6
-AC @11@e11 v8  o6
+9B @15@e10 v11 o6
+AC @11@e11 v9  o6
 9ABC [e4g4>c6<]2 a6>e6d12c6<a4a6b6>c6< 
 9ABC [f4a4>d6<]2 g6>g6f12e6d4d6e6f6< 
 9ABC [e4g4>c6<]2 a6>e6d12c6<a4a6b6>c6<
@@ -30,8 +30,8 @@ AC @11@e11 v8  o6
 @e12={1,0,c80}
 
 DE l8 [
-D @14@e12 v12 o3\1 
-E @13 v12 o3
+D @14@e12 v13 o3\1 
+E @13 v13 o3
 DE c12r6c12r3c12r6c12r12c12d12e12f12r6f12
 DE r3f12r6f12r12f12e12e12d12r6d12r3d12r6d12r12
 DE d12e12f12g12r6g12r3g12r6g12r12<g12a12b12>c12r6

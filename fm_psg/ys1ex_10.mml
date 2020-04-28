@@ -1,0 +1,188 @@
+;[gain=1.5;name=ys1ex_10]
+#opll_mode 0
+#lfo_mode 0
+#tempo 60
+#title { "Tower of the Shadow of Death / Music from YS / Copyright © Nihon Falcom Corporation" }
+
+@v15 = { ; 80
+;       TL FB
+        35, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+   8,15, 0, 0, 0, 2, 0, 0, 0, 0, 0,
+   8,15, 0, 0, 0, 2, 0, 0, 0, 0, 0 }
+   
+@v16 = { ; 81
+;       TL FB
+         0, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  13,11, 5, 1, 0, 1, 0, 0, 0, 0, 1,
+   8, 6, 2, 6, 0, 3, 0, 0, 1, 0, 1 }
+  
+@v17 = { ; 83 Bass Harmonics
+;       TL FB
+        16, 1,
+; AR DR SL RR KL MT AM VB EG KR DT
+  14, 9, 5, 8, 0,10, 0, 0, 0, 0, 0,
+  15, 4, 5, 3, 0, 0, 0, 0, 0, 1, 1 }
+
+@v18 = { ; 71 
+;       TL FB
+        13, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0,
+  11, 1, 2, 1, 0, 2, 0, 0, 0, 0, 0 }
+
+
+; BCDEFG123 !
+
+@e7={0,0,@12f@14db9}
+@e8={0,0,@17f}
+@e9={0,0,@6f@13f}
+
+9A l8 [
+9 @17@e8 v13 o3 
+A @13@e9 v13 o2
+9A d32>d32<d32>c32<d32b32d32>c32r4<d32>d32<d32>c32<d32b32d32>c32rc32&<b32a32g32
+9 @12@e7
+9A [d32>d32<d32>c32<d32b32d32>c32r4<d32>d32<d32>c32<d32b32d32>c32rc32&<b32a32g32]4
+9A d16d32d16d32d32>d32<d32>c32<b32>c32<
+9A f16f32f16f32f32>f32<f32>c32<f32>f32<
+9A a+16a+32a+16a+32 )2 <a+32>a+32c32>c32<< a+32>a+32 (
+9A d16d32d16d32d32>d32<d+32>d+32<f32>f32<
+9A g16g32g16g32g32>g32<g32>f32<g32>g32<
+9A a+16a+32a+16a+32a+32>a+32<g32>g32<a+32>a+32
+9A c16c32c16c32c32>c32<< g32>g32c32>c32 
+9 @6 o3
+A @5 o2 \1
+9A ) d+2.
+9 @17@e8 v13 o3
+A @13@e9 v13 o2
+9A g32a32a+32>c32< 
+9A [g16g32g16g32>c16c16c16<a+32>a+32c32>c32<<a+32>a+32<]8 
+9A g32f32d32f32d32c32d32f32g32f32g32a+32 
+9 @6 o3
+A @18 o2 \1
+9A so c4.c+4.d4.d+4.e2.r4. sf
+9A ]0
+
+@e10={0,0,fd80}
+
+BC l8 [
+B @12@e7 v12 o3 \-1
+C @13@e9 v13 o2 \-2
+BC [d32>d32<d32>c32<d32b32d32>c32r4<d32>d32<d32>c32<d32b32d32>c32rc32&<b32a32g32]5
+BC d16d32d16d32d32>d32<d32>c32<b32>c32<
+BC f16f32f16f32f32>f32<f32>c32<f32>f32<
+BC a+16a+32a+16a+32<a+32>a+32c32>c32<<
+BC a+32>a+32d16d32d16b32d32>d32<d+32>d+32<f32>f32<
+BC g16g32g16g32g32>g32<g32>f32<g32>g32<
+BC a+16a+32a+16a+32a+32>a+32<g32>g32<a+32>a+32
+BC c16c32c16c32c32>c32 << g32>g32c32>c32 
+B @6 o3 \-1
+C @5 o2 \-2
+BC ) so d+2. sf
+BC [r32]4
+B @12@e7 v11 o2 \-1
+C @13@e9 v13 o2 \-2
+BC [g16g32g16g32>c16c16c16<a+32>a+32c32>c32<<a+32>a+32<]8 
+BC g32f32d32f32d32c32d32f32g32f32g32a+32 
+B @6 o3 \-1
+C @18 o2 \-2
+BC so c4.c+4.d4.d+4.e2.r4.sf
+BC ]0
+
+@e13={0,0,@6f@3f}
+
+DE l8 [ 
+DE r2r2
+D @15 v12 o5 so \1
+E @15 v11 o5 so \0
+DE h30,2,3,3
+DE a2^8<a4>cd_e32&e48^6d2^8^32&y6,5y7,5d4y6,0y7,0
+DE a2>c<b16a+32a16.da2^8&y6,5y7,5a16y6,0y7,0
+DE [r32]8
+
+@e16={0,0,[y2,0f:4y2,4f:4y2,8f:4y2,4f:4]}
+
+D @16@e16 o4 v13 \1
+E @16@e16 o4 v13 \0
+DE a16a32a16.>a16d16a16g8. f16e16c16d8.c16<a+16> c16<a8.a16a+16>c16
+DE d16d32d16.>d16<g16> d16c8.<g16a16a+16>c8.<g16a16a+16>c2^8...@1r64r8
+DE [r8.]12
+DE [r8.]12 [r32]12
+D @6 \1 o3
+E @18 \2 o2 
+DE so c4.c+4.d4.d+4.e2.r4. sf
+DE ]0
+
+F y23,0y14,33v15l32
+F [
+F q1so o4 
+F [r4 r8c_<c16>r16 r4|r4]5
+F r [f+_d]3 r [c+_<a>]3
+F r4 r4 r4 r4 r4 r4
+F r4 r4 r4 r4 r4 r4 
+F r2 
+F [c_<c16>r8]11 > c_<g+32 g_<d+32> g+_<a+16> [d+_<b32>]2 
+F [c_<c16>r8]11 [d+192&d96]2 [d+_<b>]3 [c_<a>]2 
+F rrr [d+_<b>]3 [c_<g>]3 q8([c96r48]3)q1
+F r4.r4.r4.r4.r2.r4.
+F ]0
+
+G @14v11l32
+G [
+G q8 o1
+G [r4 r8crr16 r4|r4]5
+G r [c]3 r [c]3
+G r4 r4 r4 r4 r4 r4
+G r4 r4 r4 r4 r4 r4 
+G r2 
+G [crr8]11 c c cr [c]2 
+G [crr8]11 [c96.]2 [c]3 [c]2 
+G q4so)2ccc(2sfq8 [c]3 [c]3 rrr
+G r4.r4.r4.r4.r2.r4.
+G ]0
+
+@e0={1,0,fc}
+@e1={1,0,fc}
+
+1 l8 [ @0 v11 r1 
+1 o5 [r32e32a32r32b32r32g32a32r32d32e32r32c32<b32g32a32>]8 < 
+1 v13 d4.c4.<a+4>cd4.g4.f4.e4.a+2.
+1 v13 <g32a32a+32>c32 
+1 [d32r16f32r16e8.e16d16c16]2 
+1 > [d32r16f32r16e8.e16d16c16]2 
+1 < [d32r16f32r16e8.e16d16c16]2 
+1 > [d32r16f32r16e8.e16d16c16]2 
+1 d4.d+16d+32d+16.f16g16f16e16e32e16.f16g16e16f16f32f16.g16a16g16f+16f+32f+16.g16a16f+16 
+1 @1 g2.r4.
+1 ]0
+
+2 l8 [ @0 v10 r1 \1 
+2 o5 [r32e32a32r32b32r32g32a32r32d32e32r32c32<b32g32a32>]8 <
+2 v12 d4.c4.<a+4>cd4.g4.f4.e4.a+2. v13 <g32a32a+32>c32 
+2 [d32r16f32r16e8.e16d16c16]2 
+2 [a+32r16>d32r16c8.c16<a+16>c16<]2 
+2 [d32r16f32r16e8.e16d16c16]2
+2 [a+32r16>d32r16c8.c16<a+16>c16<]2 
+2 > d4.c16c32c16.d16d+16d16c+16c+32c+16.d16e16c+16d16d32d16.e16f16e16d+16d+32d+16.e16f+16d+16 
+2 @1 e2.r4.
+2 ]0
+
+@e2={2,0,f8=8}
+
+3 l8 [
+3 @2 v10 [r4. n10c32 r16.r4 n25 c32r32 c32 c32r32 c32r16]5 
+3 @0 v11 o5 \0
+3 [r32d32f32a32g32e32f32d32e16c16]3 r32d32f32a32g32e32f32d32e16f16 
+3 [r32g32a+32>d32c32<a32a+32g32a16f16]3 r32g32a+32>c32d32f32g2&g16. 
+3 v11 \1 o3 r32 g32a32a+32>c32 
+3 [d32r16f32r16e8.e16d16c16]2 
+3 > [d32r16f32r16e8.e16d16c16]2 
+3 < [d32r16f32r16e8.e16d16c16]2 
+3 > [d32r16f32r16e8.e16d16|c16]2 
+3 v13 g32f32d32f32d32c32d32f32g32f32g32a+32d+16d+32d+16.
+3 f16g16f16e16e32e16.f16g16e16f16f32f16.g16a16g16f+16
+3 f+32f+16.g16a16f+16 
+3 @1 g2.r4.
+3 ]
