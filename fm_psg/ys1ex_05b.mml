@@ -17,114 +17,87 @@
   15, 2,15, 0, 0, 1, 0, 0, 0, 0, 0,
    9, 2, 2, 2, 0, 2, 0, 0, 0, 0, 0 }
 
-@v17 = { ; Bass Harmonics
-;       TL FB
-        21, 3,
-; AR DR SL RR KL MT AM VB EG KR DT
-  15, 7, 2, 0, 0,10, 0, 0, 0, 0, 1,
-  15, 7, 3, 3, 0, 0, 0, 0, 0, 1, 1 }
-
-@v18 = { ; Bass 
-;       TL FB
-        20, 4,
-; AR DR SL RR KL MT AM VB EG KR DT
-  15, 8, 2, 7, 0, 4, 0, 0, 0, 0, 0,
-  15, 4, 4, 3, 0, 0, 0, 0, 1, 1, 0 }
-
-@e10={0,0,fe}
+@e10={0,0,ffe}
+@e11={0,0,[@15ff@16ff]}
 
 ;9BCDEFGH123 !
 
-9AF l8 [
+9A l8 [
 9 v11 @6@e10 o6 \1 so
-A v10 @5 o5 so \0
-F v10 @9 o5 so \-1
-9AF d3r6d24e24f24g24a3g6f24ef24e24d4
-9AF r6d24e24f24g24a3g6f24ef12d24>
-9AF d4.d6 e6&[e6&)&e6&]3e6 (3
-9 (
-9AF d3r6d24e24f24g24a3g6f24ef24e24
-9AF d4r6d24e24f24g24a3g6f24ed%128 e3<a6>e6 ) d1 ( 
-9AF f12g12a24>c 
-9AF d2<a+12>c12d3f3e4c6d12<a%160a+2g12
-9AF a12a+3>c6d6c4<f4g12a2.>d2<a+12>c12d3f3e4c6d12
-9AF <a2>g6a6a+2g12a12a+3a+12a12a12f12g4c3c+2. 
-9AF < [d24<a24f24>d24<a24f24d24f24>]4 
-9 )
-9AF ) d24r12d%104c+24r12c+%104a%128
-9AF ]0
+A v10 @15@e11 o5 so \0
+9A d3r6d24e24f24g24a3g6f24ef24e24d4
+9A r6d24e24f24g24a3g6f24ef12d24>
+9A d4.d6 e6&[e6&)&e6&]3e6 (3
+9A d3r6d24e24f24g24a3g6f24ef24e24
+9A d4r6d24e24f24g24a3g6f24ed%128 e3<a6>e6 ) d1 ( 
+9A f12g12a24>c 
+9A d2<a+12>c12d3f3e4c6d12<a%160a+2g12
+9A a12a+3>c6d6c4<f4g12a2.>d2<a+12>c12d3f3e4c6d12
+9A <a2>g6a6a+2g12a12a+3a+12a12a12f12g4c3c+2. 
+9A < [d24<a24f24>d24<a24f24d24f24>]4 
+9A ) d24r12d%104c+24r12c+%104a%128
+9A ]0
 
-BCG l8 [ 
+BC l8 [ 
 B v11 @6@e10 o6 \0 so
-C v10 @5 o5 so \-1
-G v10 @9 o5 so \-2
-BCG d3r6d24e24f24g24a3g6f24ef24e24d4
-BCG r6d24e24f24g24a3g6f24ef12d24>
-B (
-BCG d4.d6 c+6&[c+6&)&c+6&]3&c+6 (3
-BCG d3r6d24e24f24g24a3g6f24ef24e24
-BCG d4r6d24e24f24g24a3g6f24ed%128e3<a6>e6<a1>
-BCG f12g12a24>c 
-BCG d2<a+12>c12d3f3e4c6d12<a%160a+2g12
-BCG a12a+3>c6d6c4<f4g12a2.>d2<a+12>c12d3f3e4c6d12
-BCG <a2>g6a6a+2g12a12a+3a+12a12a12f12g4c3c+2. 
-BCG < [d24<a24f24>d24<a24f24d24f24>]4 < 
-B \1 )
+C v10 @15@e11 o5 so \-1
+BC d3r6d24e24f24g24a3g6f24ef24e24d4
+BC r6d24e24f24g24a3g6f24ef12d24>
+BC d4.d6 c+6&[c+6&)&c+6&]3&c+6 (3
+BC d3r6d24e24f24g24a3g6f24ef24e24
+BC d4r6d24e24f24g24a3g6f24ed%128e3<a6>e6<a1>
+BC f12g12a24>c 
+BC d2<a+12>c12d3f3e4c6d12<a%160a+2g12
+BC a12a+3>c6d6c4<f4g12a2.>d2<a+12>c12d3f3e4c6d12
+BC <a2>g6a6a+2g12a12a+3a+12a12a12f12g4c3c+2. 
+BC < [d24<a24f24>d24<a24f24d24f24>]4 < 
+B \1
 C \0
-G \-1
-BCG ) f24r12f%104e24r12e%104&e%128
-BCG ]0
+BC ) f24r12f%104e24r12e%104&e%128
+BC ]0
 
-@e14={0,0,@14d850}
+@e12={0,0,@10f@14ea50}
+@e13={0,0,@10ff@14e90}
 
-*0={@17v14o4}
+*0={@14@e12v13o4}
 *1={@13v13o3q8}
-*4={@10@e14v13o3}
-*2={@18o2v15}
-*3={@13o2v14q3}
-*5={@14o2v13q1}
+*2={@14@e13o3v15}
+*3={@13o2v14q4}
 
-DEH l8 [;L @70 
+DE l8 [;L @70 
 D *0
 E *1
-H *4
-DEH [d24r24d24d24]4 [f24r24f24f24]2 [g24r24g24g24]2 
-DEH [d24r24d24d24]4 [f24r24f24f24]2 [g24r24g24g24]2 
-DEH [a+24r24a+24a+24]4 [a24r24a24a24]8 
-DEH [d24r24d24d24]4 [f24r24f24f24]2 [g24r24g24g24]2 
-DEH [d24r24d24d24]4 [f24r24f24f24]2 [g24r24g24g24]2 
-DEH [a+24r24a+24a+24]4 [a24r24a24a24]3 a24g24e24c24d24r24d24r24c24d12r24 
+DE [d24r24d24d24]4 [f24r24f24f24]2 [g24r24g24g24]2 
+DE [d24r24d24d24]4 [f24r24f24f24]2 [g24r24g24g24]2 
+DE [a+24r24a+24a+24]4 [a24r24a24a24]8 
+DE [d24r24d24d24]4 [f24r24f24f24]2 [g24r24g24g24]2 
+DE [d24r24d24d24]4 [f24r24f24f24]2 [g24r24g24g24]2 
+DE [a+24r24a+24a+24]4 [a24r24a24a24]3 a24g24e24c24d24r24d24r24c24d12r24 
 D *2
 E *3
-H *5
-DEH d24d24
+DE d24d24
 D *0
 E *1
-H *4
-DEH f24r24e24c12r24d24r24d24r24c24d12r24 
+DE f24r24e24c12r24d24r24d24r24c24d12r24 
 D *2
 E *3
-H *5
-DEH d24d24
+DE d24d24
 D *0
 E *1
-H *4
-DEH e24e24f24f24a24a24 [a+24r24a+24a+24]8 [a24r24a24a24]8 
-DEH [g24r24g24g24]8 [f24r24f24f24]3 f24r24f24g24 [a24r24a24a24]4 
-DEH [a+24r24a+24a+24]8 [a24r24a24a24]8 [g24r24g24g24]4 
-DEH [d+24r24d+24d+24]4 [c24r24c24c24]4 < [a24r24a24a24]3 
-DEH a24r24a24>c24 
-DEH [d24r24d24r24c24d12r24 
+DE e24e24f24f24a24a24 [a+24r24a+24a+24]8 [a24r24a24a24]8 
+DE [g24r24g24g24]8 [f24r24f24f24]3 f24r24f24g24 [a24r24a24a24]4 
+DE [a+24r24a+24a+24]8 [a24r24a24a24]8 [g24r24g24g24]4 
+DE [d+24r24d+24d+24]4 [c24r24c24c24]4 < [a24r24a24a24]3 
+DE a24r24a24>c24 
+DE [d24r24d24r24c24d12r24 
 D *2
 E *3
-H *5
-DEH d24d24 
+DE d24d24 
 D *0
 E *1
-H *4
-DEH g24r24a24>c12r24<]2 
-DEH o2 a+24r12a+%104a24r12aa24r24 [a24r24a24r24a24r24a24r24]2 a24r24a24r24a24>c
-DEH ]0
+DE g24r24a24>c12r24<]2 
+DE o2 a+24r12a+%104a24r12aa24r24 [a24r24a24r24a24r24a24r24]2 a24r24a24r24a24>c
+DE ]0
 
 @e0={0,0,fc}
 
@@ -159,7 +132,7 @@ DEH ]0
 2 [a24e24c+24<a24>]3 a24e24c+24
 2 ]0
 
-@e1={2,0,feb0=12}
+@e1={2,0,feb0=10}
 @e2={1,0,fe0=12}
 @e3={2,10,feb0=9}
 

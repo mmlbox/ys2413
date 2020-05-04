@@ -1,0 +1,112 @@
+;[gain=1.5;name=ys1ex_27]
+#opll_mode 0
+#tempo 94
+#title {"Theme of Adoru / Music from YS / Copyright © Nihon Falcom Corporation"}
+
+@v15 = { ; 91 S12
+;       TL FB
+        30, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 3, 1, 0, 0, 1, 0, 0, 0, 0, 0,
+  12, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0}
+
+@v16 = { ; 91 S34
+;       TL FB
+        12, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 3, 1, 0, 0, 1, 0, 0, 0, 0, 0,
+  15, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0 }
+  
+@v17 = { ; 79
+;       TL FB
+        28, 2,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 4, 1, 2, 0, 5, 0, 0, 0, 0, 0,
+  15, 4,15, 7, 0, 3, 0, 0, 1, 0, 0 }
+
+;9ADEF123 !
+
+@e10={0,0,@13f@9f}
+@e11={0,0,@13f@3f}
+
+9A l8 [; @70 
+9 @14 v13 o3 q1
+A @13 v13 o3
+9A [g24r24g24>g24<]4 [d+24r24d+24>d+24<]2 [f24r24f24>f24<]2 
+9A [g24r24g24>g24<]8 [g24r24g24>g24<]4 [d+24r24d+24>d+24<]2 
+9A [f24r24f24>f24<]2 [g24r24g24>g24<]8 d+d+d+d+24g24a+24>d+24<a+24g24a+24ddd
+9A d24f24a24>d24<a24f24a24 
+9A [c24r24c24c24]4 < [a+24r24a+24a+24]4 
+9A >d+d+d+d+24g24a+24>d+24<a+24g24a+24dddd24f24a24>d24<a24f24a24 
+9A [c24r24c24>c24<]4 [d24r24d24>d24<]4
+9A [g12<g24>g12<g24>g12f12<f24>f12<f24>f12d+12<d+24>d+12<d+24>d+12f12<f24>f12<f24>f12]2 
+9A [d+24r24d+24>d+24<]4 [f24r24f24>f24<]4 < [g24r24g24>g24<]8 
+9A ]0
+
+BC l8 [; @79 
+B @17 v10 o6 \1
+C @2  v10 o5
+BC [a+24g24]12 [>c24<g24]4 [>d24<g24]16 [a+24g24]12 
+BC [>c24<g24]4 [>d24<g24]16 a+gd+12&d+3afa12&a3>d+3g3f3d3<a+gd+12&d+3afa12&a3a+3>c3d%128 
+BC [a+24g24a24g24]16 a+6g6d+6<a+6o7 c6<a6f6c6d%128&d%128
+BC ]0
+
+DEF l8 [; @91 
+D @6 v13 o6
+E @5 v12 o5 \1
+F @9 v12 o5 \-1
+DEF d3g12f6c12<a+3a12a+6>c12d%128&d%128d3g12f6
+DEF c12<a+3a12a+6>c12<a+12g12&g2&g%128>gaa+12&a+3
+DEF agf12&f3g6<g6a+12>c12<a+12>d12&d3d+6f6g
+DEF aa+12&a+3agf12&f3g3g12a12a+12a4a6a+6
+DEF >c6d%128&d%128&d%128&d%128<d+3<g12a+12>d+12f4f6c6<a6
+DEF b%128&b3r3
+DEF ]0
+
+@e0={0,0,ec}
+@e1={0,0,ec}
+@e2={0,0,fe0}
+@e3={0,0,fe0}
+@e4={2,0,eda}
+
+1 l8 [ 
+1 @0 v13 o4 
+1 g%128>d3c3<a%128 > [r12a24a24a24a24]2 
+1 r6<g%128>d3f3g%128&g3<g24a24a+24>c24<a+24a24g24f24d+fg12&g3fd+d12&d3a+3>c3d3f3d+fg12&g3
+1 fd+d12&d3d+3d+12f12g12f+4f+6g6a6a+%128>c3<a+6a6a+%128>c3<a+6a6g%128a%128b%128 
+1 @1 v10 b%128
+1 ]0
+
+2 l8 [ \1 
+2 @0 v13 o4 
+2 g%128>d3c3<a%128 [r12a+24a+24a+24a+24]2 
+2 r6g%128>d3f3g%128&g3<g24a24a+24>c24<a+24a24g24f24d+fg6&g24 
+2 @2 o3 a24r24r24a24a24 
+2 @0 o4 fd+d6&d24 
+2 @2 o3 a24r24r24a24a24 
+2 @0 o4 a+3>c3d3f3d+fg6&g24 
+2 @2 o3 a24r24r24a24a24 
+2 @0 o5 fd+d6&d24 
+2 @2 o3 a24r24r24a24a24 
+2 @0 o5 d+3d+12f12g12f+4f+6g6a6a+%128>c3<a+6a6a+%128>c3<a+6a6g%128a%128g%128&g3 
+2 @3 v15 o3 r24a24r24a24r24a24a24a24
+2 ]0
+
+3 l8 [
+3 @4 v14 o2 [n0 c24r24 c24 c24 n6 
+3 c24r24 n0 c24 c24]7 
+3 [n0 c24 n10 c12 | c24 
+3 n0 c24]2 [n0 c24r24 c24 
+3 c24 n6 c24r24 n0 c24 
+3 c24]7 n0 c24 n6 c12 
+3 c24 n0 c24 c24 n8 c12
+3 [[n10 [c12r24]3 [n0 c24 
+3 c24 n10 c24]2 c24]2 
+3 [n0 c24r24 c24 c24 n6 
+3 c24r24 n0 c24 c24]4 ]2 
+3 [n0 c24 c24 n10 c12]15 
+3 n10 [c24]4 [n0 c24r24 
+3 c24 c24 n6 c24r24 n0 
+3 c24 c24]7 c24 n10 c12 
+3 c24 n0 c24 n10 [c24]3 
+3 ]0
