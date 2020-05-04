@@ -1,0 +1,134 @@
+;[gain=1.5;name=ys1ex_26]
+#opll_mode 0
+#tempo 76
+#title { "Misterious Moment / Music from YS / Copyright © Nihon Falcom Corporation"}
+
+@v15 = { ; Bass Harmonics
+;       TL FB
+        26, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 9, 2, 0, 0,10, 0, 0, 0, 0, 1,
+  15, 6, 2, 3, 0, 0, 0, 0, 0, 0, 1 }
+
+@v16 = { ; 21 Brass 
+;       TL FB
+        20, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+   6, 3, 2, 1, 0, 2, 0, 0, 1, 1, 0,
+  13, 5, 1, 1, 0, 2, 0, 0, 0, 0, 0 }
+
+@v17 = { ; 48 Harp
+;       TL FB
+        32, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 3, 1, 3, 0, 2, 0, 0, 0, 0, 0,
+  15, 6, 1, 3, 0, 1, 0, 0, 0, 1, 0 }
+
+@e10={0,0,@9f@6f}
+@e11={0,0,efe}
+
+; BCDEF123 !
+
+9A l8 [
+9 @17 o5 v12 \1
+A @17 o5 v12
+9A [r12ab>c<bg24a24r12ab>c d24& ( d24& ) d24& ) d24& ) d24 (2 <]2 
+9 @6  v11 o5 \0
+A @16 v13 o4 \0
+9A d4a12g6f24ed3d12c+12d24ed4a12g6f12>c12<a2r6
+9A a+12a24g24&g4g12a12a+12>c12<a+24a24&a4a12a+12>c12
+9A d3d6e12d12d4c+24<b24>c+3
+9A [d24<a+24f24>]2 d24<a+24> [e24c24<g24>]2 e24c24 
+9A (8 f+24&f+24& ) f+24&f+24& ) f+24& ) f+24& ) f+24&f+24& ) f+24&f+24& ) f+24& ) f+24& ) f+24&f+24& ) f+24& ) f+24 
+9A (2 [d24<a+24f24>]2 d24<a+24> [e24c24<g24>]2 e24c24 [d24<a24e24>]5 a24 [c+24<a24e24>]5 a24
+9A ]0
+
+BC l8 [ 
+B @17 o5 v12 \1
+C @17 o5 v12 
+BC [r12fgage24f24r12fgab6&b24]2 
+B @6  v11 o5 \-1
+C @16 v13 o4 \-1
+BC d4a12g6f24ed3d12c+12d24ed4a12g6f12>c12<a2r6
+BC a+12a24g24&g4g12a12a+12>c12<a+24a24&a4a12a+12>c12
+BC d3d6e12d12d4c+24<b24>c+3 
+BC [d24<a+24f24>]2 d24<a+24> [e24c24<g24>]2 e24c24 
+BC (8 f+24&f+24& ) f+24&f+24& ) f+24& ) f+24& ) f+24&f+24& ) f+24&f+24& ) f+24& ) f+24& ) f+24&f+24& ) f+24& ) f+24 
+BC (2 [d24<a+24f24>]2 d24<a+24> [e24c24<g24>]2 e24c24 [d24<a24e24>]5 a24 [c+24<a24e24>]5 a24
+BC ]0
+
+@e13={0,0,@1f@6f}
+@e14={0,0,fdc60}
+DE l8 [
+D @14@e14 v14 o3
+E @13 v14 o3 
+DE [d24d24d24d24d24d24d24d24d24d24d24d24d24 f24e24c24d24d24d24d24d24d24d24d24d24<a24>c24d24f24 g24a24>c24<]2 
+DE d24d24d24d24d24d24d24d24c24c24c24c24c24c24c24c24<
+DE a+24a+24a+24a+24a+24a+24a+24a+24a24a24a24a24a24a24a24>
+DE c24d24d24d24d24d24d24d24d24c24c24c24c24c24c24c24c24f24f24f24f24f24f24f24g24a24a24a24a24
+DE a24a24a24a24g24g24g24g24g24g24g24g24e24e24e24e24
+DE e24e24e24e24f24f24f24f24f24f24f24f24d24d24d24d24
+DE d24d24d24d24<a+24a+24a+24a+24a+24a+24a+24a+24g24g24g24g24
+DE g+24g+24g+24g+24a24a24a24a24a24a24a24a24a24a24a24a24
+DE a24>a24g24e24<a+24r24r24r24r24r24a+24>c24r24r24r24r24
+DE e24c24<g24>c24d24d24d24d24d24d24a24>c24d24c24<a24>d24
+DE c24<a24>a24<a24<a+24r24r24r24r24r24a+24>c24r24r24r24r24
+DE e24c24<g24>c24<a24a24a24a24a24a24a24a24a24a24a24a24
+DE a24e24g24g+24a24a24a24a24a24a24a24a24a24a24a24a24a24>e24a24>c+24
+DE ]0
+
+@e0={0,0,ec}
+@e1={0,0,ec}
+@e2={0,0,ec}
+@e3={0,0,e0} ; Drum
+
+1 l8 [ @0 v13 o4 
+1 [r12 defec24d24r12 defg6&g24]2 
+1 > [d24f24a24f24]2 [c24e24g24e24]2 
+1 [<a+24>d24f24d24]2 [<a24>c+24e24c+24]2 [d24f24a24f24]2 
+1 [c24e24g24e24]2 [f24a24>c24<a24]2 <a24>c+24
+1 e24c+24e24a24>c+24e24<g12f24e24&e4e12f12g12a12g24
+1 f24&f4f12g12a12a+3a+6b12b12a4a24g24a3<a+24f24
+1 d24a+24f24d24a+24f24>c24<g24e24>c24<g24e24>c24<g24> 
+1 @1 v4 d24d24 v5 d24d24 v6 d24d24 v7 d24d24 v8 d24d24 v9 d24
+1 d24 v10 d24d24 v11 d24d24 v12 
+1 <a+24f24d24a+24f24d24a+24f24>c24<g24e24>c24<g24e24>c24<g24 
+1 [a24e24<a24>]5 e24 [a24e24<a24>]5 e24
+1 ]0
+
+2 l8 [ 
+2 @2 v11 \1 o4 
+2 [rab>c<b24 )3 @3 <a48r48a48r48r (3 @2 r12>ab>c12 @3 )3 << a48r48a48r48a48r48a48r48 (3 >]2 
+2 @2 v11 r24 o4 [d24f24a24f24]2 [c24e24g24e24]2 
+2 [<a+24>d24f24d24]2 [<a24>c+24e24c+24]2 [d24f24a24f24]2 
+2 [c24e24g24e24]2 [f24a24>c24<a24]2 <a24>c+24e24c+24 
+2 @3 v14 o3 a48r48a48r48a48r48 
+2 @2 v13 \0 r4 
+2 >a+12a24g24&g4f4>c12<a+24a24&a4g3g6g+6e4e24e24 
+2 @3 v14 o3 a48r48a48r48a48r48a48r48a48r48a48r48a48r48a48r48 
+2 @2 \1 o4 a+24f24d24a+24f24d24a+24f24>c24<g24e24>c24<g24e24>c24<g24 \0 
+2 @3 v15 o3 [r24r24a48r16]2 r24r24a48r16 a48r16a48r16 
+2 @2 v13 \1 o4 a+24f24d24a+24f24d24a+24f24>c24<g24e24>c24<g24e24>c24<g24 
+2 v8 \1 [a24e24<a24>]5 e24 [a24e24<a24>]4 a24e24 
+2 @3 v14 o3 a48r48a48r48
+2 ]0
+
+@e9={2,0,eb0=16} ; Drum
+
+3 l8 [ 
+3 @9 v14 o2 [
+3 [n0 c24 c24 n12 c24 n0 c24]3 
+3 n0 c24 n12 c24 c12 
+3 [n0 c24 c24 n12 | c24 n0 c24]3 
+3 c12 [c24]4
+3 ]2 
+3 [n0 c24 c24 n12 c24 n0 c24]15 
+3 c24 n12 [c24]3 
+3 [n0 c24 c24 n12 c24 n0 c24]14 
+3 n12 
+3 [c24]9 n0 [c24]5 n12 c24 
+3 c24 n0 [c24]4 [c48 c48 c24]2 [n0 c24 c24 n12 c24 n0 c24]2 
+3 c24 [n0 c24 n12 c24]4 n0 
+3 [c24]5 n12 c24 c24 n0 
+3 [c24]4 [c48 c48 c24]2 [n0 c24 c24 n12 c24 n0 c24]6 [n12 c24 n0 c24 c24]2 n12 c24 c24
+3 ]0

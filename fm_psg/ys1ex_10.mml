@@ -118,13 +118,13 @@ DE ]0
 F y23,0y14,33v15l32
 F [
 F q1so o4 
-F [r4 r8c_<c16>r16 r4|r4]5
-F r [f+_d]3 r [c+_<a>]3
+F [r4 r8c_<c16>sfr16so r4|r4]5
+F r [f+_d]3 sfrso [c+_<a>]3
 F r4 r4 r4 r4 r4 r4
 F r4 r4 r4 r4 r4 r4 
-F r2 
-F [c_<c16>r8]11 > c_<g+32 g_<d+32> g+_<a+16> [d+_<b32>]2 
-F [c_<c16>r8]11 [d+192&d96]2 [d+_<b>]3 [c_<a>]2 
+F r2
+F [c_<c16>sfr8so]11 > c_<g+32 g_<d+32> g+_<a+16> [d+_<b32>]2 
+F [c_<c16>sfr8so]11 [d+192&d96]2 [d+_<b>]3 [c_<a>]2 
 F rrr [d+_<b>]3 [c_<g>]3 q8([c96r48]3)q1
 F r4.r4.r4.r4.r2.r4.
 F ]0

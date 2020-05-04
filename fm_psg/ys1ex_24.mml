@@ -1,0 +1,147 @@
+;[gain=1.5;name=ys1ex_24]
+#opll_mode 0
+#tempo 76
+#title {"Crossroad of Sadness / Music from YS / Copyright © Nihon Falcom Corporation"}
+
+@v15 = { ; 71
+;       TL FB
+        13, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 2, 0, 0, 0, 1, 0, 0, 0, 0, 0,
+  15, 1, 2, 4, 0, 2, 0, 0, 1, 0, 0 }
+
+@v16 = { ; 76
+;       TL FB
+         0, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 6, 2, 1, 0, 1, 0, 0, 0, 1, 0,
+  15, 3, 2, 1, 0, 2, 0, 0, 0, 0, 1 }
+
+;CDEF123 !
+
+@e10={0,0,fe8=128}
+@e11={0,0,[y2,13f:8y2,12f:8]}
+@e12={0,0,f}
+
+;9 @16v15
+;A @16v15
+;9A o4 a1
+
+9A l8 [; @t193  
+9 @6 @e10 v11 o7 so \1
+A @15@e11 v11 o6 sf \0
+9A [r12d24r24c+24dfed+12]2 [r12d24r24c+24dfed+12]2 
+9a a+12a24g6r24a12f12d12f12
+9A g3gf+a12a+12a24g6r24a12a+12>c12d12dc<a+12>c
+9A f6r24d+4d+12<a6a+12>c12d4d12<g6a12a+12>c4c12<f+6g12
+9A a12a+4>c12d3d+4d+12<a6a+12>c12d4d12<g6a12a+12>c4c12
+9A <f+6a+12a12ag24&g3r6 
+9 @6 v11 o7 sf
+A @16@e12 v13 o6 
+9A [d3a24r12a24r12a24r24]2 a2&a2 
+9 @6 @e10 v11 o5 so
+A @15@e11 v11 o4 
+9A d6f+6a6>c6d6f+6a6>c6
+9A ]0
+
+BC l8 [;L 
+B @6 @e10 v11 o7 so \1
+C @15@e11 v11 o6 sf \0
+BC [r12a+24r24a+24a+a+a+a+12]2 [r12a+24r24a+24a+a+a+a+12]2 
+B \0 (2
+C \-1 (2
+BC r24a+12a24g6r24a12f12
+BC d12f12g3gf+a12a+12a24g6r24a12a+12>c12d12dc
+BC <a+12>cf6r24d+4d+12<a6a+12>c12d4d12<g6a12a+12>c4c12
+BC <f+6g12a12a+4>c12d3d+4d+12<a6a+12>c12d4d12<g6a12a+12
+BC >c4c12<f+6a+12a12ag3r6 
+B @6 v11 o6 sf
+C @16@e12 v13 o5 
+BC [g3>d24r12d24r12d24r24<]2 a+2&a+2 
+B @6 @e10 v9 \-1 o5 so
+C @15@e11 v9 \-1 o4
+BC r12d6f+6a6>c6d6f+6a6>c12
+BC ]0
+
+@e13={0,0,@1f@6f}
+
+DE l8 [;L
+D @14     v13 o3q1
+E @13@e13 v14 o3
+DE ; v13
+DE [g24g24g24g24g24g24g24g24a+24a+24a+24a24a24a24g+24g+24]2 
+DE [g24g24g24g24]2 a+24a+24a+24a24a24a24 g+24g+24 
+DE [g24g24g24g24]2 a+24>a+24<a+24a24>a24<a24g+24>g+24 
+DE ( ; v12
+DE <g24g24>g24<g24>g24g24<g24>g24<f24f24>f24<f24>f24f24<f24
+DE >f24<d+24d+24>d+24<d+24>d+24d+24<d+24>d+24<d24d24>d24<d24>d24d24<d24
+DE >d24<g24g24>g24<g24>g24g24<g24>g24<f24f24>f24<f24>f24f24<f24
+DE >f24<d+24d+24>d+24<d+24>d+24d+24<d+24>d+24<f24f24>f24<f24>f24f24<f24
+DE >f24<c24c24>c24<c24>c24c24<c24>c24<f24f24>f24<f24>f24f24<f24>f24<<
+DE a+24a+24>a+24<a+24>a+24a+24<a+24>a+24d+24d+24>d+24<d+24>d+24d+24<d+24>d+24<<
+DE a24a24>a24<a24>a24a24<a24>a24d24d24>d24<d24>d24d24<d24>d24<<
+DE g24g24>g24<g24>g24g24<g24>g24<g24g24>g24<g24>g24g24<g24>g24
+DE c24c24>c24<c24>c24c24<c24>c24<f24f24>f24<f24>f24f24<f24>f24<<
+DE a+24a+24>a+24<a+24>a+24a+24<a+24>a+24d+24d+24>d+24<d+24>d+24d+24<d+24>d+24<<
+DE a24a24>a24<a24>a24a24<a24>a24d24d24>d24<d24>d24d24<d24>d24<<
+DE g24g24>g24<g24>g24g24<g24>g24g24f24d24f24d24c24<a+24a24
+DE [g24a+24>d24f24<g24a+24>d24f24g24a+24>d24<a24>c24<a+24a24a+24<]2
+DE [g24a+24>d24a24a+24>d24<g24a+24>d24a24a+24>d24<<<]2 > 
+DE (4 ; v8
+DE [d24d24]2 ) [d24d24]2 ) [d24d24]2 ) [d24d24]2 ) [d24d24]2 ) [d24d24]2 ) d24d24d24d24 ) d24d24d24d24
+DE ]0
+
+@e0={0,0,db}
+@e1={0,0,db}
+@e2={0,0,dd0}
+@e3={2,0,c90=22}
+
+1 l8 [
+1 @0 v15 o4
+1 g%128>g%128<g%128>g%128g4<a+24>c24d6f6d+6<a+6a>df+12
+1 g4<a+24>c24d6f6g6a12a+12a3g3>c3<f3a+3e3a3g4
+1 a12a+6b6g3>c3<f3a+3e3a6d6gg24&g3r6 
+1 o2 (
+1 [g24a+24>d24f24<g24a+24>d24f24g24a+24>d24<a24>c24<a+24a24a+24<]2 
+1 [g24a+24>d24a24a+24>d24<g24a+24>d24a24a+24>d24<<<]2 
+1 @1 o3 f+6a6>c6d6f+6a6>c6d6
+1 ]0
+
+2 l8 [
+2 @0 v12 \1 o4
+2 g%128>g%128<g%128>g%128rg4<a+24>c24d6f6d+6<a+6a
+2 >df+12g4<a+24>c24d6f6g6a12a+12a3g3>c3<f3a+3e3
+2 a3g4a12a+6b6g3>c3<f3a+3e3a6d6dd12&d6 
+2 @2 v15 o3
+2 a24a24a24a24 [r12a24r24]2 [a24r12]2 a24 r24 [r12a24r24]2 r4a24a24 [a24r12a24r12]4 
+2 @1 f+6a6>c6d6f+6a6>c6d6
+2 ]0
+
+3 l8 [
+3 @3 v15 o4 [
+3 n0 c24 c24 n8 c24 
+3 n0 c24]7 c24 n8 c24 
+3 c24 n0 c24 [n0 c24 
+3 c24 n8 c24 n0 c24
+3 ]6 
+3 n10 c24 c24 n0 c24 n10 
+3 c24 n0 c24 c24 n10 
+3 c24 c24 [n0 c24 
+3 c24 n8 c24 n0 c24]15 
+3 c24 n10 [c24]3 [n0 c24 
+3 c24 n8 c24 n0 c24]15
+3 c24 n10 c24 n0 c48 
+3 c48 n10 c24 [n0 c24 
+3 c24 n8 c24 n0 c24]15 
+3 n8 [c24]4 [n0 c24 c24 n8
+3 c24 n0 c24]2 
+3 [n8 c24 n0 c24 c24]2 
+3 n8 c24 n0 c24 [n0 c24
+3 c24 n8 c24 n0 c24]2
+3 [c48 c48 c24]2 
+3 c24 c24 n10 c24 
+3 c24 [n6 c24 n0 c24 
+3 c24]6 n6 [c24]6 [n0 c24 
+3 c24 n8 c24 n0 c24]6 n8 
+3 [c24]8 
+3 ]0

@@ -3,7 +3,7 @@
 #tempo 98
 #title { "Palace / Music from YS / Copyright © Nihon Falcom Corporation"}
 
-@v15 = { ; 30
+@v15 = { ; 28
 ;       TL FB
         32, 7,
 ; AR DR SL RR KL MT AM VB EG KR DT
@@ -26,24 +26,26 @@
 
 @e10={0,0,f9=64}
 
-9A l8 @15 v14 o4 g64 > [g2f2d+2f2]2 g2f2d+2f3&
-9A f&f%5 [g12d12c12d12c12<g12>]2 [g12d12<b12>d12
-9A <b12g12>]2 < [
-9A @15o4v14 g64 > [g2f2d+2f2]2 g2f2d+2f3&
-9A f&f%5 [g12d12c12d12c12<g12>]2 [g12d12<b12>d12
-9A <b12g12>]2 < g64 > [g2f2d+2f2]2 g2f2d+2f3&
-9A f&f%5 [g12d12c12d12c12<g12>]2 [g12d12<b12>d12<b12g12>]2
+9A l8 @15 v14 o4 
+9A g64 > [g2f2d+2f2]2 g2f2d+2f3&f&f%5 
+9A [g12d12c12d12c12<g12>]2 [g12d12<b12>d12<b12g12>]2 < 
+9A [ @15 v14 o4
+9A g64 > [g2f2d+2f2]2 g2f2d+2f3&f&f%5 
+9A [g12d12c12d12c12<g12>]2 [g12d12<b12>d12<b12g12>]2 < 
+9A g64 > [g2f2d+2f2]2 g2f2d+2f3&f&f%5 
+9A [g12d12c12d12c12<g12>]2 [g12d12<b12>d12<b12g12>]2
 9 @16 o6 
 A @16 o7 (
 9A [c12c12c12r12c12c12d+12c12c12r12c12c12g12c12c12r12c12c12>c12<c12c12r12c12c12]4
 9A @17 d+2c6d6 d+6f2d+6d6<a+6>c1 c24g24&g%128r6r12
-A ))
 9A ]0
 
-BC l8 @15 v14 o5 [c2c2c2c3>c6<]3 r12 v12 [g12d12c12d12c12<g12>]2
+BC l8 @15 v14 o5 
+BC [c2c2c2c3>c6<]3 r12 (2 [g12d12c12d12c12<g12>]2
 BC g12d12<b12>d12<b12g12>g12d12<b12>d12<b12
-BC [ @15\0v12 o5 [c2c2c2c3>c6<]3 r12 [g12d12c12d12c12
-BC <g12>]2 g12d12<b12>d12<b12g12>g12d12<b12>d12<b12
+BC [ @15\0v12 o5 
+BC [c2c2c2c3>c6<]3 r12 [g12d12c12d12c12<g12>]2 
+BC g12d12<b12>d12<b12g12>g12d12<b12>d12<b12
 BC o5 [c2c2c2c3>c6<]3 r12 [g12d12c12d12c12<g12>]2
 BC g12d12<b12>d12<b12g12>g12d12<b12>d12<b12>
 B @16 o5 
@@ -58,7 +60,7 @@ D @13 v14 o3
 E @14 v11 o3 \1 
 DE [c12c12r12c12c12c12]4 < [a+12a+12r12a+12a+12a+12]4 
 DE [g+12g+12r12g+12g+12g+12]4 [g12g12r12g12g12g12]4  
-DE [ 
+DE [ ; L
 DE [ o3 
 DE [c12c12r12c12c12c12]4 < [a+12a+12r12a+12a+12a+12]4 
 DE [g+12g+12r12g+12g+12g+12]4 [g12g12r12g12g12g12]4 
@@ -76,7 +78,7 @@ DE ]0
 @r2={1,0,128,64,2,192,1,1}
 
 1 l8 [r2]15 v12 @0 o4 g2 
-1 [ o5
+1 [ v12 @0 o5
 1 g1c2d+3f6g1c2d+3>c6<g1c2
 1 d+3f6d1g%128&g6<g6>g1c2d+4d12d+12f12g1c2d+4
 1 c12d+12>c12<g1c2d+4d12d+12f12d2c3d6<b%128&b12 
@@ -89,7 +91,7 @@ DE ]0
 1 ]0
 
 2 l8 [r2]15 v10 @\10 @0 r24o4 g2 
-2 [ o5
+2 [ @0 v10 o5
 2 g1c2d+3f6g1c2d+3>c6
 2 <g1c2d+3f6d1g%128&g6<g6>g1c2d+4d12d+12f12g1
 2 c2d+4c12d+12>c12<g1c2d+4d12d+12f12d2c3d6<b%128&
@@ -103,8 +105,9 @@ DE ]0
 2 <g6
 2 ]0
 
-3 l8 [r2]15 v10 @\6 @0 r12o4 g2 [
-3 o5 g1c2d+3f6g1c2d+3>c6
+3 l8 [r2]15 v10 @\6 @0 r12o4 g2 
+3 [ @0 v10 o5
+3 g1c2d+3f6g1c2d+3>c6
 3 <g1c2d+3f6d1g%128&g6<g6>g1c2d+4d12d+12f12g1
 3 c2d+4c12d+12>c12<g1c2d+4d12d+12f12d2c3d6<b%128 
 3 v10 @1 >g12f12d+12 

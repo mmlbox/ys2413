@@ -8,15 +8,15 @@
 ;       TL FB
         18, 0,
 ; AR DR SL RR KL MT AM VB EG KR DT
-  11, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0,
-  14, 3, 2, 1, 0, 2, 0, 1, 0, 0, 1 }
+  11, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0,
+  14, 3, 2, 1, 0, 2, 0, 0, 0, 0, 1 }
 
 @v16 = { ; 24
 ;       TL FB
         13, 0,
 ; AR DR SL RR KL MT AM VB EG KR DT
   15, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0,
-  10, 1, 2, 1, 0, 2, 0, 0, 0, 0, 0 }
+  10, 1, 2, 4, 0, 2, 0, 0, 1, 0, 0 }
 
 @v17 = { ; 79
 ;       TL FB
@@ -25,13 +25,13 @@
   15, 6, 1, 2, 0, 5, 0, 0, 0, 0, 0,
   15, 3, 3, 2, 0, 3, 0, 0, 0, 0, 0 }
 
-;9ABCDE123 !
+; BC123 !
 
-@e10={0,0,@14ff852}
+@e10={0,0,@14fd852}
 
 BC l8 [;L 
-B @10@e10v12o3
-C @13v14o3 
+B @10@e10v13o3
+C @13v13o3 
 BC [c16>c32c32<]7 a16g32g32 [c16>c32c32<]7 a16g32g32 
 BC [c16>c32c32<]7 a16g32g32 [c16>c32c32<]8 
 BC [c16>c16<]4 < [b16>b16<]4 [a16>a16<]4 [g16>g16<]2 g16>g16f16e16<
@@ -40,53 +40,58 @@ BC [c16>c16<]4 < [b16>b16<]4 [a16>a16<]4 [g16>g16<]4 [f16>f16<]8 [g16>g16<]8
 BC ) 
 BC [a32a32>a32a32<]4 [g32g32>g32g32<]4 [f32f32>f32f32<]4 [g32g32>g32g32<]4 
 BC [a32a32>a32a32<]4 [g32g32>g32g32<]4 [f32f32>f32f32<]4 [g32g32>g32g32<]4 
-Bc [a16>a32a32<]4 [g16>g32g32<]4 [f16>f32f32<]4 [g16>g32g32<]4 
+BC [a16>a32a32<]4 [g16>g32g32<]4 [f16>f32f32<]4 [g16>g32g32<]4 
 BC [a16>a32a32<]4 [g16>g32g32<]4 [f16>f32f32<]4 [g16>g32g32<]4 
 BC [a16>a32a32<]4 [g16>g32g32<]4 [f16>f32f32<]4 [g16>g32g32<]4 
 BC [a16>a32a32<]4 [g16>g32g32<]4 [f16>f32f32<]4 [g16>g32g32<]4
 BC [a16>a32a32<]8 [g16>g32g32<]8 
 BC ]0
 
-DE l8 [;L
-D @6 v11 o6 so \1
-E @16v11 o5 so
-DE [r e32r16.f8.r16g8.f4r8.e32r16.f8.r16d8.e4r16]2 
+DE l8 [ ;L
+D @6  v10 o6 so \-1
+E @16 v10 o5 sf
+DE [r e32r16.f8.r16g8.f4r8.e32r16.f8.r16d8.e4r16]2
 DE >d16e16r16e16r16d16c16g4r16ag>cr16
 DE <a16r16gr16ed16c16r16e16r16<g16a4r16a16>c16f16
 DE r16e16r16g16r16e16d16c16dr16<ar16>c16r16<b>c16
 DE d16r16<gr16>d16e16r16e16r16d16c16g4r16ag>c
 DE r16<a16r16gr16ed16c16r16e16r16<g16ar16>c16r16
 DE f16g16f16<g+r16>c16r16f16g16f16e4&e16d16<g16>g16&g4.r 
-D @17v9 o7 sf
-E @11v12 o6 sf
+D @17 v9  o7 sf
+E @11 v12 o6 sf
 DE [e4&e16r16e16a16&a4r16a16g16a16&a2r16g16r16g16r16e16d]2 
-D @5 v11 o5
-E @15 v11 o5
+D @15 v10 o5
+E @15 v10 o5
 DE [a32>c32e32c32<]12 [g32b32>e32<b32]4 [a32>c32e32c32<]12 
 DE [g32b32>e32<b32]4 [a32>c32e32c32<]12 [g32b32>e32<b32]4 
 DE [a32>c32e32c32<]12 [g32b32>e32<b32]4 [a32>c32e32c32<]8 
 DE [g32g32>g32<g32]8 
 DE ]0
 
-F y14,32l8 [;
-F v15 o4 q1 so
-F [c_<g+32sfr16.so>]7 f+_<g+16sfr16so>
-F [c_<g+32sfr16.so>]7 c+_<d+16sfr16so>
-F [c_<g+32sfr16.so>]7 f+_<g+16sfr16so> 
-F [c_<g+32sfr16.so>]6 g_<a16> [d+_c32]2 sfr32so d+_c32 < [a_f+32]2 >
-F [c_<g+32sfr16.so> f+_<g+16sfr16so> c_<g+32sfr32so> [c_<g+32>]2 f+_<g+32sfr16.so>]4
-F [c_<g+32sfr16.so> f+_<g+16sfr16so> c_<g+32sfr32so> [c_<g+32>]2 f+_<g+32sfr16.so>]3 
-F  c_<g+32sfr16.so> f+_<g+16sfr16so> c_<g+32sfr32so> [c_<g+32>]2 b_f+32 g_d+32 e_<f+16>
-F [c_<g+32sfr16.so> f+_<g+16sfr16so> c_<g+32sfr32so> [c_<g+32>]2 f+_<g+16sfr16 so>]7 
-F [b_f+32]4 [g_d+32]4 [e_c32]4 < [b_g32]4 >
-F [ c_<d16> r32r32 ]31 [d_<b32>]3 sfr32so
-F [c_<g+32sfr16.so> f+_<g+16sfr16so> c_<g+32sfr32so> [c_<g+32>]2 f+_<g+16sfr16 so>]17 
-F [g_<a16>d+_<f16>]2 [c_<d16>]4 [c_<d16sfr16so>]5 
-F g_d+32 d+_<a+32 a+_c16 > g_<a16sfr32so> d+_<f16sfr32so a+_c16
-F ]0
+@e12={0,0,@12fc80}
+
+F y14,32
+9F l8 [;
+9 v13 o4 @12@e12
+F v14 o4 q1 so
+9F [c_<g+32sfr16.so>]7 >f+_<g+16sfr16so
+9F [c_<g+32sfr16.so>]7 >c+_<d+16sfr16so
+9F [c_<g+32sfr16.so>]7 >f+_<g+16sfr16so 
+9F [c_<g+32sfr16.so>]6 g_<a16> [d+_c32]2 sfr32so d+_c32 < [a_f+32]2 >
+9F [c_<g+32sfr16.so> f+_<g+16sfr16so> c_<g+32sfr32so> [c_<g+32>]2 f+_<g+16sfr16so>]4
+9F [c_<g+32sfr16.so> f+_<g+16sfr16so> c_<g+32sfr32so> [c_<g+32>]2 f+_<g+16sfr16so>]3 
+9F  c_<g+32sfr16.so> f+_<g+16sfr16so> c_<g+32sfr32so> [c_<g+32>]2 b_f+32 g_d+32 e_<f+16>
+9F [c_<g+32sfr16.so> f+_<g+16sfr16so> c_<g+32sfr32so> [c_<g+32>]2 f+_<g+16sfr16so>]7 
+9F [b_f+32]4 [g_d+32]4 [e_c32]4 < [b_g32]4 >
+9F [ c_<d16> r32r32 ]31 [d_<b32>]3 sfr32so
+9F [c_<g+32sfr16.so> f+_<g+16sfr16so> c_<g+32sfr32so> [c_<g+32>]2 f+_<g+16sfr16so>]17 
+9F [g_<a16>d+_<f16>]2 [c_<d16>]4 [c_<d16sfr16so>]5
+9F g_d+32 d+_<a+32 a+_c16 >> g_<a16sfr32so> d+_<f16sfr32so a+_c16
+9F ]0
 
 G l8 [; 
-G v10@14 o1 q8 sf y25,0y40,8
+G @14 v0 q8 o1
+G y24,0y40,0 ; for hi-hat
 G [c32r16.]7 c32r16.
 G [c32r16.]7 c32r16.
 G [c32r16.]7 c32r16. 
@@ -96,7 +101,7 @@ G [c32r16. c32r16. c32r32 [c32]2 c32r16.]3
 G  c32r16. c32r16. c32r32 [c32]2 c32 c32 c32 r32
 G [c32r16. c32r16. c32r32 [c32]2 c32r16.]7 
 G [c32]4 [c32]4 [c32]4 [c32]4
-G [c32r32 v0@5 g32g32 v10@14 ]31 
+G [c32r32 v0@6 >g32g32< v10@14 ]31 
 G [c32]3 r32
 G [c32r16. c32r16. c32r32 [c32]2 c32r16.]17 
 G [c32r32c32r32]2 [c32r32]4 [c32r16.]5
@@ -104,53 +109,53 @@ G c32 c32 c32r32 > c32r16 c32r16 c32r32
 G ]0
 
 @e0={1,0,ec}
-@e6={1,0,dedddd0=160}
+@e6={1,0,ec0=180}
 @e7={1,0,9bcdc}
 
 1 l8 [;L 
-1 @6 v14 o4 k3
+1 @6 v13 o4 k2
 1 [rc32r16.c8.r16d8.c4r8.c32r16.c8.r16<b8.>c4r16]2 
-1 v12 r16>c16r16c16r16<gr16>de16cdr16
+1 (2 r16>c16r16c16r16<gr16>de16cdr16
 1 er16<ar16>eer16<gr16>er16f16r16f16r16f16
 1 e16d16r16g16r16g16r16g16f16e16fe16f16r16f16r16
 1 f16gf16g16r16g16r16g16r16c16r16c16r16<gr16>d
 1 e16cdr16er16<ar16>eer16<gr16>ecr16
 1 <agf16>cr16<g+gf16g8.dgb16>d16<g16b16>d16
-1 g16<b16>d16g16 
-1 v14 [a4&a16r16b16>c16&c4r16c16<b16>c16&c2r16<b16r16b16r16a16g]2 
-1 @7 k4 <a4.b16>c8.dege8.<a8.>ee8.<g8.>e<b4.g16a8.gege4
+1 g16<b16>d16g16
+1 )2 [a4&a16r16b16>c16&c4r16c16<b16>c16&c2r16<b16r16b16r16a16g]2 
+1 @7 k3 <a4.b16>c8.dege8.<a8.>ee8.<g8.>e<b4.g16a8.gege4
 1 ab16g8.d8.e8.<b>c16<bae16b>c16<ba>e16<b
 1 >c16<ba>d8.c<b>cb>c16<bae16b>c16<ba
 1 >e16<b>c16<bad8.gb>d<b4.&b16>c16&c4.r 
-1 @0 k0 <d32<g32b32>d32g32<b32>d32g32b32d32g32b32>d32<g32b32
+1 @0 k1 <d32<g32b32>d32g32<b32>d32g32b32d32g32b32>d32<g32b32
 1 >d32g32<b32>d32g32b32d32g32b32>d32<g32b32>d32g32<b32>d32g32
 1 ]0
 
 2 l8 [;L 
-2 @6 \1 v14 o3 k3
-2 [rg32r16.a8.r16b8.a4r8.g32r16.a8.r16g8.g4r16]2 
-2 v12o5 r16c16r16c16r16<gr16>de16cd
+2 @6 \1 v13 o3 k2
+2 [rg32r16.a8.r16b8.a4r8.g32r16.a8.r16g8.g4r16]2 >
+2 (2 r16>c16r16c16r16<gr16>de16cd
 2 r16er16<ar16>eer16<gr16>er16f16r16f16r16
 2 f16e16d16r16g16r16g16r16g16f16e16fe16f16r16f16
 2 r16f16gf16g16r16g16r16g16r16c16r16c16r16<gr16
-2 >de16cdr16er16<ar16>eer16<gr16>ec
-2 r16<agf16>cr16<g+gf16g8.dgb16>d16<g16b16
+2 >de16cdr16er16<ar16>eer16<gr16>ecr16
+2 <agf16>cr16<g+gf16g8.dgb16>d16<g16b16
 2 >d16g16<b16>d16g16 
-2 v14 [a4&a16r16b16>c16&c4r16c16<b16>c16&c2r16<b16r16b16r16a16g]2
-2 @7 k4 \2 <a4.b16>c8.dege8.<a8.>ee8.<g8.>e<b4.g16a8.ge
+2 )2 [a4&a16r16b16>c16&c4r16c16<b16>c16&c2r16<b16r16b16r16a16g]2
+2 @7 k3 \2 <a4.b16>c8.dege8.<a8.>ee8.<g8.>e<b4.g16a8.ge
 2 ge4ab16g8.d8.e8.<b>c16<bae16b>c16<ba
 2 >e16<b>c16<ba>d8.c<b>cb>c16<bae16b>c16
 2 <ba>e16<b>c16<bad8.gb>d<b4.&b16>c16&c4.r 
-2 @0 k0 \1 v12 r32<d32<g32b32>d32g32<b32>d32g32b32d32
+2 @0 k1 \1 v12 r32<d32<g32b32>d32g32<b32>d32g32b32d32
 2 g32b32>d32<g32b32>d32g32<b32>d32g32b32d32g32b32>d32<g32
 2 b32>d32g32<b32>d32
 2 ]0
 
 @e5={2,10,ddb0=24}
-@e8={2,0,dcb90=12}
+@e8={2,0,dcb90=10}
 
 3 l8 [; L
-3 @8 v14 k0
+3 @8 v13 k0
 3 n0 [c32]28 n6 c32 n0 [c32]31 n6 c32 n0 [c32]31 n6 c32 n0 [c32]27  
 3 @5 n10 c16 c32 c16 c32 c32 c32 
 3 @8 [n0 c32 c32 c32 c32 n6 c32 n0 c32 c32 c32]15 n0 c32 c32 c32 c32  
@@ -158,9 +163,9 @@ G ]0
 3 @8 [n0 c32 c32 c32 c32 n6 c32 n0 c32 c32 c32]14  
 3 @5 n10 [c32]16 
 
-3 @6 v14 k3 o5 [c4&c16r16d16e16&e4r16e16d16e16&e2r16d16r16d16r16c16<b16&b16>]2 
+3 @6 v13 k3 o5 [c4&c16r16d16e16&e4r16e16d16e16&e2r16d16r16d16r16c16<b16&b16>]2 
 
-3 @8 v14 k0 [n0 c32 c32 c32 c32 n10 c32 n0 c32 c32 c32]34 
+3 @8 v13 k0 [n0 c32 c32 c32 c32 n10 c32 n0 c32 c32 c32]34 
 3 @5 n10 c16 c16 c16 c16 c16 c16 c16 c16 
 3 @8 [n0 c32 c32 c32 c32 n10 c32 n0 c32 c32 c32]2 c32 c32 c32 c32 
 3 @5 n10 c32 c32 c16 c16. c16. c16
