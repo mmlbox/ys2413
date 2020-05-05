@@ -2,7 +2,7 @@
 #opll_mode 0
 #lfo_mode 0
 #tempo 75
-#title { "Final Battle / Music from YS / Copyright © Nihon Falcom Corporation" }
+#title { "Final Battle / Music from YS / Copyright (c) Nihon Falcom Corporation" }
 
 @v15 = { ; 1
 ;       TL FB

@@ -1,7 +1,7 @@
 ;[gain=1.5;name=ys1ex_02]
 #opll_mode 0
 #tempo 96
-#title { "Fountain of Love / Music from YS / Copyright © Nihon Falcom Corporation"}
+#title { "Fountain of Love / Music from YS / Copyright (c) Nihon Falcom Corporation"}
 
 @v15 = { ; 79
 ;       TL FB

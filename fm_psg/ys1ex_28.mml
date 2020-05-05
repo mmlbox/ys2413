@@ -1,14 +1,14 @@
 ;[gain=1.5;name=ys1ex_28]
 #opll_mode 0
 #tempo 76
-#title {"Dead-End Street / Music from YS / Copyright © Nihon Falcom Corporation"}
+#title {"Dead-End Street / Music from YS / Copyright (c) Nihon Falcom Corporation"}
 
 @v15 = { ; 76
 ;       TL FB
-         4, 0,
+         5, 0,
 ; AR DR SL RR KL MT AM VB EG KR DT
-  15, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0,
-  15, 3, 2, 1, 0, 2, 0, 0, 0, 0, 1 }
+  15, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0,
+  15, 3, 2, 1, 0, 2, 0, 1, 0, 0, 1 }
 
 @v16 = { ; 72 BD
 ;       TL FB
@@ -39,7 +39,7 @@ A @15v13 o5
 9 @17 v11 o8 \0
 A @2 v11 o7 \0
 9A [c32<g+32f32d32>]4 < [b32g32e32c+32]4 [>c32<g+32f32d32]4 [b32g32e32c+32]4
-9 @9v11 o7 \1 
+9 @15v11 o7 \1 
 A @15v13 o6
 9A [c12<g+12f12g+12f12d12b12g12e12g12e12c+12>]2 )2 c2
 9A ]0
@@ -59,7 +59,7 @@ C @2 v9 o7 \-1
 BC r64
 BC [c32<g+32f32d32>]4 < [b32g32e32c+32]4 [>c32<g+32f32d32]4
 BC [b32g32e32c+32]3 b32g32e32c+64
-B @9v11 o7 \1 
+B @15v11 o7 \1 
 C @15v13 o6 \0
 BC < [g+12f12d12f12d12<g+12>g12e12c+12e12c+12<g12>]2 )2 g+2
 BC ]0
@@ -156,7 +156,7 @@ FG ]0
 @e2={1,0,eb0=12}
 @e3={1,0,cd}
 @e4={1,0,e0=48}
-@e5={2,0,d0=38}
+@e5={2,0,d0=32}
 
 3 l8 n10 
 3 @1 v13 o4 [c64]2 [c32]15 
@@ -165,7 +165,7 @@ FG ]0
 3 [c32c32>c32<c32]16 [c+32c+32>c+32<c+32]16 
 3 @3 v13 r4r16 k3
 3 >d32f32g+32b32>d32f32r4r16<c+32e32g32a32>c+32e32r4r16
-3 <d32f32g+32b32>d32f32r4r16<c+32e32g32a32>c+32e32< 
+3 <d32f32g+32b32>d32f32r4r16<c+32e32g32a32>c+32e32<
 3 [@4 >c12<g+12f12g+12f12 @5 ) n25 d12 @4 ( b12g12e12g12e12 @5 ) n25 c+12 ]2 
 3 @4 v13 o8 c32<g+32f32d32 ( c32<g+32f32d32 ( c32<g+32f32d32 ( c32<g+32f32d32
 3 ]0

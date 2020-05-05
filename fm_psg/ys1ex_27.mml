@@ -1,7 +1,7 @@
 ;[gain=1.5;name=ys1ex_27]
 #opll_mode 0
 #tempo 94
-#title {"Theme of Adoru / Music from YS / Copyright © Nihon Falcom Corporation"}
+#title {"Theme of Adoru / Music from YS / Copyright (c) Nihon Falcom Corporation"}
 
 @v15 = { ; 91 S12
 ;       TL FB
@@ -28,10 +28,12 @@
 
 @e10={0,0,@13f@9f}
 @e11={0,0,@13f@3f}
+@e12={0,0,@10f@14d80}
+@e13={0,0,f}
 
 9A l8 [; @70 
-9 @14 v13 o3 q1
-A @13 v13 o3
+9 @14 @e12 v13 o3
+A @13 @e13 v13 o3 so 
 9A [g24r24g24>g24<]4 [d+24r24d+24>d+24<]2 [f24r24f24>f24<]2 
 9A [g24r24g24>g24<]8 [g24r24g24>g24<]4 [d+24r24d+24>d+24<]2 
 9A [f24r24f24>f24<]2 [g24r24g24>g24<]8 d+d+d+d+24g24a+24>d+24<a+24g24a+24ddd
@@ -44,17 +46,17 @@ A @13 v13 o3
 9A ]0
 
 BC l8 [; @79 
-B @17 v10 o6 \1
-C @2  v10 o5
+B @17 v9 o6 \1
+C @2  v9 o5
 BC [a+24g24]12 [>c24<g24]4 [>d24<g24]16 [a+24g24]12 
 BC [>c24<g24]4 [>d24<g24]16 a+gd+12&d+3afa12&a3>d+3g3f3d3<a+gd+12&d+3afa12&a3a+3>c3d%128 
 BC [a+24g24a24g24]16 a+6g6d+6<a+6o7 c6<a6f6c6d%128&d%128
 BC ]0
 
 DEF l8 [; @91 
-D @6 v13 o6
+D @6 v12 o6
 E @5 v12 o5 \1
-F @9 v12 o5 \-1
+F @9 v11 o5 \-1
 DEF d3g12f6c12<a+3a12a+6>c12d%128&d%128d3g12f6
 DEF c12<a+3a12a+6>c12<a+12g12&g2&g%128>gaa+12&a+3
 DEF agf12&f3g6<g6a+12>c12<a+12>d12&d3d+6f6g
@@ -65,9 +67,9 @@ DEF ]0
 
 @e0={0,0,ec}
 @e1={0,0,ec}
-@e2={0,0,fe0}
-@e3={0,0,fe0}
-@e4={2,0,eda}
+@e2={0,0,ed0}
+@e3={0,0,ed0}
+@e4={2,0,db0=16}
 
 1 l8 [ 
 1 @0 v13 o4 

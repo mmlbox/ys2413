@@ -1,7 +1,7 @@
 ;[gain=1.5;name=ys1ex_26]
 #opll_mode 0
 #tempo 76
-#title { "Misterious Moment / Music from YS / Copyright © Nihon Falcom Corporation"}
+#title { "Misterious Moment / Music from YS / Copyright (c) Nihon Falcom Corporation"}
 
 @v15 = { ; Bass Harmonics
 ;       TL FB
@@ -31,7 +31,7 @@
 
 9A l8 [
 9 @17 o5 v12 \1
-A @17 o5 v12
+A @17 o5 v13
 9A [r12ab>c<bg24a24r12ab>c d24& ( d24& ) d24& ) d24& ) d24 (2 <]2 
 9 @16 v13 o4 \0 
 A @6@e10 v10 o5 \0
@@ -58,7 +58,7 @@ BC (2 [d24<a+24f24>]2 d24<a+24> [e24c24<g24>]2 e24c24 [d24<a24e24>]5 <a24> [c+24
 BC ]0
 
 @e13={0,0,@1f@6f}
-@e14={0,0,fdc60}
+@e14={0,0,fc80}
 DE l8 [
 D @14@e14 v14 o3
 E @13 v14 o3 

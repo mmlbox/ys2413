@@ -1,7 +1,7 @@
 ;[gain=1.5;name=ys1ex_24]
 #opll_mode 0
 #tempo 76
-#title {"Crossroad of Sadness / Music from YS / Copyright © Nihon Falcom Corporation"}
+#title {"Crossroad of Sadness / Music from YS / Copyright (c) Nihon Falcom Corporation"}
 
 @v15 = { ; 71
 ;       TL FB
@@ -66,7 +66,7 @@ BC ]0
 @e13={0,0,@1f@6f}
 
 DE l8 [;L
-D @14     v13 o3q1
+D @14     v12 o3 q1
 E @13@e13 v14 o3
 DE ; v13
 DE [g24g24g24g24g24g24g24g24a+24a+24a+24a24a24a24g+24g+24]2 

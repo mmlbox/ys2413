@@ -1,19 +1,19 @@
 ;[gain=1.5;name=ys1ex_25]
 #opll_mode 0
 #tempo 94
-#title { "Battle Ground / Music from YS / Copyright © Nihon Falcom Corporation"}
+#title { "Battle Ground / Music from YS / Copyright (c) Nihon Falcom Corporation"}
 
 @v15 = { ; 1
 ;       TL FB
         10, 0,
 ; AR DR SL RR KL MT AM VB EG KR DT
-  15, 0, 0, 0, 0, 8, 0, 1, 0, 0, 1,
+  15, 0, 0, 0, 0, 8, 1, 1, 0, 0, 1,
   15, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1 }
 
-@e10={0,0,[y2,9fffy2,10fff]}
+; @e10={0,0,[y2,9fffy2,10fff]}
 
 *0={@6v12o4}
-*1={@15@e10v13o3}
+*1={@15v13o3}
 
 ; 9ABCDE13 !
 

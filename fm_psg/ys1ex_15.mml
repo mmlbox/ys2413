@@ -2,7 +2,7 @@
 #opll_mode 0
 #lfo_mode 0
 #tempo 81
-#title { "See You Again / Music from YS / Copyright © Nihon Falcom Corporation" }
+#title { "See You Again / Music from YS / Copyright (c) Nihon Falcom Corporation" }
 
 @v15 = { ; 76
 ;       TL FB
@@ -68,7 +68,7 @@ DE [a32>c32e32c32<]12 [g32b32>e32<b32]4 [a32>c32e32c32<]8
 DE [g32g32>g32<g32]8 
 DE ]0
 
-@e12={0,0,@12fc80}
+@e12={0,0,@12ca80}
 
 F y14,32
 9F l8 [;

@@ -1,7 +1,7 @@
 ;[gain=1.5;name=ys1ex_03]
 #opll_mode 0
 #tempo 83
-#title { "The Syonin / Music from YS / Copyright © Nihon Falcom Corporation"}
+#title { "The Syonin / Music from YS / Copyright (c) Nihon Falcom Corporation"}
 
 @v15 = { ; 13
 ;       TL FB
