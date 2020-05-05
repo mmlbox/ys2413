@@ -7,48 +7,53 @@
 ;       TL FB
         10, 0,
 ; AR DR SL RR KL MT AM VB EG KR DT
-  15, 0, 0, 0, 0, 8, 1, 1, 0, 0, 1,
+  15, 0, 0, 0, 0, 8, 0, 1, 0, 0, 1,
   15, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1 }
 
-; @e10={0,0,[y2,9fffy2,10fff]}
+@e10={0,0,[y2,9fffy2,10fffy2,11fffy2,10fff]}
 
 *0={@6v12o4}
-*1={@15v13o3}
+*1={@15@e10v13o3}
+*2={@5v8o5}
 
 ; 9ABCDE13 !
 
-9A l8 ;@t205 
+9AF l8 ;@t205 
 9 *0 \0
 A *1 \1
-9A g3>c3f3a+3<g6>c6f6a+6g6>c6f6a+6<
-9A [ 
+F *2 \0
+9AF g3>c3f3a+3<g6>c6f6a+6g6>c6f6a+6<
+9AF [ 
 9 *0 >
 A *1 >
-9A c24d24d+24f24g24f24d+24d24c24d24d+24f24g24f24d+24d24
-9A c24d24d+24f24g24f24d+24d24c24d24d+24f24g24f24d+24d24
-9A <f24g24g+24a+24>c24d24d+24f24c24d24d+24f24g24g+24a+24>c24
-9A dfgd4r24cdd+12d12<a+12>c12c6c12d12d+12f12
-9A d+12d12c12dd+f3&f12dd+f6g4cdd+12d12
-9A <a+12>c12c6c12d12d+12f12d+12d12c12<a+>d<a+12g+>c<g+12
-9A a+>d<a+12g+>c<g+12a+>df12<g+>cd+12<a+>df12<g+
-9A >cd+12<a+%128b3g6&g24f+%2f%2e%2d+%2 ( d%2c+%2c%2 (
-9A <b%2a+%2 ( a%2g+%2 ( g%2 )4
-9A ]0
+F *2 >
+9AF c24d24d+24f24g24f24d+24d24c24d24d+24f24g24f24d+24d24
+9AF c24d24d+24f24g24f24d+24d24c24d24d+24f24g24f24d+24d24
+9AF <f24g24g+24a+24>c24d24d+24f24c24d24d+24f24g24g+24a+24>c24
+9AF dfgd4r24cdd+12d12<a+12>c12c6c12d12d+12f12
+9AF d+12d12c12dd+f3&f12dd+f6g4cdd+12d12
+9AF <a+12>c12c6c12d12d+12f12d+12d12c12<a+>d<a+12g+>c<g+12
+9AF a+>d<a+12g+>c<g+12a+>df12<g+>cd+12<a+>df12<g+
+9AF >cd+12<a+%128b3g6&g24f+%2f%2e%2d+%2 ( d%2c+%2c%2 (
+9AF <b%2a+%2 ( a%2g+%2 ( g%2 )4
+9AF ]0
 
-BC l8 
+BCG l8 
 B *0 (
 C *1 ( \1
-BC d3g3>c3f3<d6g6>c6f6d6g6>c6f6<
-BC [
+G *2 (
+BCG d3g3>c3f3<d6g6>c6f6d6g6>c6f6<
+BCG [
 B *0 \1 ( >
 C *1 \2 ( >
-BC c%128c%128c%128c3<b3>cdd+12d12<a+12>c12c6c12d12d+12f12
-BC d+12d12c12dd+f3&f12dd+f6g4cdd+12d12
-BC <a+12>c12c6c12d12d+12f12d+12d12c12<a+>d<a+12g+>c<g+12
-BC a+>d<a+12g+>c<g+12>a+>df12<g+>cd+12<a+>df12<g+
-BC >c<g+12f%128g3>d6&d24c+%2c%2<b%2a+%2 ( a%2g+%2g%2f+%2 
-BC ( f%2e%2 ( d+%2 ( d%2 )4
-BC ]0
+G *2 \1 ( >
+BCG c%128c%128c%128c3<b3>cdd+12d12<a+12>c12c6c12d12d+12f12
+BCG d+12d12c12dd+f3&f12dd+f6g4cdd+12d12
+BCG <a+12>c12c6c12d12d+12f12d+12d12c12<a+>d<a+12g+>c<g+12
+BCG a+>d<a+12g+>c<g+12>a+>df12<g+>cd+12<a+>df12<g+
+BCG >c<g+12f%128g3>d6&d24c+%2c%2<b%2a+%2 ( a%2g+%2g%2f+%2 
+BCG ( f%2e%2 ( d+%2 ( d%2 )4
+BCG ]0
 
 @e11={0,0,@10c@14d820}
 

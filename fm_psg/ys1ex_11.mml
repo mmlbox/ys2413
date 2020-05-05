@@ -1,7 +1,7 @@
 ;[gain=1.5;name=ys1ex_11]
 #opll_mode 0
 #lfo_mode 0
-#tempo 78
+#tempo 75
 #title { "The Last Moment of The Dark / Music from YS / Copyright (c) Nihon Falcom Corporation" }
 
 @v15 = { ; 1 strings harmonics
@@ -9,7 +9,7 @@
         13, 0,
 ; AR DR SL RR KL MT AM VB EG KR DT
   11, 5, 3, 0, 0, 5, 0, 0, 0, 0, 0,
-   8, 4, 2, 2, 0, 1, 0, 0, 0, 1, 0 }
+   7, 4, 2, 2, 0, 1, 0, 0, 0, 1, 0 }
 
 @v16 = { ; 21
 ;       TL FB
@@ -26,15 +26,15 @@
   15, 1,15, 5, 0, 0, 0, 0, 0, 0, 1 }
 
 @e10={0,0,@8f@6f}
-@e11={0,0,fec=8}
+@e11={0,0,cdefec=8}
 @e12={0,0,@13f@6fe=8}
 @e13={0,0,f}
 
-;9BDE123 !
+; DE123 !
 
 9A l8 [
-9 @15    v9  o5 \0
-A @6@e11 v10 o5 \-1
+9 @15    v9  o5 \0  so
+A @6@e11 v11 o5 \-1 so
 9A hf
 9A [d+24f+24a+24f+24]8 [d+24f+24a+24f+24]8
 9A [d+24f+24a+24f+24]8 [d+24f+24a+24f+24]8
@@ -53,8 +53,8 @@ A @6@e10
 9A ]0
 
 BC l8 [
-B @15    v8  o5 \-1
-C @6@e11 v9  o5 \-2
+B @15    v8  o5 \-1 so
+C @6@e11 v10 o5 \-2 so
 BC hf r24
 BC [d+24f+24a+24f+24]8 [d+24f+24a+24f+24]8
 BC [d+24f+24a+24f+24]8 [d+24f+24a+24f+24]8
@@ -77,7 +77,7 @@ E @13    v14 o3 \1
 DE [d+3d3c+3d3]2 [d+3d3c+3d3]2 [d+3d3c+3d3]2
 DE [g+3g3f+3g3]2
 DE <a+12a+12a+12a+12r6a+12b12&b%128a+12a+12a+12a+12r6a+12b12&b3a+6>d6
-D @17 o4 v14
+D @17 o4 v14 
 E @13 o3 v14
 DE [d+24r24d+24d+24]3 d+24r24)<d+24d+24>(
 DE [f24r24f24f24]3 f24r24 )<f24f24>(
