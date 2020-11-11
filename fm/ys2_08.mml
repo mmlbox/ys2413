@@ -1,4 +1,4 @@
-;[gain=1.5;name=ys2_08]
+;[gain=1.0;name=ys2_08]
 #opll_mode 1
 #tempo 75
 #title {"NOBLE DISTRICT OF TOAL"}

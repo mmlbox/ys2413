@@ -1,4 +1,4 @@
-;[gain=1.5;name=ys2ex_25]
+;[gain=1.0;name=ys2ex_25]
 #opll_mode 1
 #lfo_mode 1
 #tempo 195

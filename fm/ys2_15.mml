@@ -1,4 +1,4 @@
-;[gain=1.5;name=ys2_15]
+;[gain=1.0;name=ys2_15]
 #opll_mode 1
 #tempo 66 ; 65.9
 #title { "MOAT OF BURNEDBLESS"}

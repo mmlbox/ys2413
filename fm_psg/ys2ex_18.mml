@@ -1,4 +1,4 @@
-;[gain=1.5;name=ys2ex_18]
+;[gain=1.0;name=ys2ex_18]
 #opll_mode 1
 #tempo 96; 95.7
 #title { "SUBTERRANEAN CANAL"}

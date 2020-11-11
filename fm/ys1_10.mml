@@ -1,4 +1,4 @@
-;[gain=1.5;name=ys1_10]
+;[gain=1.0;name=ys1_10]
 #opll_mode 1
 #lfo_mode 0
 #tempo 60

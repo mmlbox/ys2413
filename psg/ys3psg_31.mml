@@ -1,4 +1,4 @@
-;[gain=1.5;name=ys3psg_31]
+;[gain=1.0;name=ys3psg_31]
 #opll_mode 1
 #tempo 153 ;152.58
 #title { "Chop!"}

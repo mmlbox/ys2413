@@ -1,4 +1,4 @@
-;[gain=1.5;name=ys2_01]
+;[gain=1.0;name=ys2_01]
 #opll_mode 1
 #tempo 78
 #title { "TO MAKE THE END OF BATTLE"}
