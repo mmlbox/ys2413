@@ -1,5 +1,5 @@
 # What is this?
-This repository is a fan-made YM2413 + PSG version of YS music for with MSGDRV. 
+This repository is for YM2413 + PSG version of YS music files. 
 
 These files can be played on the real YM2413 + PSG chips, [MSXplay](https://msxplay.com) and MSX emulators with emu2413 >= 1.5 or NukedOPLL >= 1.0.
 
