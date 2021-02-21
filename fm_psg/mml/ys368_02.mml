@@ -1,0 +1,157 @@
+;[gain=1.0 name=ys368_02 duration=300s fade=5s cpu=0]
+#opll_mode 0
+#tempo 128
+#title { "A Premonition =Styx= / Music from YsIII (x68k)" }
+; Copyright (c) Nihon Falcom Corporation
+
+@v15 = { ; Bell
+;       TL FB
+        31, 1,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 4, 1, 3, 0, 5, 0, 0, 0, 0, 0,
+  13, 3,15, 7, 0, 3, 0, 0, 0, 0, 0 }
+
+@v16 = { ; Tom
+;       TL FB
+        63, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+   0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+  15, 7, 5, 6, 0, 0, 0, 0, 0, 0, 0 }
+
+@v18 = { ; Reverse Cymbal
+;       TL FB
+        16, 0,
+; AR DR SL RR KL MT AM VB EG KR WF
+  15, 0, 0, 0, 0, 5, 0, 1, 0, 0, 0,
+   6, 0,15, 3, 0, 7, 0, 1, 1, 0, 0 }
+
+@e20={1,0,d0=72} ; PSG Bell
+@e21={1,0,fc=48.0=96} ; Melody 
+@e22={2,11,80=12}
+
+1 [ l16
+1 h10,3,0,2
+1 @20 v6\0o3
+1 [[b4.ef+b8>d8a8f+4d4e8&|e2<]2e8a8b4<]2 r1
+1 v3>>b8g8a8f+8g8e8f+8d8e8c+8d8<b8>c+8<a8b8g8 r1
+
+1 @21 
+1 v8 o4 [b1&b2a4b4b2.a8a8&a1b2.a8a2.g8a8|b8&b2&b1e4g4]2 e4.&e1&e2r4
+1 ]0
+
+2 [ l16
+2 @20 v6\1o3 
+2 [[b4.ef+b8>d8a8f+4d4e8&|e2<]2e8a8b4<]2r1
+2 v2>>b8g8a8f+8g8e8f+8d8e8c+8d8<b8>c+8<a8b8g8 r1
+2 @21\0
+2 v8 o4 [f+1&f+2f+4g4g2.f+8f+8&f+1g2.f+8f+2.d8e8|a8&a2e2d+2r8)f+4a8(]2 <b4.&b1&b2r4
+2 ]0
+
+3 [ l16
+3 [r1]12
+3 @22\0v15
+3 o4 [[[e8(2]4)8 [>g8(3<]3)9e8]6|[e8(2]4)8[>g8(3<]3)9e8[e8(2]4)8r2]2[e8(2]8r1
+3 ]0
+
+@e0={,,@6fe.b=212}     ; Bass slot1,2
+@e1={,,@13f@5fe.b=212} ; Bass slot3,4
+@e2={,,eeddcc0=64} ; E.Piano
+
+9A [ l16
+9 v10@9@e0o3\2
+A v13@5@e1o2
+9A h10,4,0,2
+
+9A [[e1&e2.&e8ab]2]2
+9A e1e1e1&e8>c4<b4g8
+9A ;t123
+9A d4
+9A ;t128
+9A >
+9A [ [e2]4 [d2]4 c2c2 d2|d2 <[b2]3 > (c8.<b8.g8>) ]2
+9A > d2 < [e4&(]4e4)))) 
+9A <b4.
+9A ;t123
+9A >d4. 
+9A ;t128
+9A ]0
+
+@e7={0,0,@10f@13d0} ; BD slot1,2
+@e8={0,0,@2fd0}     ; BD slot3,4
+
+@e9={0,0,@10fc0=36}  ; SD slot1,2
+@e10={0,0,@10fc0=72} ; SD slot3,4
+
+@e11={0,0,@18.9f=6.9=16.f=24} ; RCYM slot1,2
+@e12={0,0,@18.9f=6.9=16.f=24} ; RCYM slot3,4
+
+*0={@e7o2v13} ; BD
+*1={@e9o3v13} ; SD
+*2={@e11o2v10} ; RCYM
+
+*3={@e8o2v13}  ; BD#2
+*4={@e10o2v14} ; SD#2
+*5={@e12o2v9}  ; RCYM#2
+
+#macro_offset {b=0,s=1,y=2}
+
+B [ l16
+B v9@15 h10,3,0,1
+B o5 [[b4.ef+b8>d8a8f+4d4e8&|e2<]2e8a8b4<]2r1
+B v4 o7 b8g8a8f+8g8e8f+8d8e8c+8d8<b8>c+8<a8b8g8r1
+B @12hf\0 [[*Bc8&c4.*Sg8&g4r8]6 | *Bc8&c4.*Sg8&g4r8 *Bc8&c4.*Yd2]2 *Bc1r1
+B ]0
+
+#macro_offset {b=3,s=4,y=5}
+
+C [ l16
+C v7@15\2
+C o5 [[rb4.ef+b8>d8a8f+4d4e8&|e4.&e<]2ee8f+4<]2r1
+C r
+C v3 o7 b8g8a8f+8g8e8f+8d8e8c+8d8<b8>c+8<a8b8g8r2...
+C @12\8 [[*Bc8&c4.*Sc8&c4r8]6 | *Bc8&c4.*Sc8&c4r8 *Bc8&c4.*Yd2]2 *Bc1r1
+C ]0
+
+D [ l16
+D v8@13@e2
+D o6 [r8b4.&b2.&((b4&((b4&((b4)6]4 b2&[b2&(]6b2
+D v8@4@e21
+D o5 [d1&d2d4e4e2.d8d8&d1e2.d8d2.c8d8|e8&e2&e1r2]2 f+8&f+1&g2.r4
+D ]0
+
+E [ l16
+E v8\2@13@e2
+E o6 [rf+8.&f+1&((f+4&((f+4&((f+4v11]4))f+8((f+8f+4&[f+2&(]6f+2
+E v8 @6\0 
+E o5 [b2 b2 b2 b2 b2 b2 a2 a2 b2 b2 a2>d2<| b2 b2 b2 b2]2 [b2((]4
+E ]0
+
+F [ l16
+F v8@15o7\2
+F [b((b))b((b))f+((f+))f+((f+(f+(f+))))a((a))a((a))e((e))e((e((e((eeeeer2)6]4 r1
+F @15 r8 
+F v2 o7 b8g8a8f+8g8e8f+8d8e8c+8d8<b8>c+8<a8b8g8r2..
+
+F @10v8o7\0
+F [
+F [e((e))f+((f+))a((a))b((b))]4 [c((c))d((d))f+((f+))b((b))]4
+F [d((d))f+((f+))a((a))b((b))]4|[e((e))f+((f+))a((a))b((b))]4
+F ]2
+F [e((e))f+((f+))a((a))b((b]4
+F ]0
+
+G [ l16
+G v8\1@13@e2
+G o6 [e1&e4&((e4&((e4&((e4)6]4 rg8e8&e8.&[e2&(]6e2
+G v8 @6\0 
+G o5 [f+2 f+2 f+2 f+2 f+2 f+2 e2 e2 f+2 f+2 e2 a2|f+2 f+2 f+2 f+2]2 [f+2((]4
+G ]0
+
+H [ l16 r
+H v6\2@13@e2hf
+H o6 [r8b4.&b2.&((b4&((b4&((b4)6]4 f+gf+ef+4&[b2&(]6 b4.&b
+H @16v15 h2,20,0,-20\0
+H o4 [[[e8(2]4)8 [>g8(3<]3)9e8]6|[e8(2]4)8[>g8(3<]3)9e8[e8(2]4)8r2@16]2[e8(2]8 r1
+H ]0
+
+#end
