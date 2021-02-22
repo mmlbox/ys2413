@@ -1,0 +1,214 @@
+;[gain=2.0 name=ys368_21 duration=300s fade=5s cpu=0]
+#opll_mode 0
+#tempo 158
+#title { "Beat of Destruction / Music from YsIII (x68k)" }
+; Copyright (c) Nihon Falcom Corporation
+
+@v15 = { ; Melody
+;       TL FB
+        15, 4,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 1, 1, 0, 0, 5, 0, 1, 0, 0, 1,
+  14, 2, 2, 0, 0, 2, 0, 1, 0, 0, 1 }
+
+@v16 = { ; Handclap
+;       TL FB
+         0, 6,
+; AR DR SL RR KL MT AM VB EG KR DT
+  11, 0, 4, 7, 0, 2, 0, 0, 0, 0, 0,
+  13, 9,12, 6, 0, 7, 0, 0, 1, 1, 0 }
+
+@v18 = { ; Tom
+;       TL FB
+         8, 4,
+; AR DR SL RR KL MT AM VB EG KR WF
+  15, 9,15, 0, 0, 2, 0, 0, 0, 0, 0,
+  15, 8, 0, 6, 0, 0, 0, 0, 0, 0, 0 }
+
+@v19 = { ; Slash
+;       TL FB
+         0, 2,
+; AR DR SL RR KL MT AM VB EG KR WF
+  15, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0,
+  15, 5,15, 0, 0, 1, 0, 0, 1, 0, 0 }
+
+
+@e8={1,0,fc}
+@e9={1,0,fc=4}
+
+;1239BEFGH !
+
+C [
+C v6@13h0,3,0,1o7 e8
+C [ [e8r8b8 r8e8>c8r8<e8r8>d8r8<e8r8>c8r8<e8]2 
+C f8r8>c8r8<f8>d8r8<f8r8>e8r8<f8r8>d8r8<f8 e8r8 b8 r8 e8>c8r8<e8r8>d8r8<e8r8>c8r8<e8 ]2
+
+C @2v6o5 hf
+C [[>d8f8a8d8f8>c8<<]2>>c8<b8a8b8[e8g8b8e8g8>d8<]2>d8c8<b8>c8<<]2 [b8>d+8f+8|b8<]8
+C ]0
+
+D [ 
+D v6@13h0,3,0,1o6 b8
+D [ [b8r8>f+8<r8b8>g8r8<b8r8>a8r8<b8r8>g8r8<b8]2 >
+D c8r8 g8r8 c8 a8r8 c8r8 b8r8 c8r8 a8r8 c8<b8r8>f+8r8<b8>g8r8<b8r8>a8r8<b8r8>g8r8<b8 ]2
+D @11v7o6 hf
+D [[>d8f8a8d8f8>c8<<]2>>c8<b8a8b8[e8g8b8e8g8>d8<]2>d8c8<b8>c8<<]2 [b8>d+8f+8|b8<]8
+D ]0
+
+@e0={,,@14f@13e}
+
+A [
+A v12@14@e0o2e8&
+A [
+A [e8r8e8r8e8e8r8e4e8e8r8e8e8r8e16e16]2
+A f8r8f8r8f8f8r8
+A f4f8f8r8f8f8r8
+A f8e8r8e8r8e8e8r8
+A e4e8e8r8|e8e8r8d16&e16]2
+A e16e16f+16f+16g16a16g16f+16
+A [>d8d8d8
+A r4
+A d8&d32&c+32&c32&<b32r8>d8r4
+A d8r8d8&d16&c+16&c16&<b16>e8e8e8
+A r4e8&e32&d+32&d32&c+32r8e8r4
+A e8r8e8&e16&d+16&d16&c+16<]2
+A [b8r4b8r4b8&b32&a+32&a32&g+32|r8b8b8r8b8b8r8b16b16]2r8
+A [b16]12
+A ]0
+
+@e1={,,@13f@9fd=96} ; D.Guitar
+@e2={,,@13f@3fd=96} ; Overdrive
+
+B [
+B v9@1@e1hf
+B o4 e8 [f8b2.e8 f8>c4<e8f8>d4c16d16c8<b1&b2> d4    c8< b8a2&a2.g8a8>c4<b8&b2.g8.e16&e2.r8|e8]2r8
+;                                       +CLAP +CLAP
+B v9@1@e2o6 h24,4,0,-1
+B d2.c8<b8>c4<b8>c8r8d4.c4.<b4.g1r4>
+B d2.c8<b8>c4<b8>c8r8d8r8e8&e1&e2r8f+8r8d+8&d+1&d+8<
+B b8>d+8<b8>f+8d+8b8f+8>d+1&d+2.r8
+B ]0
+
+@e3={,,@1.0@4fc4} ; Steelblock
+@e4={,,@11.0@3f} ; S.Brass
+
+9 [
+9 v9@4@e3o5 hf
+9 e8 [[[))e16((r16e16r16]2[e16))e16((e8e16))e8((e16]2))e16r16e16((r16|e16))e8((e16]2))e32((e32)e32)e32((e16e16]4
+9 v10@4@e4o5 h24,4,0,-1
+9 f2.e8d8e4d8e8r8f4.e4.d4.<b1r4> 
+9 f2.e8d8e4d8e8r8f8r8g8&g1&g2
+9 r8a8r8f+8&f+1&f+8<d+8f+8d+8b8f+8>d+8<b8>f+1&f+2.r8
+9 ]0
+
+E [
+E v9@15o3\1 e8
+;                                                                                   +TOM
+E f8b2.e8f8>c4<e8f8>d4c16d16c8<b1&b2>    d4c8<b8 a2&a2.g8a8>c4<b8&b2.g8.e16&e2.r8@10r8@15 
+;                                        +CLAP     +CLAP
+E f8b2.e8f8>c4<e8f8>d4c16d16c8<b1&b2> @10d8@15d8@10c8@15<b8a2&a2.g8a8>c4<b8&b2.g8.e16&e2.r8r8
+
+E v8@6o6
+E d2.c8<b8>c4<b8>c8r8d4.c4.<b4.g1r4>
+E d2.c8<b8>c4<b8>c8r8d8r8e8&e1&e2
+E r8f+8r8d+8&d+1&d+8<b8>d+8<b8>f+8d+8b8f+8>d+1&d+2.r8
+E ]0
+
+3FG [
+
+@e25={2,12,n12fn11e0=48} ; Cymbal
+@e26={2,11,n11fd0=36} ; BD (simulating ADPCM noise)
+@e27={2,12,n12fd0=56} ; SD
+@e28={2,6,n6fd0} ; HH
+@e29={2,6,n6dfn0.0=24} ; HH(open)
+@e30={2,26,n26fn21en15.0=48} ; Handclap
+@e31={2,8,n8fn12fn11fn7fc=8} ; Slash
+
+*7={@26v8} ; BD
+*8={@27v9} ; SD
+*9={@30v7} ; CLAP
+*17={@25v10} ; Cymbal
+*18={v0} ; Tom
+*19={@31v9} ; Slash
+*27={@28v8} ; HH
+*28={@29v8} ; HH(open)
+
+#macro_offset { b=7, s=8, p=9, c=17, m=18, z=19, h=27, o=28 }
+
+3 [ ; L
+3 *B c8 [[c4]15 c8 | *C c8 *B]2 *Sc16c16
+3 [*B [c4]14 | c8 *Pc8 *Bc8 *Pc8]2 *Bc8*Sc16c16 *M e16e16 c16 <a16>
+3 [[*Bc8c8c16*Hc16c16*Oc16*Sc8*Bc8*Hc16*Oc16*Sc16c16*Bc8*Hc16c16*Oc16*Hc16*Bc8*Sc8*Bc8 | *Hc16*Oc16*Bc16*Hc16]2 | *Sc16c16c16*Bc16 ]2
+3 *Sc16c16*M<a16a16>
+3 [*Bc8c16*Hc16|*Sc8*Bc16c16]4 *Sc16*Bc16c16*Sc16
+3 [*Bc8c16*Hc16*Sc8*Bc16c16]2 *Zc8
+3 *S[c16]6 *Bc16 *Sc16 *M e16c16 *Sc8
+3 ]0
+
+@e10={,,@12f0}
+@e11={,,@10fb0=48}
+@e12={,,@18f}
+@e13={,,@16f}
+@e14={,,@19f} ; Slash
+
+*0={@e10v15o2} ; BD
+*1={@e11v15o2} ; SD
+*2={@e13v13o5} ; CLAP
+*3={@e10v15o2} ; Cymbal
+*4={@e12v13o4} ; Tom
+*5={@e14v9o4} ; Slash
+*6={v0} ; HH
+#macro_offset { b=0, s=1, p=2, c=3, m=4, z=5, h=6, o=6 }
+
+F @7 [;L
+F h1,40,0,-20hf\-2
+F *B c8 [[c4]15 c8 | *C c8 *B]2 *Sg16g16
+F [*B [c4]14 | c8 *Pf64f16.. *Bc8 *Pf64f16.. ]2 *Bc8*Sg16g16 *M ho e16e16c16<a16> hf
+F [[*Bc8c8c16*Hc16c16*Oc16*Sg8*Bc8*Hc16*Oc16*Sg16g16*Bc8*Hc16c16*Oc16*Hc16*Bc8*Sg8*Bc8 | *Hc16*Oc16*Bc16*Hc16]2 | *Sg16g16g16*Bc16 ]2
+F *Sg16g16*M<hoa16a16hf>
+F [*Bc8c16*Hc16|*Sg8*Bc16c16]4 *Sg16*Bc16c16*Sg16
+F [*Bc8c16*Hc16 *Sg8*Bc16c16]2 *Zh0,40,0,-10g8 h1,40,0,-20hf
+F *S[g16]6 *Bc16 *Sg16 *M ho)e16c16(hf *Sg8
+F ]0
+
+@e20={,,@12f0}
+@e21={,,@10fb0=48}
+*10={@e20v15o2} ; BD
+*11={@e21v15o2} ; SD
+*12={@e13v12o5} ; CLAP
+*14={@e12v10o5} ; Tom
+*15={@e14v9o4} ; Slash
+#macro_offset { b=10, s=11, p=12, m=14, z=15 }
+
+G @8 [;L
+G *B c8 [[c4]15 c8 | *C r8 *B]2 *Sd16d16
+G [*B [c4]14 | c8 *Pc32c16. *Bc8 *Pc48c24^16 ]2 *Bc8*Sd16d16 *M e64(e32.)e64(e32.)c64(c32.)<a64(a32.)>
+G [[*Bc8c8c16*Hc16c16*Oc16*Sd8*Bc8*Hc16*Oc16*Sd16d16*Bc8*Hc16c16*Oc16*Hc16*Bc8*Sd8*Bc8 | *Hc16*Oc16*Bc16*Hc16]2 | *Sd16d16d16*Bc16 ]2
+G *Sc16c16*M<a64(a32.)a64(a32.)>
+
+G [*Bc8c16*Hc16|*Sd8*Bc16c16]4 *Sd16*Bc16c16*Sd16
+G [*Bc8c16*Hc16 *Sd8*Bc16c16]2 *Zh0,40,0,-10c8 hf
+G *S[c16]6 *Bc16 *Sd16 *M )e64(e32.)c64(c32. *Sc8
+G ]0
+
+@e24={,,@13f@9e} ; M.Guitar
+
+H [ 
+H v10@14@e24
+H o4 e8&
+H [ [e8r8e8r8e8e8r8e4e8e8r8e8e8r8e16e16]2 f8r8f8r8f8f8r8f4f8f8r8f8f8r8 f8 e8r8e8r8e8e8r8e4e8e8r8|e8e8r8d16&e16]2 e16e16 f+16f+16g16a16g16f+16)
+H v9@14@e24 o4
+H [d8d8d8r4d8&d32&c+32&c32&<b32r8>d8r4 d8r8hod8&d16&c+16&c16&<b16>e8e8e8 r4e8&e32&d+32&d32&c+32r8e8r4 e8r8e8&e16&d+16&d16&c+16]2
+H [<b8r4b8 r4 b8& b32& a+32&a32&g+32r8|b8 b8 r8b8 b8 r8b16 b16>]2 [b16]12
+H ]0
+
+;D [
+;D v10@14@e24
+;D o4 b8&
+;D [ [b8r8b8r8b8b8r8b4b8b8r8b8b8r8b16b16]2>c8r8c8r8c8c8r8c4c8c8r8c8c8r8 c8<e8r8b8r8b8b8r8b4b8b8r8|b8b8r8a16&b16]2 b16b16>c+16c+16d16e16d16c+16)<
+;D v9@14@e24 o4
+;D [a8a8a8r4a8&a32&g+32&g32&f+32r8 a8r4 a8r8hoa8&a16&g+16&g16&f+16 b8b8b8 r4b8&b32&a+32&a32&g+32r8b8r4 b8r8b8&b16&a+16&a16&g+16]2
+;D [f+8r4f+8r4 f+8&f+32&f32& e32&d+32r8|f+8f+8r8f+8f+8r8f+16f+16]2 [f+16]12
+;D ]0
+
+#end
