@@ -1,4 +1,4 @@
-;[gain=1.0 name=ys368_02 duration=300s fade=5s cpu=0]
+;[gain=2.0 name=ys368_02 duration=300s fade=5s cpu=0]
 #opll_mode 0
 #tempo 128
 #title { "A Premonition =Styx= / Music from YsIII (x68k)" }

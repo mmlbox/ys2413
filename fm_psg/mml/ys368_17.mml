@@ -1,0 +1,287 @@
+;[gain=2.0 name=ys368_17 duration=300s fade=5s cpu=0]
+#opll_mode 0
+#tempo 150
+#title { "Varestain Castle / Music from YsIII (x68k)" }
+; Copyright (c) Nihon Falcom Corporation
+
+@v15 = { ; Organ
+;       TL FB
+        42, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15,10, 3, 0, 0, 5, 0, 0, 0, 0, 0,
+  15, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0 }
+
+@v16 = { ; D.Guitar
+;       TL FB
+        26, 6,
+; AR DR SL RR KL MT AM VB EG KR DT
+  13, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0,
+  13, 0, 0,11, 0, 1, 0, 0, 1, 0, 1 }
+
+@v18 = { ; Tom
+;       TL FB
+         8, 4,
+; AR DR SL RR KL MT AM VB EG KR WF
+  15, 9,15, 0, 0, 2, 0, 0, 0, 0, 0,
+  15, 8, 0, 6, 0, 0, 0, 0, 0, 0, 0 }
+
+@e0={,,@13f@3fd=72} ; O.Guitar
+@e1={,,@15f} ; Organ A
+@e2={,,@1.c@9fe} ; D.Guitar
+@e3={,,@7f} ; Organ B
+@e4={,,@14f@13fe} ; Bass
+@e5={,,@3c@6de} ; Voice
+@e6={,,@6d} ; Hard Violin
+@e7={,,@13f@6e} ; D.Guitar 2
+@e8={,,@1.0@9fd} ; O.Guitar 3
+@e9={,,@1.0@9fd} ; O.Guitar 3
+
+A @1
+A @e0v10o4
+A e12d12e12<a4&a24&g+24&g24&f+24>e12d12e12<a6b12>c12d12e3d3c3<b3
+A [;L
+A o3@e0
+A [>a3a12b12>c12e4d12e12c12d12<b12>c12|<g3g12b12>d12g6e12f12d12e12c12d12<b12<]2
+A d6e12f6g12f12g12e3&e12e12f12g12a3a12b12>c12d12<b3g6b6>d6c6<b6>c6<a2g6f3&f12d12e12f12a3&a12f12g12a12g+2a12b12>e2
+A @e1v9
+A <c12d12 
+A [[e3&e12d12c12d12<a6a6b6|>c12d12]3g6|>d2&d12c24&<b24>c3&c12<b12>c12d12]2
+A a2&a12&a+48&b48&>c48&c+48&d48&d+48&e48&f48&f+48&g48&g+48&a48&a2
+A @e0v10
+A [a12b12>c12e6d12c12<b12a12e12b12e12>c12<e12a12e12>d12<e12>c12<e12b12e12>c12<e12b12e12d+12e12b12e12>d12<b12a12e12b12e12>c12<e12a12
+A e12b12e12g12e12a12e12>c12<f12b12e12d+12e12>c12<e12d+12e12>d12<e12d+12e12b12e12d+12e12]2
+A >c3&c12<b12>c12d12e%128d3c3<b3>f3e3&e12<b12>d12c12<b3&b12g12b12a12e3&e12<b12>d12c12<b6>e6a6b6>c3&c12<b12>c12d12e%128d3&d12c12<b12>c12d3<b3
+A [a12a12a12a12r12a6a12r12a12r12a12|g+12r12g+12r12]2b12r12b12r12
+A [a12a12a12a12r12a6a12|r12a12r12a12g+12r12g+12r12]2a12r6g+12&g+3
+A ]0
+
+H @8
+H @e8v11o4\0
+H e12d12e12<a4&a24&g+24&g24&f+24>e12d12e12<a6b12>c12d12e3d3c3<b3
+H [;L
+H o3@e8
+H [>a3a12b12>c12e4d12e12c12d12<b12>c12|<g3g12b12>d12g6e12f12d12e12c12d12<b12<]2
+H d6e12f6g12f12g12e3&e12e12f12g12a3a12b12>c12d12<b3g6b6>d6c6<b6>c6<a2g6f3&f12d12e12f12a3&a12f12g12a12g+2a12b12>e2
+H @e3v10\1
+H <c12d12 
+H [[e3&e12d12c12d12<a6a6b6|>c12d12]3g6|>d2&d12c24&<b24>c3&c12<b12>c12d12]2
+H a2&a12&a+48&b48&>c48&c+48&d48&d+48&e48&f48&f+48&g48&g+48&a48&a2
+H @e9v11\0
+H [a12b12>c12e6d12c12<b12a12e12b12e12>c12<e12a12e12>d12<e12>c12<e12b12e12>c12<e12b12e12d+12e12b12e12>d12<b12a12e12b12e12>c12<e12a12
+H e12b12e12g12e12a12e12>c12<f12b12e12d+12e12>c12<e12d+12e12>d12<e12d+12e12b12e12d+12e12]2>c3&c12<b12>c12d12e%128d3c3<b3>f3
+H e3&e12<b12>d12c12<b3&b12g12b12a12e3&e12<b12>d12c12<b6>e6a6b6>c3&c12<b12>c12d12e%128d3&d12c12<b12>c12d3<b3
+H [a12a12a12a12r12a6a12r12a12r12a12|g+12r12g+12r12]2b12r12b12r12
+H [a12a12a12a12r12a6a12|r12a12r12a12g+12r12g+12r12]2a12r6g+12&g+3
+H ]0
+
+B @2
+B @e2v9\1q8o5
+B c12<a12>c12<e4&e24&d+24&d24&c+24>c12<a12>c12<e6e12a12a12b3b3g3d3
+B [;L
+B q8v7o4
+B [<a3a12b12>c12e4d12e12c12d12<b12>c12|<g3g12b12>d12g6e12f12d12e12c12d12<b12>]2
+B d6e12f6g12f12g12e3&e12)g12a12b12>c3c12d12e12f12d3<b6>d6g+6f6e6g+6c2<b6a3&a12f12g12a12>c3&c12<a12b12>c12<b2e12g+12b2
+B @e1v8r12
+B >c12d12
+B [[e3&e12d12c12d12<a6a6b6|>c12d12]3g6|>d2&d12c24&<b24>c3&c12<b12>c12d12]2
+B a2&a12&a+48&b48&>c48&c+48&d48&d+48&e48&f48&f+48&g48&g+48&a48&a2
+
+B @e2v7
+B a12b12>c12e6d12c12<b12a12e12b12e12>c12<e12a12e12>d12<e12>c12<e12b12e12
+B >c12<e12b12e12d+12e12b12e12>d12<b12a12e12b12e12>c12<e12a12
+B e12b12e12g12e12a12e12>c12<f12b12e12d+12e12>c12<e12d+12e12>d12
+B <e12d+12e12b12e12d+12))>
+B c12d12e12a6a12e12d12c12r12d12r12e12r12c12r12<b12r12
+B g12r12d12r12e12r12d12r4g12r12g12r12f12r12g12r12a12r12f12r12g12r12
+B c12r12f12r12f12r12g+12r4a12r4b12r4g+12r4c3&c12<b12>c12d12e%128
+B d3c3<b3>f3e3&e12<b12>d12c12<b3&b12g12b12a12e3&e12<b12>d12c12<b6>e6a6
+B b6a3&a12f12a12b12>c%128<b3&b12g12d12g12b3g3
+B [>c12c12c12c12r12c6c12r12c12r12c12|<b12r12b12r12]2d12r12d12r12
+B [c12c12c12c12r12c6c12|r12c12r12c12<b12r12b12r12>]2c12r6
+B <b12&b3
+B ]0
+
+C @3
+C @e4v11o3
+C a12a12>a12<a12>e12c12<a12e12a12a12>c12e12a12<a12
+C r12a12e12e12>e12<e12>e12<b12g12d12e12>e12<e12e12>e12<e12d12>d12
+C [;L
+C o4
+C [[<a12a12>a12<a12>]4|[<g12g12>g12<g12>]4]2[<d12d12>d12<d12>]2<e12e12>e12<e12e12<b12>d12e12
+C [f12]8[g12]8[e12]8a12a12a12a12g12g12g12g12[d12]5>d12<d12d12d12>d12[<d12>]6
+C [<e12e12>e12]2<e12e12e12e12e12e12>e12d12<b12g+12
+C [[<f12f12|>c12f12]4g12g12[a12a12|>e12a12<]4g12g12
+C [f12f12>c12f12<]3g12g12g12g12a12a12a12>a12
+C [<a12a12>e12a12]2|<a12a12>e12a12]2a12g12e12d12
+C [[<a12>]16[<g12>]16[<f12>]16[<e12>]13e12d12e12]2[<f12>]16[<g12>]16
+C [<a12a12>a12<a12a12>a12<a12a12>]3a12g12e12d+12d12c12<a12g12
+C [f12]16[g12]9>g12d12f12g12>d12f12g12
+C [<<a12a12a12g12r12g12r12|f12r12f12r12f12e12r12e12r12>>]4
+C r12f12>c12f12e12&e3
+C ]0
+
+D @4
+D @e0v6q8o4
+D a12g12a12e12&e3a12g12a12e4a6b3g3g3d3
+D [;L
+D q8@e5h0,3,0,2v8o5 > 
+D c1&c3<b1&b3>c1&c3<a%128g+%128
+D <
+D @e6hfv10
+D >f12g12a12>e12&e3<g12a12b12>e6d4<b12g+12>e12<b12>g+12e12b12g+12>c12<
+D a12e12>c12<b12g12d12b12>d6<a6f6d6a6f6d6<a6b12e12g+12b12>e12<g+12b12>e12g+12<b12>e12g+12b12g+12a12b12
+D @e7v9
+D [a1&a1&a12e12d12e12d12c12<b12g12a%128&a12e12d12e12d12c12<b12g12a12b12r12a12b12r12a12b12r12a12b12r12a12r4>>]2
+D @e5hov9 >
+D [<c1&c3<b1&b3a1&a3g+1&g+3>>]2<<a%128>c3&c12<b12>c12e12g3f3
+D <
+D d3<b3>c3&c12<g12b12a12e3&e12e12g12e12c3&c12<g12b12a12e6a6>c6e6f3e3f3a3g3<b3>d3g3
+D @e2hfv7
+D [e12e12e12e12r12e12r12e12r12e12r12e12e12r12e12r12]3 e12e12e12e12r12e12r12e12e12r6e12&e3
+D ]0
+
+E @5
+E @e0v6\1q8o5
+E e12d12e12<a4&a24&g+24&g24&f+24>e12d12e12<a6b12>c12d12e3d3c3<b3
+E [;
+E @e5q8h0,3,0,1v8 >
+E e1&e3d1&d3e1&e3f%128e%128
+E <
+E @e6hfv8
+E r8>f12g12a12>e12&e3<g12a12b12>e6d4<b12g+12>e12<b12>g+12e12b12g+12>c12<a12e12>c12<b12g12d12b12>d6<a6f6d6
+E a6f6d6<a6b12e12g+12b12>e12<g+12b12>e12g+12<b12>e12g+12b12g+12a24
+E @e0v6
+E [r12a1&a1&a12e12d12e12d12c12<b12g12a%128&a12e12d12e12d12c12<b12)>c12d12r12c12d12r12c12d12r12c12d12r12c12r4(>]2
+E @e5hov8 >
+E [<<e1&e3d1&d3c1&c3e1&e3>>]2<<e%128a3&a12g12a12>c12d3c3<b3>f3<a3&a12e4c3&c12c4<a3&a12e4c6e6a6>c6>c3<a3>c3e3d3<g3b3>d3
+E <
+E @e2hfv7
+E [<a12a12a12a12r12a6a12r12a12r12a12|g+12r12g+12r12>]2b12r12b12r12
+E [a12a12a12a12r12a6a12|r12a12r12a12g+12r12g+12r12]2a12r6g+12&g+3
+E ]0
+
+9 @0
+9 @e2\0v7q8o4
+9 a12g12a12e12&e3a12g12a12e4a6b3g3g3d3
+9 [;L
+9 q8@e5h0,3,0,1v8o4 >
+9 >c1&c3<b1&b3>c1&c3<a%128g+%128
+9 <
+9 @e6v9
+9 >f12g12a12>e12&e3<g12a12b12>e6d4<b12g+12>e12<b12>g+12e12b12g+12>c12<a12e12>c12<b12g12d12b12>d6<a6
+9 f6d6a6f6d6<a6b12e12g+12b12>e12<g+12b12>e12g+12<b12>e12g+12b12g+12a12b12
+9 @e2v9
+9 [a1&a1&a12e12d12e12d12c12<b12g12a%128&a12e12d12e12d12c12<b12g12a12b12r12a12b12r12a12b12r12a12b12r12a12r4>>]2
+9 @e5v8 >
+9 [<c1&c3<b1&b3a1&a3g+1&g+3>>]2<<a%128>c3&c12<b12>c12e12g3f3d3<b3>c3&
+9 c12<g12b12a12e3&e12e12g12e12c3&c12<g12b12a12e6a6>c6e6f3e3f3a3g3<b3>d3g3
+9 <
+9 @e0v7
+9 [e12e12e12e12r12e12r12e12r12e12r12e12e12r12e12r12]3 e12e12e12e12r12e12r12e12e12r6e12&e3
+9 ]0
+
+@e25={2,13,n13fn11dn10.0=72} ; Cymbal
+@e26={2,10,n10fd0=36} ; BD (simulating ADPCM noise)
+@e27={2,12,n12fdc0=48} ; SD
+@e28={2,5,n6fd0} ; HH
+@e29={2,5,n6dfn0.0=24} ; HH(open)
+
+*7={@26v8} ; BD
+*8={@27v10} ; SD
+*17={@25v11} ; Cymbal
+*18={v0} ; Tom
+*27={@28v9} ; HH
+*28={@29v9} ; HH(open)
+
+#macro_offset { b=7, s=8, c=17, m=18, h=27, o=28 }
+3 [*Bc12*Hc12*Sc12*Hc12*Bc12c12*Sc12*Hc12]3 *Bc12*Sc12*Bc12*Cc6.*Bc12c12
+3 [;L
+3 [*Bc12*Hc12*Sc12*Hc12*Bc12c12*Sc12*Hc12]7 
+3 *Bc12*Sc12*Hc12*Oc12*Sc12*Bc12c12*Cc6*Hc12*Sc12*Hc12*Bc12c12*Sc12*Hc12
+3 [*Bc12*Hc12*Sc12*Hc12*Bc12c12*Sc12*Hc12]6 
+3 *Bc12*Sc12*Bc12*Hc12*Bc12*Sc12*Bc12*Sc24c24 
+3 [
+3 [*Bc12*Hc12*Sc12*Hc12*Bc12c12*Sc12*Hc12]7 
+3 *Bc12c12*Hc12*Oc12*Bc12*Oc12*Bc12|*Cc12
+3 ]2 *Sc24c24
+
+3 [
+3 [*Bc12*Hc12*Sc12*Hc12*Bc12c12*Sc12*Hc12]7 
+3 *Bc12*Sc12*Bc12*Hc12*Bc12*Sc12|*Bc12*Sc24c24
+3 ]2 *M c24c24<a24a24>
+
+3 [*Bc12*Hc12*Sc12*Hc12*Bc12c12*Sc12*Hc12]11
+3 *M e24e24e6 c24c24 <a12> *Bc12*Cc6
+3 [*Bc12c12 [*Bc12*Oc12]5 *Bc12|*Oc12*Sc24c24c24c24]2
+3 *M e24e24 c24c24 <a24a24> *Bc12c12 [*Bc12*Oc12]6 *Sc24c24c24c24
+3 *Bc12c12c12*Oc12*Bc12*Oc12*Bc12*Oc12*Bc12 
+3 *M c24<a24>*Sc12*Cc6.*Sc12c24c24
+3 ]0
+
+@e10={,,@12f0}
+@e11={,,@10fdb6=48}
+@e12={,,@18f}
+@e13={,,@16f}
+
+*0={@e10v15o2} ; BD
+*1={@e11v15o2} ; SD
+*3={@e10v15o2} ; Cymbal
+*4={@e12v13o4} ; Tom
+*6={v0} ; HH
+#macro_offset { b=0, s=1, c=3, m=4, h=6, o=6 }
+
+F @6 [*Bc12*Hc12*Sg12*Hc12*Bc12c12*Sg12*Hc12]3 *Bc12*Sg12*Bc12*Cc6.*Bc12c12
+F [;L
+F [*Bc12*Hc12*Sg12*Hc12*Bc12c12*Sg12*Hc12]7 
+F *Bc12*Sg12*Hc12*Oc12*Sg12*Bc12c12*Cc6*Hc12*Sg12*Hc12*Bc12c12*Sg12*Hc12
+F [*Bc12*Hc12*Sg12*Hc12*Bc12c12*Sg12*Hc12]6 
+F *Bc12*Sg12*Bc12*Hc12*Bc12*Sg12*Bc12*Sg24g24 
+F [
+F [*Bc12*Hc12*Sg12*Hc12*Bc12c12*Sg12*Hc12]7 
+F *Bc12c12*Hc12*Oc12*Bc12*Oc12*Bc12|*Cc12
+F ]2 *Sg24g24
+
+F [
+F [*Bc12*Hc12*Sg12*Hc12*Bc12c12*Sg12*Hc12]7 
+F *Bc12*Sg12*Bc12*Hc12*Bc12*Sg12|*Bc12*Sg24g24
+F ]2 *M c24c24<a24a24>
+
+F [*Bc12*Hc12*Sg12*Hc12*Bc12c12*Sg12*Hc12]11
+F *M e24e24e6 c24c24 <a12> *Bc12*Cc6
+F [*Bc12c12 [*Bc12*Oc12]5 *Bc12|*Oc12*Sg24g24g24g24]2
+F *M e24e24 c24c24 <a24a24> *Bc12c12 [*Bc12*Oc12]6 *Sg24g24g24g24
+F *Bc12c12c12*Oc12*Bc12*Oc12*Bc12*Oc12*Bc12 
+F *M c24<a24>*Sg12*Cc6.*Sg12g24g24
+F ]0
+
+@e20={,,@12f0}
+@e21={,,@10fdb6=48}
+*10={@e20v15o2} ; BD
+*11={@e21v15o2} ; SD
+*14={@e12v10o5} ; Tom
+#macro_offset { b=10, s=11, p=12, m=14 }
+G @7 [*Bc12*Hc12*Sd12*Hc12*Bc12c12*Sd12*Hc12]3 *Bc12*Sd12*Bc12*Cc6.*Bc12c12
+G [;L
+G [*Bc12*Hc12*Sd12*Hc12*Bc12c12*Sd12*Hc12]7 
+G *Bc12*Sd12*Hc12*Oc12*Sd12*Bc12c12*Cc6*Hc12*Sd12*Hc12*Bc12c12*Sd12*Hc12
+G [*Bc12*Hc12*Sd12*Hc12*Bc12c12*Sd12*Hc12]6 
+G *Bc12*Sd12*Bc12*Hc12*Bc12*Sd12*Bc12*Sd24d24 
+G [
+G [*Bc12*Hc12*Sd12*Hc12*Bc12c12*Sd12*Hc12]7 
+G *Bc12c12*Hc12*Oc12*Bc12*Oc12*Bc12|*Cc12
+G ]2 *Sd24d24
+
+G [
+G [*Bc12*Hc12*Sd12*Hc12*Bc12c12*Sd12*Hc12]7 
+G *Bc12*Sd12*Bc12*Hc12*Bc12*Sd12|*Bc12*Sd24d24
+G ]2 *M c24c24<a24a24>
+
+G [*Bc12*Hc12*Sd12*Hc12*Bc12c12*Sd12*Hc12]11
+G *M e24e24e6 c24c24 <a12> *Bc12*Cc6
+G [*Bc12c12 [*Bc12*Oc12]5 *Bc12|*Oc12*Sd24d24d24d24]2
+G *M e24e24 c24c24 <a24a24> *Bc12c12 [*Bc12*Oc12]6 *Sd24d24d24d24
+G *Bc12c12c12*Oc12*Bc12*Oc12*Bc12*Oc12*Bc12 
+G *M c24<a24>*Sd12*Cc6.*Sd12d24d24
+G ]0
+
+#end
