@@ -36,14 +36,14 @@
 @e8={,,@1.0@9fd} ; O.Guitar 3
 @e9={,,@10.c@3f} ; O.Guitar 3
 
-3AHBCFGH ;!
+39ABCDE ;!
 
 A @1
 A @e0v9o4 >
 A e12d12e12<a4&a24&g+24&g24&f+24>e12d12e12<a6b12>c12d12e3d3c3<b3
 A <
 A [;L
-A @e0v8o5
+A @e0v9o5
 A [a3a12b12>c12e4d12e12c12d12<b12>c12|<g3g12b12>d12g6e12f12d12e12c12d12<b12]2 d6e12f6g12f12g12e3&e12
 A e12f12g12a3a12b12>c12d12<b3g6b6>d6c6<b6>c6<a2g6f3&f12d12e12f12a3&a12f12g12a12g+2a12b12>e2
 
@@ -61,10 +61,10 @@ A [a12a12a12a12r12a6a12|r12a12r12a12g+12r12g+12r12]2a12r6g+12&g+3
 A ]0
 
 H @8
-H @e7v11o4h0,2,0,1\0
+H @e8v12o4h0,2,0,1\0
 H e12d12e12<a4&a24&g+24&g24&f+24>e12d12e12<a6b12>c12d12e3d3c3<b3
 H [;L
-H @e7v11o4ho\0
+H @e8v11o4ho\0
 H [a3a12b12>c12e4d12e12c12d12<b12>c12|<g3g12b12>d12g6e12f12d12e12c12d12<b12]2 d6e12f6g12f12g12e3&e12
 H e12f12g12a3a12b12>c12d12<b3g6b6>d6c6<b6>c6<a2g6f3&f12d12e12f12a3&a12f12g12a12g+2a12b12>e2
 
@@ -84,7 +84,7 @@ B @2
 B @e9v8\1o5
 B c12<a12>c12<e4&e24&d+24&d24&c+24>c12<a12>c12<e6e12a12a12b3b3g3d3
 B [;L
-B @e0v8\0o4
+B @e0v9\0o4
 B [a3a12b12>c12e4d12e12c12d12<b12>c12|<g3g12b12>d12g6e12f12d12e12c12d12<b12]2 d6e12f6g12f12g12e3&e12
 B g12a12b12>c3c12d12e12f12d3<b6>d6g+6f6e6g+6c2<b6a3&a12f12g12a12>c3&c12<a12b12>c12<b2e12g+12b2
 
