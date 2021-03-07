@@ -1,0 +1,146 @@
+;[gain=2.0 name=ys368_29 duration=300s fade=5s cpu=0]
+#opll_mode 0
+#tempo 140
+#title { "Introduction! (PCM Data Load) / Music from YsIII (x68k)" }
+; Music from YsIII J.D.K. Special / Copyright (c) Nihon Falcom Corporation
+
+@v15 = { ; Flute
+;       TL FB
+        40, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 4,14, 1, 0, 1, 0, 0, 0, 1, 0,
+   7, 2, 0, 8, 0, 1, 0, 0, 1, 0, 0 }
+   
+@v16 = { ; Bell Slot 1,2
+;       TL FB
+        25, 4,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 8,11,10, 0, 9, 0, 0, 0, 0, 0,
+  13, 4, 8, 5, 0, 1, 0, 0, 0, 0, 0 }
+  
+@v17 = { ; Tom
+;       TL FB
+        27, 7,
+; AR DR SL RR KL MT AM VB EG KR DT
+  13, 9,14, 7, 0, 5, 0, 0, 0, 1, 0,
+  13, 3, 8, 7, 0, 1, 0, 0, 0, 1, 0 }
+
+9ABCDEFGH l16
+9BCDEFGH r%2 ; Apply negative %2 delay to A channel
+
+@e1={,,@13.0f}
+
+A @1@e1h10,4,0,-3 r4.v11o3
+A e8<
+A [ ;L
+A a4>e4<a8.a16>e8<a8
+A g4>d4<g8.g16>d8<g8
+A f4>c4<f8.f16>c8<f8
+A e4b4e8.e16b8e8>
+A d4<a4>d8.d16<a8>d8
+A e4<b4>e8.e16<b8>e8
+A <a4>e4<a8.a16>e8<a8
+A a16r8a16r8a16r16a16r16>e4.
+A [
+A [<g4>d4<g8.g16>d8<g8>]2|<a4>e4<a8.a16>e8<a8>a8.g8.e8e8.c8.<a8>]2
+A [<e4>e4|<e8.e16>e4]2 e16e8e16d16d8<b16
+A ]0
+
+@e2={,,@17fca84}
+@e3={,,@11f@7ca84}
+
+B @2@e2v12o4h0,48,0,-8
+B [a32]4a16a16a16a16r16a16 @e3)2
+B [;L
+B [ 
+B [[e32]4[e16e16a16]2e16a16a16e16a16e16e16a16
+B [[e16e16a16]4e16a16e16e16]2|[a16e16e16]4[a32]4a16a16]2
+B | @e2( a16[e32]4a16[e32]4a16e16a16r16[e32]4a16r16[a32]2a16 @e3)
+B ]2
+B a16[e32]4a16[e32]4a16e16a16r16[e32]4a16r16[a32]2a16
+B ]0
+
+@e4={,,@3.0f}
+
+CD @4@e4 r2 h34,4,0,2
+D r8
+CD [; L
+CD o4
+C v11
+D v9  @\16
+CD o5 a4.>c16e16 b2&b4 
+CD a4e4c4c16d16e8&e2.&e8r8d4<b4g4 
+CD f4.a16g+16a4.>e16f16g+4a4b4g+4
+CD >c16<b16a8&a2&
+C a4
+D a8 
+C a16r8a16r8a16r16a16r16
+D )2@\0 
+D e16r8e16r8e16r16e16r16
+D (2@\16r8
+CD <b4>c8
+CD d1&d2f8.e8.d8c16d16e8&e2.
+CD a2 e8.d8.c8<b4.b16>c16d1
+CD f8.e8.f8e1 e8.f+8.g+8a8.
+D (2
+CD b8.>c8<
+D )2
+CD ]0
+
+@e0={,,@16f}
+@e5={,,@16f}
+
+9E r2
+9E [
+9 @0@e0v8o4
+E @5@e5v6o4r16@\16
+9E a8>c8e16a8<a8>c8e16a8e8<
+9E g8b8>d16g8<g8b8>d16g8d8<
+9E f8a8>c16f8<f8a8>c16f8c8<
+9E e8g8b16>e8<e8g8b16>e8<e8
+9E >d8f8a16>d8<d8f8a16>d8<d8
+9E e8g+8b16>e8<e8g+8b16>e8<e8
+9E <a8>c8e16a8<a8>c8e16a8e8<
+9   a16r8a16r8a8a16r8.r8e8
+E   r16r8r16r8r8r16 ;a16r8a16r8a8a16
+
+9 [[g8b8>d16g8<g8b8>d16g8d8<]2|[a8>c8e16a8<a8>c8e16a8e8<]2]2
+9 [e8g+8b16>e8<e8g+8b16>e8|<b8]2<e8
+
+E @3@e4v11o6 @\0
+E g4a8b1&b2  
+E d8.c8.<b8a16b16>c8&c2.
+E e2 c8.<b8.g8g4.g16a16b1
+E >d8.c8.d8<b1>g+8.a8.b8>c8.d8.e8
+
+9E ]0
+
+@e10={,,f0=14}
+@e12={,,f}
+
+#macro_offset { b=0, h=1, s=2 }
+*b={v9@e10q1}
+*s={v12@e12q4}
+*h={v0}
+
+F y14,32 l8 r4. h1,100,0,-16so 
+F *B o4 e16e16 
+F [;L 
+F [*B e16e16 *H r16r16]28 
+F *B e16re16re16r16e16r16 *B e16e16 *S e16r16 *B e16e16 
+F [*B e16e16 *H r16r16]30 *B e16 *S e16e16 *B e16 *S e16e16 *B e16 *S e16
+F ]0
+
+@e11={,,f0=6}
+#macro_offset { b=10, h=11, s=12 }
+*b={v8@e10soq5}
+*s={v9@e10soq2}
+*h={v8@e11sfq8}
+
+G @14 l8 r4. 
+G *B o1 c16c16 
+G [;L 
+G [*B c16c16 *H c16c16]28 
+G *B c16rc16rc16r16c16r16 *B c16c16 *S c16r16 *B c16c16 
+G [*B c16c16 *H c16c16]30 *B c16 *S c16c16 *B c16 *S c16c16 *B c16 *S c16
+G ]0

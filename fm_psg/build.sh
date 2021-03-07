@@ -12,7 +12,7 @@ for N in `seq -f '%02g' 0 30` ; do
   gzip -n --stdout vgm/ys2ex_${N}.vgm > vgm/ys2ex_${N}.vgz
 done
 
-for N in 02 17 21 ; do
+for N in 02 17 21 29 ; do
   mgsc-js -o mgs/ys368_${N}.mgs mml/ys368_${N}.mml 
   ../../kss2vgm/build/kss2vgm -p150 -ovgm/ys368_${N}.vgm mgs/ys368_${N}.mgs
   gzip -n --stdout vgm/ys368_${N}.vgm > vgm/ys368_${N}.vgz
