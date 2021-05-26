@@ -52,8 +52,8 @@ BC g24g+24a+24>c24<a+24g+24g24fgd+12f3<f3c+24d+24f24g24
 BC g+24a+24>c24c+24c16<g+16f24c16f16g+24>c16<g16e24c16e16g24
 BC <a+g+gfg24d+24f24g24d+c+fc+c12<a+12>a+g+
 BC gfg12g+12a+>c<a+g+g12d+12gf24&f2>f3^3>f2
-BC c6d+16c16<a+24>c16<a+16g+24a+16g+16g24g+24g24d+12f>f&
-BC f48 ( <f ( >f24&f6 ( <f ( >f24&f6 ( <f ( >f24&f6 )6
+BC c6d+16c16<a+24>c16<a+16g+24a+16g+16g24g+24g24d+12
+BC f>f&f48 <f ( >f24&f6 <f ( >f24&f6 <f ( >f24&f6 )3
 BC r16<f3g6g+6a+3>c6c+6c3^3>c3&c4&c48
 BC ]0
 
@@ -96,7 +96,7 @@ DE ]0
 
 2 l8 @0 v11 \1 r48 
 2 o3 [g24>c24c+24g24<]8 [g24>c24c+24g24<]8 [g24>c24c+24g24<]4
-2 [ o4 r48 
+2 [ o4 \1 r48 
 2 [fffff12f12]2 ggggg12g12ggggg12g24 
 2 \0 v13 [g+24g+24g+24g+24r24g+24a+12>c24<a+12g+12g]3 
 2 g+24g+24g+24g+24r24a+24>c24r24<g24g24g24g24r24g+24a+24r24 
