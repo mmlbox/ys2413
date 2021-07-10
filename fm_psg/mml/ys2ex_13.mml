@@ -1,7 +1,7 @@
 ;[gain=1.0;name=ys2_13]
 #opll_mode 1
 #tempo 96
-#title { "ICE RIDGE OF NOLTIA"}
+#title { "ICE RIDGE OF NOLTIA" }
 
 @v15 = { ; YSII MAIN 91 Harmonics
 ;       TL FB
@@ -26,9 +26,9 @@
 
 @v17 = { ; Hard Brass / Dist.G
 ;       TL FB
-        24, 7,
+        18, 7,
 ; AR DR SL RR KL MT AM VB EG KR DT
-  15, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0,
+  11,11, 3, 0, 0, 1, 0, 0, 0, 0, 0,
   13, 5, 1, 1, 0, 1, 0, 0, 0, 0, 0 }
 
 @v18 = { ; YSII MAIN 90 Harmonics
@@ -55,16 +55,20 @@
 A @15    v11 o5 \1
 9A hf c6 h30,3,0,3
 9A c24d+24g24a+24>d2g6f6c6d2d+24
-9A d24d+24f24d12<g24>dg24f24g3d3c3d+fg12fd+
-9A <a+12>c3g24f24g2&g12<g+24a+24>c24d24d+24d24c24<a+24>c3
-9A <g+24a+24>c24d24d+6c24d24d+24f24g3&g12f24d+24fg24&g3<fg%128r24 
+9A d24d+24f24d12<g24>dg24f24g3
+9A d3c3d+fg12fd+<a+12>
+9A q8c3q7g24f24q8g2&g12<q7g+24a+24>c24d24d+24d24c24<a+24>
+9A q8c3q7<g+24a+24>c24d24q8d+6q7c24d24d+24f24q8g3&g12
+9A q7f24d+24fq8g24&g3<fq8g%128r24 
 9 @2  o5
 A @16 o5 
 ; A @11@e21
 9A >c4<a+24>c24<g3>c4c24d24d+dc12
 9A d4c24d24<a+4b4>c12d6f12d+12d12c4<a+24>c24<g3>c4c24
 9A d24d+fg12f3a+3>c%128 
-9A @17 v14 o6
+
+9 @3@e22 v13 o6
+A @17 v14 o6\1
 9A c2c24d24d+24f24d2g24
 9A f24d+24d24d+2<g24f24d+24d24d+%128<g+2g+24g+24a+24>c24d3d+6
 9A f6fd+24&d+3&d+12d24d+24f24 [d24d+24f24((]4 v+8
@@ -79,17 +83,21 @@ BC l8 [ h30,3,0,3
 B @3@e22 v13 o4 
 C @1@e23 v12 o4 \1
 BC g2>c24d+24g4>d6c6<f6g2g+24g24g+24a+24
-BC g12d24g&g6>d24c24d6<g3g3>cdd+12dc<f12
-BC g2>d+24d24d+3&d+12<f24g24g+24a+24>c24<a+24g+24g24g+3f24
-BC g24g+24a+24>c6<g+24a+24>c24d24d+3&d+12d24c24cd24&
-BC d3<cd%128r24 
+BC g12d24g&g6>d24c24d6<
+BC g3g3>q7cdd+12dc<f12q8
+BC g2>q7d+24d24q8d+3&d+12<q7f24g24g+24a+24>c24<a+24g+24g24
+BC q8g+3q7f24g24g+24a+24>q8c6q7<g+24a+24>c24d24q8d+3&d+12
+BC q7d24c24q8cd24&d3<q7cq8d%128r24 
 ;B @18    o4v12
 ;C @5     o5v11 \1
 B @6 o6v11
 C @5 o5v11 \1
 BC g4f24g24c3g3>c6g6f4d+24f24
 BC d4d4d+12f6g+12g12f12<g4f24g24c3g3>cdd+12d3f3g%128 
-BC @17 v12 o6 r6 
+
+B @3@e22 v12 o6
+C @17 v13 o6\1
+BC r6
 BC c2c24d24d+24f24d2g24f24d+24d24
 BC d+2<g24f24d+24d24d+%128<g+2g+24g+24a+24>c24d3d+6f6f
 BC d+24&d+3&d+12d24d+24f24 [d24d+24f24((]4 v+8 
