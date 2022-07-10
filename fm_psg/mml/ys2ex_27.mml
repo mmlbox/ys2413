@@ -30,7 +30,7 @@
         22, 5,
 ; AR DR SL RR KL MT AM VB EG KR DT
   15, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0,
-   8, 1, 1, 7, 0, 8, 0, 0, 1, 0, 0 }
+   8, 1, 1, 6, 0, 8, 0, 0, 1, 0, 0 }
 
 @v19 = { ; YSII MAIN 90
 ;       TL FB
@@ -59,9 +59,9 @@ A \1
 B \1
 C \2
 BC v-3 r16.
-9ABC h8,2,1,2
-9ABC [e16<g+16a16b16>d+16e16g+16b16a32r32c+e16&e4a32r32c+ef+16e16f+16|g+f+ag+]2 e2 
-9ABC [f+16e32r32d+32r32e16&e4.c+ef+|a16g+32r32f+32r32g+16&g+4.<g+16a16b16>c+16d+16e16]2 
+9ABC h8,2,1,2 
+9ABC [e16<g+16a16b16>d+16e16g+16b16q6a16q8c+e16&e4q6a16q8c+ef+16e16f+16|g+f+ag+]2 e2 
+9ABC [f+16q5e16d+16q8e16&e4.c+ef+|a16q5g+16f+16q8g+16&g+4.<g+16a16b16>c+16d+16e16]2 
 9ABC g+4f+4a4d+4 
 9ABC e4&e16f+16e16f+16g8a8g8a8 [b8c+16d16&d4]2 e4&e16f+16
 9ABC e16f+16gab>c<b4f+12a12g12e4&e16<g+16a16b16>c+4degf+4d<b>e4<b>d4d4e4f+gag
@@ -79,14 +79,14 @@ BC d+64
 @e30={0,0,@10c@14d8520}
 @e31={0,0,@13f@6}
 D l8 v14 o2 @6@e31 
-E l8 v14 o2 @5 \1
+E l8 v13 o2 @5 \-2
 ;DE @16
 DE e2d2c+2c2<b16
 E (
 DE (>b16&b16&(b8)b16&b&)b&)b4. 
 DE [ 
 D @13v13o3q7
-E @14@e30v13o4
+E @14@e30v13o4 \0
 DE [e16e16r16e16]2 < [a16a16r16a16]2 >
 DE [d16d16r16d16]2 e16e16r16e16
 DE <b16b16r16b16> 
