@@ -3,12 +3,19 @@
 #tempo 89
 #title { "Feena / Music from YS / Copyright (c) Nihon Falcom Corporation"}
 
-@v15 = { ; 80
+@v15 = { ; 80 first tone
 ;       TL FB
         35, 0,
 ; AR DR SL RR KL MT AM VB EG KR DT
-   6, 0, 0, 7, 0, 2, 0, 0, 1, 0, 0,
-   6, 0, 0, 7, 0, 2, 0, 0, 1, 0, 0 }
+   8, 0, 0, 7, 0, 2, 0, 0, 1, 0, 0,
+   8, 0, 0, 7, 0, 2, 0, 0, 1, 0, 0 }
+
+@v19 = { ; 80 succeeding tone
+;       TL FB
+        35, 0,
+; AR DR SL RR KL MT AM VB EG KR DT
+  13, 0, 0, 7, 0, 2, 0, 0, 1, 0, 0,
+  13, 0, 0, 7, 0, 2, 0, 0, 1, 0, 0 }
 
 @v16 = { ; PIANO 13
 ;       TL FB
@@ -36,7 +43,7 @@
 9A l8
 9A @15 h26,3,1,3
 9 \1
-9A v13 o4 [b3a3g+3f+3a3g+3f+3e3]2 [e3^3d+3^3c+3^3d+3^3]2 
+9A v13 o4 [b3@19a3g+3f+3a3g+3f+3e3]2 [e3^3d+3^3c+3^3d+3^3]2 
 9A [ ; L 
 9 @0@e10 v12 \0
 A @2 v12 \1
