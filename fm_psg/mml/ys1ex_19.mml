@@ -1,7 +1,7 @@
 ;[gain=1.0;name=ys1ex_19]
 #opll_mode 0
 #tempo 87
-#title {"Dreaming / Music from YS / Copyright (c) Nihon Falcom Corporation"}
+#title {"[Ys1] DREAMING / Music from Ys / Copyright (c) Nihon Falcom Corporation"}
 
 @v15 = {
 ;       TL FB
@@ -56,7 +56,7 @@ A \0
 *11={f24}
 #macro_offset {b=11,s=10}
 
-F l8 y14,32 v13o3q1 [ ; L
+F l8 y14,33 v13o3q1 [ ; L
 F [*br12*b *sr24 *br*b*b *s *br24r24]8
 F [*br12*b *sr24 *br*b*b *s *br12]3 
 F *br12*b *sr24 *b*br24*b *s*s 
@@ -79,7 +79,7 @@ F ]0
 *13={r24}
 #macro_offset {b=13,s=12}
 
-G l8 y14,32 v13@14q4o1 [ ; L
+G l8 y14,33 v13@14q4o1 [ ; L
 G [*br12*b *sr24 *br*b*b *s *br24r24]8 
 G [*br12*b *sr24 *br*b*b *s *br12]3 
 G *br12*b *sr24 *b*br24*b *s*s 

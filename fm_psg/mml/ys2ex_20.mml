@@ -1,7 +1,7 @@
 ;[gain=1.0;name=ys2ex_20]
 #opll_mode 0
 #tempo 75
-#title { "COMPANILE OF LANE"}
+#title {"[Ys2] COMPANILE OF LANE / Music from YsII / Copyright (c) Nihon Falcom Corporation"}
 
 @v15 = { ; 134
 ;       TL FB
@@ -244,7 +244,7 @@ E r*s*s*s
 E ]0
 
 #macro_offset {b=21,s=20,m=20,h=20}
-F y14,32l32v13soq2o4 h0,16,0,-24 hf
+F y14,33l32v13soq2o4 h0,16,0,-24 hf
 F )q1*b( [*s]7 [
 F [[[*b*h*h*h*sr|*b*h]8 *s*s]2 | 
 F [*b*h*h*h*srr*b [*b*h]2 *sr*h*h]3
@@ -266,7 +266,7 @@ F ]0
 *24={v12@14soq6c} ;TOM
 *25={v13@14soq1c} ;CYM
 #macro_offset {b=20,s=22,m=24,h=23,c=25}
-G y14,32l32v14o1
+G y14,33l32v14o1
 G *b [*s]7 [
 G [[[*b*h*h*h*sr|*b*h]8 *s*s]2 | 
 G [*b*h*h*h*srr*b [*b*h]2 *sr*h*h]3 

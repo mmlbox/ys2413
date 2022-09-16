@@ -1,7 +1,7 @@
 ;[gain=1.0;name=ys2ex_11]
 #opll_mode 0
 #tempo 84
-#title { "PROTECTERS"}
+#title {"[Ys2] PROTECTERS / Music from YsII / Copyright (c) Nihon Falcom Corporation"}
 
 @v15 = { ; Dist.G
 ;       TL FB
@@ -196,7 +196,7 @@ E [*br*h*h*sr*h*h]7 [*s*s*sr]2
 E ]0
 
 #macro_offset {b=21,s=20,m=20,h=20}
-F y14,32l32v14soq2o4 h0,16,0,-24 hf
+F y14,33l32v14soq2o4 h0,16,0,-24 hf
 F [r2]3 r4.r *b *sr
 F [
 F [[*br*h*h*sr*h*h]7 |*br *h*h*sr*s*s]2

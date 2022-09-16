@@ -1,7 +1,7 @@
 ;[gain=1.0;name=ys1ex_17]
 #opll_mode 0
 #tempo 81
-#title { "Fair Wind / Music from YS / Copyright (c) Nihon Falcom Corporation" }
+#title { "[Ys1] FAIR WIND / Music from Ys / Copyright (c) Nihon Falcom Corporation" }
 
 @v15 = { ; 90
 ;       TL FB
@@ -85,7 +85,7 @@ BC ]0
 #macro_offset {s=2,m=3,b=1,g=0}
 
 ; 74
-F y14,32 l16 [ 
+F y14,33 l16 [ 
 F h0,16,0,-16
 F v14 o3 q4 [*br*sr]15
 F *br >> soq1 [f+32]2 < [a+32]2 < sfq4

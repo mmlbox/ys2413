@@ -1,8 +1,7 @@
 ;[gain=1.0 name=ys2ex_01]
-; To Make The End Of Battle / MUSIC from YSII / Copyright (c) Nihon Falcom Corporation
 #opll_mode 0
 #tempo 77 ;77.5
-#title { "TO MAKE THE END OF BATTLE"}
+#title { "[Ys2] TO MAKE THE END OF BATTLE / Music from YsII / Copyright (c) Nihon Falcom Corporation"}
 
 @v15 = { ; Chord 134 Hamonics
 ;       TL FB
@@ -250,7 +249,7 @@ DE *s*b*b*s*b*b*s*s*b r24r4
 *12={o5 q2)c_<c>(} ;TOM H 
 *13={o4 q2)g_<g>(} ;TOM L
 #macro_offset {b=10,s=30,q=12,g=13,h=30}
-F y14,32
+F y14,33
 F l24 v14so r*b*sr 
 F [
 F  [*b*b*sr]8 

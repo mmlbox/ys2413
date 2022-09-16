@@ -1,7 +1,7 @@
 ;[gain=1.0;name=ys1ex_28]
 #opll_mode 0
 #tempo 76
-#title {"Dead-End Street / Music from YS / Copyright (c) Nihon Falcom Corporation"}
+#title {"[Ys1] DEAD-END STREET / Music from Ys / Copyright (c) Nihon Falcom Corporation"}
 
 @v15 = { ; 76
 ;       TL FB
@@ -109,7 +109,7 @@ E @12 v0
 DE o4 ho [f+24r24]24 [g32r32]4 ) [g32r32]4 
 DE ]0
 
-FG y14,32 l8
+FG y14,33 l8
 F o4 v14 q3 so h0,16,0,-16
 G o1 v11 @14
 FG a+64 a+64 [a+32]3 [g+32]4 [d+32]4 < [b32]4

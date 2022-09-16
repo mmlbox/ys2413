@@ -2,7 +2,7 @@
 
 #opll_mode 0
 #tempo 83 ; 82.7
-#title {"TERMINATION"}
+#title {"[Ys2] TERMINATION / Music from YsII / Copyright (c) Nihon Falcom Corporation"}
 
 @v15 = { ; Begininig Bass
 ;       TL FB
@@ -178,7 +178,7 @@ BCD ]0
 *24={b}
 *25={>a+<}
 #macro_offset {b=20,s=21,h=22,m=23,l=24,t=25}
-F y14,32l32v13soq1o3 h0,24,0,-12
+F y14,33l32v13soq1o3 h0,24,0,-12
 F l8 v8 r%160 [r48]10 [r48)]6 )r48r48(( 
 F v14l48*b*b*sl24*srr48 
 F l24

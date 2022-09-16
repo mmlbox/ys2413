@@ -1,7 +1,7 @@
 ;[gain=1.0;name=ys2ex_07]
 #opll_mode 0
 #tempo 77 ; 77.5
-#title {"RUINS OF MOONDORIA"}
+#title {"[Ys2] RUINS OF MOONDORIA / Music from YsII / Copyright (c) Nihon Falcom Corporation"}
 
 @v15 = { ; 71
 ;       TL FB
@@ -106,7 +106,7 @@ BC ]0
 *21={q2ho e hf}
 *22={q1ho>e<hf}
 #macro_offset {b=21,s=22,m=20,h=20}
-F y14,32 so o3 h1,24,0,-14
+F y14,33 so o3 h1,24,0,-14
 F l24 [ v14
 F [*b*h*s*h*b*b*s*b*h*b*s*b*b*h*s*h]2 
 F [

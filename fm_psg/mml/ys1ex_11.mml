@@ -2,7 +2,7 @@
 #opll_mode 0
 #lfo_mode 0
 #tempo 75
-#title { "The Last Moment of The Dark / Music from YS / Copyright (c) Nihon Falcom Corporation" }
+#title { "[Ys1] THE LAST MOMENT OF THE DARK / Music from Ys / Copyright (c) Nihon Falcom Corporation" }
 
 @v15 = { ; 1 strings harmonics
 ;       TL FB

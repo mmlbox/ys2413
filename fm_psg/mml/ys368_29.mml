@@ -1,7 +1,7 @@
 ;[gain=2.0 name=ys368_29 duration=300s fade=5s cpu=0]
 #opll_mode 0
 #tempo 140
-#title { "Introduction! (PCM Data Load) / Music from YsIII (x68k)" }
+#title {"[Ys3] INTRODUCTION! / Music from YsIII (x68k) / Copyright (c) Nihon Falcom Corporation"}
 ; Music from YsIII J.D.K. Special / Copyright (c) Nihon Falcom Corporation
 
 @v15 = { ; Flute
@@ -126,7 +126,7 @@ E >d8.c8.d8<b1>g+8.a8.b8>c8.d8.e8
 *s={v12@e12q4}
 *h={v0}
 
-F y14,32 l8 r4. h1,100,0,-16so 
+F y14,33 l8 r4. h1,100,0,-16so 
 F *B o4 e16e16 
 F [;L 
 F [*B e16e16 *H r16r16]28 

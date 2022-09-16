@@ -2,7 +2,7 @@
 
 #opll_mode 0
 #tempo 75; 75.12
-#title {"STAY WITH ME FOREVER"}
+#title {"[Ys2] STAY WITH ME FOREVER / Music from YsII / Copyright (c) Nihon Falcom Corporation"}
 
 @v15 = { ; Bell 79
 ;       TL FB
@@ -174,7 +174,7 @@ DE ]0
 *2={g_<g>}
 *3={g_<g>}
 #macro_offset {b=1,s=2,m=3,h=0}
-F y14,32l32v13soq1o4h0,24,0,-16hf
+F y14,33l32v13soq1o4h0,24,0,-16hf
 F r1r1r2 
 F v8 *h*h)*h*h)*h*h)*h*h)*h*h)*h*h)*h*h*h*h
 F [ v14

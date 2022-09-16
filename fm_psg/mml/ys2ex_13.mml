@@ -1,7 +1,7 @@
 ;[gain=1.0;name=ys2_13]
 #opll_mode 1
 #tempo 96
-#title { "ICE RIDGE OF NOLTIA" }
+#title {"[Ys2] ICE RIDGE OF NOLTIA / Music from YsII / Copyright (c) Nihon Falcom Corporation"}
 
 @v15 = { ; YSII MAIN 91 Harmonics
 ;       TL FB

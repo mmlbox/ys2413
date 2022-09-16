@@ -1,7 +1,7 @@
 ;[gain=1.0;name=ys2ex_16]
 #opll_mode 1
 #tempo 66;
-#title { "TENDER PEOPLE"}
+#title {"[Ys2] TENDER PEOPLE / Music from YsII / Copyright (c) Nihon Falcom Corporation"}
 
 @v15 = { ; Bell
 ;       TL FB

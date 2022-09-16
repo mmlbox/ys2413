@@ -1,7 +1,7 @@
 ;[gain=2.0 name=ys368_02 duration=300s fade=5s cpu=0]
 #opll_mode 0
 #tempo 128
-#title { "A Premonition =Styx= / Music from YsIII (x68k)" }
+#title {"[Ys3] A PREMONITION =STYX= / Music from YsIII (x68k) / Copyright (c) Nihon Falcom Corporation"}
 ; Copyright (c) Nihon Falcom Corporation
 
 @v15 = { ; Bell
