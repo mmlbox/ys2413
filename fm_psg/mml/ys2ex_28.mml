@@ -2,7 +2,7 @@
 
 #opll_mode 0
 #tempo 66 ; 65.9
-#title {"[Ys2] SO MUCH FOR TODAY / Music from YsII / Copyright (c) Nihon Falcom Corporation"}
+#title {"[Ys2] SO MUCH FOR TODAY"} ; Music from YsII / Copyright (c) Nihon Falcom Corporation
 
 @v15 = { ; Synthetic Oboe
 ;       TL FB

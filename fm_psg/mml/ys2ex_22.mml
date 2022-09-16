@@ -2,7 +2,7 @@
 
 #opll_mode 0
 #tempo 86 ; 85.6
-#title {"[Ys2] DON'T GO SO SMOOTHLY! / Music from YsII / Copyright (c) Nihon Falcom Corporation"}
+#title {"[Ys2] DON'T GO SO SMOOTHLY!"} ; Music from YsII / Copyright (c) Nihon Falcom Corporation
 
 @v15 = { ; 124
 ;       TL FB

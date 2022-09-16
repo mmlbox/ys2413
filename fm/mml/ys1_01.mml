@@ -1,7 +1,7 @@
 ;[gain=1.0;name=ys1_01]
 #opll_mode 0
 #tempo 89
-#title { "Feena / Music from YS / Copyright (c) Nihon Falcom Corporation"}
+#title {"Feena"} ; Music from YS / Copyright (c) Nihon Falcom Corporation
 
 @v15 = { ; 80
 ;       TL FB

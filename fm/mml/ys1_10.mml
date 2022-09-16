@@ -2,7 +2,7 @@
 #opll_mode 1
 #lfo_mode 0
 #tempo 60
-#title { "Tower of the Shadow of Death / Music from YS / Copyright (c) Nihon Falcom Corporation" }
+#title {"Tower of the Shadow of Death"} ; Music from YS / Copyright (c) Nihon Falcom Corporation
 
 9 l8 [
 9 @14 v12 o3 q6

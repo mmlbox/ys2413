@@ -1,7 +1,7 @@
 ;[gain=1.0;name=ys1ex_26]
 #opll_mode 0
 #tempo 75
-#title { "[Ys1] MISTERIOUS MOMENT / Music from Ys / Copyright (c) Nihon Falcom Corporation"}
+#title {"[Ys1] MISTERIOUS MOMENT"} ; Music from Ys / Copyright (c) Nihon Falcom Corporation
 
 @v15 = { ; Bass Harmonics
 ;       TL FB

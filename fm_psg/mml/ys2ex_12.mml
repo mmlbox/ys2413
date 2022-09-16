@@ -1,7 +1,7 @@
 ;[gain=1.0;name=ys2ex_12]
 #opll_mode 0
 #tempo 125 ; @t216
-#title {"[Ys2] SE BOSS / Music from YsII / Copyright (c) Nihon Falcom Corporation"}
+#title {"[Ys2] SE BOSS"} ; Music from YsII / Copyright (c) Nihon Falcom Corporation
 
 @v20 = { ;
 ;       TL FB

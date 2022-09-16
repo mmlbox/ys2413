@@ -1,7 +1,7 @@
 ;[gain=1.0;name=ys2ex_09]
 #opll_mode 0
 #tempo 90
-#title {"[Ys2] REST IN PEACE / Music from YsII / Copyright (c) Nihon Falcom Corporation"}
+#title {"[Ys2] REST IN PEACE"} ; Music from YsII / Copyright (c) Nihon Falcom Corporation
 
 @v15 = { ; Bell
 ;       TL FB

@@ -2,7 +2,7 @@
 #opll_mode 0
 #lfo_mode 0
 #tempo 81
-#title { "[Ys1] SEE YOU AGAIN / Music from Ys / Copyright (c) Nihon Falcom Corporation" }
+#title {"[Ys1] SEE YOU AGAIN"} ; Music from Ys / Copyright (c) Nihon Falcom Corporation
 
 @v15 = { ; 76
 ;       TL FB

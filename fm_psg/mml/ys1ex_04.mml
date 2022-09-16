@@ -1,7 +1,7 @@
 ;[gain=1.0;name=ys1ex_04]
 #opll_mode 0
 #tempo 83
-#title { "[Ys1] TEARS OF SYLPH / Music from Ys / Copyright (c) Nihon Falcom Corporation"}
+#title {"[Ys1] TEARS OF SYLPH"} ; Music from Ys / Copyright (c) Nihon Falcom Corporation
 
 @v15 = { ; 79
 ;       TL FB

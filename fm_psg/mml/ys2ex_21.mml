@@ -2,7 +2,7 @@
 
 #opll_mode 1
 #tempo 75
-#title {"[Ys2] PRESSURE ROAD / Music from YsII / Copyright (c) Nihon Falcom Corporation"}
+#title {"[Ys2] PRESSURE ROAD"} ; Music from YsII / Copyright (c) Nihon Falcom Corporation
 
 @v16 = { ; Bell Harmonics
 ;       TL FB
